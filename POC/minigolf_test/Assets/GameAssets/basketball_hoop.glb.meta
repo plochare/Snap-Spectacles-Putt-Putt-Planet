@@ -1,0 +1,349 @@
+- !<AssetImportMetadata/28a15936-507f-4152-b10f-9ce266a3393b>
+  ImportedAssetIds:
+    .hidden/BBallBoardMaterial: !<reference> 87a61c65-f573-4e38-808c-1c71f55b429f
+    3f6287a7490a50da: !<reference> 442d5b19-c946-484f-b895-064b8d4525ce
+    4a3e924fad0e2f27: !<reference> 377d78fa-0919-4f25-b603-17eb1ba0d304
+    5456cd091e7655cc: !<reference> e092b2e8-4059-4a5b-b238-1188656976c9
+    617897b0d6a2e9a7: !<reference> 4c9fc05d-5621-4047-b8cb-991a89234d8a
+    6355cef0b415c159: !<reference> e1343fb6-397f-4989-be4f-1ce5605a1e5a
+    66780cf3a4dcb2b8: !<reference> 925da0b4-54c7-4ef4-87e6-257a00df6128
+    67382f2b57bec657: !<reference> fdb02a8b-fe36-48cd-a74f-754b6fe28742
+    7035577f1c08bd03: !<reference> f7b7b7a2-0926-4017-8acc-3d134e03be25
+    72daedf9a2f686b0: !<reference> f753b29c-aa1c-4aa6-81ff-6e8384d97690
+    7517cf28480378ff: !<reference> 07326f13-4073-4c8e-b28c-b400565695c8
+    8cc004ff93d4b7dd: !<reference> e640ce5d-f1cf-4330-ad0d-e21e49ed5d6e
+    Materials/BBallBoardMaterial: !<reference> c6e9170f-2d5e-4234-bd46-d862cc139a59
+    Materials/BBallBoardMaterial|BBallBoardMaterial|GraphPassInfo: !<reference> af529105-2ff0-4d00-8402-ec8cc4f729d5
+    Materials/BBallNetMaterial: !<reference> d2aba877-f5a2-4749-8534-c52f4ac16a6a
+    Materials/BBallNetMaterial|BBallNetMaterial|GraphPassInfo: !<reference> 9ec03081-10de-4327-b6f7-dfb083a1d5cb
+    Materials/BasketballlMaterial: !<reference> 0619cf06-f80b-48c3-af13-2b426c22442e
+    Materials/BasketballlMaterial|BasketballlMaterial|GraphPassInfo: !<reference> b1f2d99c-765c-4da6-99d2-5797dcccd821
+    Meshes/ball_BasketballlMaterial_0: !<reference> 01ab03cd-061f-46cf-af5f-6de323b5f892
+    Meshes/board_BBallBoardMaterial_0: !<reference> 79cc4a03-ab88-40c8-aaaa-3d793903a440
+    Meshes/net_BBallNetMaterial_0: !<reference> 263318ee-2c67-4772-9507-db20b3370e08
+    Scene: !<reference> 7f30c940-19b5-4b34-84ff-8ed2f3528e03
+    Textures/texture: !<reference> 776aaf3f-a391-433b-b1df-311d4c4a7bf4
+    Textures/texture 10: !<reference> 0ca34d68-4757-4fba-9aec-b20b414f3a58
+    Textures/texture 12: !<reference> aaed2b21-1428-4f3d-9df1-524a0747cc52
+    Textures/texture 15: !<reference> 47ffbebd-6339-4d60-9d6b-ec062ad08ace
+    Textures/texture 3: !<reference> bf2a1c36-b50b-483b-a7ec-8d5858226e61
+    Textures/texture 5: !<reference> 123efea8-7572-46d0-84d3-2c362e62bf9c
+    Textures/texture 8: !<reference> e9318f28-0594-4d26-b1e3-3fe392dace4e
+    a1f0fc7f2ac4253e: !<reference> a82b1ec3-d744-4b9e-8a05-72045f7c954a
+    c34c1a1294cbcf56: !<reference> ebba06c7-3d13-4e81-9228-63dac082c52f
+    c6bdafda8e5ba43f: !<reference> 71ee6861-28ef-48ce-b7db-f2f81ebd9c42
+    f64f01eb090f575d: !<reference> 148ed821-6e9e-47aa-a4ed-6095ed3aa42b
+    ff7936aad4ab157c: !<reference> 48f65e16-d3f0-45c9-85bb-e600ae1905de
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 7f30c940-19b5-4b34-84ff-8ed2f3528e03
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> d0bc5496-170b-4fb8-8646-f1bb97574f36
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/16d4c86f-0bab-4d16-92ef-319b944c934a>
+  PrefabRemaps:
+    []
+  Name: basketball_hoop
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f6a4f45f-d6a7-4298-ab84-3d36d6cdf24f
+  Components:
+    []
+- !<ObjectPrefab/2172d7da-b9a5-4654-8160-714231230c6a>
+  PackagePath: ""
+  objects:
+    - !<own> 16d4c86f-0bab-4d16-92ef-319b944c934a
+  LazyLoading: false
+  RetainAssets: true
+- !<AnimationPlayer/3a6c04e9-4de0-4fd9-9b24-1b2c86b919c4>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/40efebf8-fa51-4876-b766-0c5eb308daf8>
+  PrefabRemaps:
+    []
+  Name: board
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7cbbb6b1-679b-499d-8252-ce86e69b3de9
+  Components:
+    []
+- !<SceneObject/44572706-651b-4f03-ba7f-40a9a690761d>
+  PrefabRemaps:
+    []
+  Name: 3a61d5b9e4d245dab09c5816933f54f6.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> abb4cdc3-a161-493b-a24a-a0cc3776b165
+  Components:
+    []
+- !<RenderMeshVisual/4f501420-9c83-42c0-8fd4-34c97e45cc22>
+  PrefabRemaps:
+    []
+  Name: ball_BasketballlMaterial_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0619cf06-f80b-48c3-af13-2b426c22442e
+  Mesh: !<reference> 01ab03cd-061f-46cf-af5f-6de323b5f892
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/648c7d94-58d9-498b-bb52-b592c6e833a6>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e229f36e-764b-4e47-aa3b-11e11e1bdc23
+  Components:
+    - !<own> 3a6c04e9-4de0-4fd9-9b24-1b2c86b919c4
+- !<RenderMeshVisual/70b9611f-5d71-42df-84af-ad37eef6431d>
+  PrefabRemaps:
+    []
+  Name: board_BBallBoardMaterial_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c6e9170f-2d5e-4234-bd46-d862cc139a59
+  Mesh: !<reference> 79cc4a03-ab88-40c8-aaaa-3d793903a440
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7617612c-ad04-4a00-9a17-942d1241f50c>
+  PrefabRemaps:
+    []
+  Name: net
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9a3eef3d-bd0d-4768-9a6b-49f352673014
+  Components:
+    []
+- !<SceneObject/7cbbb6b1-679b-499d-8252-ce86e69b3de9>
+  PrefabRemaps:
+    []
+  Name: board_BBallBoardMaterial_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 70b9611f-5d71-42df-84af-ad37eef6431d
+- !<SceneObject/9a3eef3d-bd0d-4768-9a6b-49f352673014>
+  PrefabRemaps:
+    []
+  Name: net_BBallNetMaterial_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da76c004-6989-4747-a42d-a5b6308507eb
+- !<SceneObject/abb4cdc3-a161-493b-a24a-a0cc3776b165>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7617612c-ad04-4a00-9a17-942d1241f50c
+    - !<own> af26b7e9-8d05-48ee-a197-0535a6ade2cb
+    - !<own> 40efebf8-fa51-4876-b766-0c5eb308daf8
+  Components:
+    []
+- !<SceneObject/af26b7e9-8d05-48ee-a197-0535a6ade2cb>
+  PrefabRemaps:
+    []
+  Name: ball
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e68e04d0-f112-4f44-9fb9-fe1a7442130a
+  Components:
+    []
+- !<ObjectPrefabAssetData/d0bc5496-170b-4fb8-8646-f1bb97574f36>
+  SourceRemaps:
+    - 07326f13-4073-4c8e-b28c-b400565695c8: 7617612c-ad04-4a00-9a17-942d1241f50c
+    - 148ed821-6e9e-47aa-a4ed-6095ed3aa42b: 70b9611f-5d71-42df-84af-ad37eef6431d
+    - 377d78fa-0919-4f25-b603-17eb1ba0d304: f6a4f45f-d6a7-4298-ab84-3d36d6cdf24f
+    - 442d5b19-c946-484f-b895-064b8d4525ce: e68e04d0-f112-4f44-9fb9-fe1a7442130a
+    - 48f65e16-d3f0-45c9-85bb-e600ae1905de: e229f36e-764b-4e47-aa3b-11e11e1bdc23
+    - 4c9fc05d-5621-4047-b8cb-991a89234d8a: 4f501420-9c83-42c0-8fd4-34c97e45cc22
+    - 71ee6861-28ef-48ce-b7db-f2f81ebd9c42: da76c004-6989-4747-a42d-a5b6308507eb
+    - 7f30c940-19b5-4b34-84ff-8ed2f3528e03: 2172d7da-b9a5-4654-8160-714231230c6a
+    - 925da0b4-54c7-4ef4-87e6-257a00df6128: 16d4c86f-0bab-4d16-92ef-319b944c934a
+    - a82b1ec3-d744-4b9e-8a05-72045f7c954a: 44572706-651b-4f03-ba7f-40a9a690761d
+    - e092b2e8-4059-4a5b-b238-1188656976c9: 648c7d94-58d9-498b-bb52-b592c6e833a6
+    - e1343fb6-397f-4989-be4f-1ce5605a1e5a: 7cbbb6b1-679b-499d-8252-ce86e69b3de9
+    - e640ce5d-f1cf-4330-ad0d-e21e49ed5d6e: 3a6c04e9-4de0-4fd9-9b24-1b2c86b919c4
+    - ebba06c7-3d13-4e81-9228-63dac082c52f: 40efebf8-fa51-4876-b766-0c5eb308daf8
+    - f753b29c-aa1c-4aa6-81ff-6e8384d97690: af26b7e9-8d05-48ee-a197-0535a6ade2cb
+    - f7b7b7a2-0926-4017-8acc-3d134e03be25: 9a3eef3d-bd0d-4768-9a6b-49f352673014
+    - fdb02a8b-fe36-48cd-a74f-754b6fe28742: abb4cdc3-a161-493b-a24a-a0cc3776b165
+  SourceState: !<own> 2172d7da-b9a5-4654-8160-714231230c6a
+- !<RenderMeshVisual/da76c004-6989-4747-a42d-a5b6308507eb>
+  PrefabRemaps:
+    []
+  Name: net_BBallNetMaterial_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d2aba877-f5a2-4749-8534-c52f4ac16a6a
+  Mesh: !<reference> 263318ee-2c67-4772-9507-db20b3370e08
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e229f36e-764b-4e47-aa3b-11e11e1bdc23>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44572706-651b-4f03-ba7f-40a9a690761d
+  Components:
+    []
+- !<SceneObject/e68e04d0-f112-4f44-9fb9-fe1a7442130a>
+  PrefabRemaps:
+    []
+  Name: ball_BasketballlMaterial_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4f501420-9c83-42c0-8fd4-34c97e45cc22
+- !<SceneObject/f6a4f45f-d6a7-4298-ab84-3d36d6cdf24f>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 648c7d94-58d9-498b-bb52-b592c6e833a6
+  Components:
+    []

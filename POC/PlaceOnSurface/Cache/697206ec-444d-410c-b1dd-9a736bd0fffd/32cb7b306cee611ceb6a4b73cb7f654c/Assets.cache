@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bb58ef53-c1fd-48ae-9b30-1cc347f8ea2d: 697206ec-444d-410c-b1dd-9a736bd0fffd/32cb7b306cee611ceb6a4b73cb7f654c/Data/Cone.mesh
+  Assets:
+    - !<FileMesh/bb58ef53-c1fd-48ae-9b30-1cc347f8ea2d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 144
+        Vertices: 149
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 1.000000, z: 1.000000}
+  SourceHash: 32cb7b306cee611ceb6a4b73cb7f654c
+  FileHash: 344c79feb60f3244cebee302e52fb558
+  NativePackageItems:
+    []

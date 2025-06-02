@@ -1,0 +1,17 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 033989de-d589-489d-b3c5-322a8ddf39b2: /Users/pichya/Desktop/bounce3.mp3
+    - 218e71c7-96ac-4a8a-8e0a-f139786ea598: /Users/pichya/Desktop/court.png
+    - 22762da0-3f3d-4b84-8531-b28e1bafc1ba: /Users/pichya/Downloads/putter.glb
+    - 28a15936-507f-4152-b10f-9ce266a3393b: /Users/pichya/Desktop/basketball_hoop.glb
+    - 4270e494-40fc-47b4-be1e-869e995af622: /Users/pichya/Downloads/basketball.glb
+    - 51f5a493-d562-4892-bfaf-7c2abecef12a: /Users/pichya/Desktop/golf_ball_lp.glb
+    - 8758c9ec-97af-431a-bcde-395b6e3d3c6f: /Users/pichya/Desktop/backboard.mp3
+    - 8f91ed67-fc63-4fed-98ff-e479020850ec: /Users/pichya/Desktop/half-court.png
+    - c942e96e-a5d5-4e69-840c-59217a7d6ab3: /Users/pichya/Desktop/bounce1.mp3
+    - d51ca2aa-3a1a-4a5b-821a-83a4c02a24bc: /Users/pichya/Desktop/swish.mp3
+    - d5308f67-a6e0-461a-89d6-e477ef1ac836: /Users/pichya/Desktop/bounce2.mp3
+    - e362fc97-0190-458a-a213-017dd012db6f: /Users/pichya/Downloads/AlcoveCourse.glb
+    - f88388e9-e31f-4cfe-8acf-4b981f3f28b5: /Users/pichya/Desktop/basketball-2.glb
+  options: 4

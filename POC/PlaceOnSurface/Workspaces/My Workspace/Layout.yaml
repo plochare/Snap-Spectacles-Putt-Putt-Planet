@@ -1,0 +1,67 @@
+dock:
+  isLocked: false
+  main:
+    items:
+      - items:
+          - items:
+              - items:
+                  - persistentName: Snap.Plugin.Gui.SceneHierarchyEditor
+                    Uuid: 6778142c-0629-4c2a-afc3-92a65ce29e1a
+                type: section
+                current: 0
+              - items:
+                  - persistentName: Snap.Plugin.Gui.AssetBrowser
+                    Uuid: cd11ace2-8507-4965-a068-d85c26031a6b
+                  - persistentName: Snap.Plugin.Gui.LoggerPanel
+                    Uuid: 62575721-3648-4809-b4d9-69a842279d65
+                type: section
+                current: 0
+            sizes:
+              - 436
+              - 319
+            type: splitter
+            orientation: vertical
+          - items:
+              - items:
+                  - persistentName: Snap.Plugin.Gui.SceneEditor
+                    Uuid: a14d85d7-9a15-42a6-913e-3f24dea267c2
+                  - persistentName: Snap.Plugin.Gui.ScriptEditorPanel
+                    Uuid: d17d8768-b5b4-418b-af9e-99f177a183b9
+                type: section
+                current: 0
+              - items:
+                  - items:
+                      - persistentName: Snap.Plugin.Gui.InspectorPanel
+                        Uuid: 780d9164-e681-4de1-b586-5213ed5523b9
+                    type: section
+                    current: 0
+                  - items:
+                      - persistentName: snap.plugin.gui.typescript_status_panel
+                        Uuid: 55c55c58-7fd7-467a-940b-025254b41217
+                    type: section
+                    current: 0
+                sizes:
+                  - 470
+                  - 285
+                type: splitter
+                orientation: vertical
+              - items:
+                  - persistentName: Snap.Plugin.Gui.PreviewPanel
+                    Uuid: b70df2ad-0e95-478c-9fba-2055ef7e6f06
+                type: section
+                current: 0
+            sizes:
+              - 252
+              - 378
+              - 383
+            type: splitter
+            orientation: horizontal
+        sizes:
+          - 440
+          - 1019
+        type: splitter
+        orientation: horizontal
+    sizes:
+      - 758
+    type: splitter
+    orientation: vertical

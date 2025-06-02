@@ -1,0 +1,226 @@
+- !<AssetImportMetadata/22762da0-3f3d-4b84-8531-b28e1bafc1ba>
+  ImportedAssetIds:
+    .hidden/standardSurface1: !<reference> c4b45522-d622-4854-b167-8fbc367be2ec
+    0bf61cd9b1d1c004: !<reference> dc1c11ae-fb54-473d-ba8f-d2828e1e6503
+    366a1d48d3dbca83: !<reference> 3d09f8b2-84c6-49af-b67e-fa26e87e7eb2
+    4a3e924fad0e2f27: !<reference> 3217630f-be23-41c7-92af-2fefd819ba76
+    4d02ef1cdff8a19a: !<reference> 495e680d-c8f4-4128-aba8-b78f0d097527
+    5456cd091e7655cc: !<reference> 9f312463-954c-4acb-bfa0-179ddfe4192a
+    5ad19c6f2b79bbcd: !<reference> ff7212a7-a573-4173-a7a6-fd1b806d9db7
+    66780cf3a4dcb2b8: !<reference> e038ed07-0687-438e-855b-11d45453e29e
+    7add6205ca128e81: !<reference> 0b154b35-9eb6-4200-9c56-d5c02e657efd
+    8cc004ff93d4b7dd: !<reference> a9355fcf-483d-4de7-a6ef-9a2cb1815389
+    Materials/standardSurface1: !<reference> fd1db5aa-5c98-4ef1-ac1b-477f435d8ca5
+    Materials/standardSurface1|standardSurface1|GraphPassInfo: !<reference> 92edc739-b5d3-4ebf-bba7-96cc5f614d69
+    Meshes/pCube2_standardSurface1_0: !<reference> 272745ba-8ed8-46e4-84dc-15a42e839a60
+    Scene: !<reference> 215649c2-2f77-4dfb-9604-46bcd45c27c0
+    Textures/texture: !<reference> ad244724-0492-4d79-8de6-03ba92d8328a
+    Textures/texture 3: !<reference> e1087c98-2c3f-4fc6-9287-f3854f3fb0bd
+    Textures/texture 6: !<reference> 01b8da78-60a2-4ae0-b0db-a0406ad0b514
+    Textures/texture 8: !<reference> 6de43d1a-52d8-4ffb-9f69-94c7ccf930a4
+    ff7936aad4ab157c: !<reference> bbe1311e-b413-4ebe-9e63-c7068d778eeb
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 215649c2-2f77-4dfb-9604-46bcd45c27c0
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> eb977b06-b35f-499a-990f-75444d3254e4
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<AnimationPlayer/1be85cb4-9f5a-487e-b0ae-026f171a5470>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefab/2ab64d76-0fe2-4a9b-a8ac-decea9722dad>
+  PackagePath: ""
+  objects:
+    - !<own> 4aeed536-9c6e-49fc-aac9-1f56c18d44bb
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/309f3e53-1344-465d-93e5-e4115abf6f92>
+  PrefabRemaps:
+    []
+  Name: pCube2_standardSurface1_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94c8c689-c87c-43a6-baca-9beda4b16996
+- !<SceneObject/461b5d61-aad5-4fc1-8264-3889b651c150>
+  PrefabRemaps:
+    []
+  Name: Putter.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f3be161f-28ae-4876-94a9-f309aaa35f3a
+  Components:
+    []
+- !<SceneObject/4aeed536-9c6e-49fc-aac9-1f56c18d44bb>
+  PrefabRemaps:
+    []
+  Name: putter
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8fb57dbe-a187-4944-8beb-f5e303713169
+  Components:
+    []
+- !<SceneObject/8fb57dbe-a187-4944-8beb-f5e303713169>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9be0035b-dd8f-43ee-b71a-300c8a97374f
+  Components:
+    []
+- !<RenderMeshVisual/94c8c689-c87c-43a6-baca-9beda4b16996>
+  PrefabRemaps:
+    []
+  Name: pCube2_standardSurface1_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fd1db5aa-5c98-4ef1-ac1b-477f435d8ca5
+  Mesh: !<reference> 272745ba-8ed8-46e4-84dc-15a42e839a60
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9be0035b-dd8f-43ee-b71a-300c8a97374f>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b5325927-24fe-44b7-af7a-e5af8e46ef56
+  Components:
+    - !<own> 1be85cb4-9f5a-487e-b0ae-026f171a5470
+- !<SceneObject/b5325927-24fe-44b7-af7a-e5af8e46ef56>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 461b5d61-aad5-4fc1-8264-3889b651c150
+  Components:
+    []
+- !<SceneObject/bb3945e6-a3b1-49e6-94f8-6fffb3832142>
+  PrefabRemaps:
+    []
+  Name: pCube2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 309f3e53-1344-465d-93e5-e4115abf6f92
+  Components:
+    []
+- !<ObjectPrefabAssetData/eb977b06-b35f-499a-990f-75444d3254e4>
+  SourceRemaps:
+    - 0b154b35-9eb6-4200-9c56-d5c02e657efd: 461b5d61-aad5-4fc1-8264-3889b651c150
+    - 215649c2-2f77-4dfb-9604-46bcd45c27c0: 2ab64d76-0fe2-4a9b-a8ac-decea9722dad
+    - 3217630f-be23-41c7-92af-2fefd819ba76: 8fb57dbe-a187-4944-8beb-f5e303713169
+    - 3d09f8b2-84c6-49af-b67e-fa26e87e7eb2: bb3945e6-a3b1-49e6-94f8-6fffb3832142
+    - 495e680d-c8f4-4128-aba8-b78f0d097527: 309f3e53-1344-465d-93e5-e4115abf6f92
+    - 9f312463-954c-4acb-bfa0-179ddfe4192a: 9be0035b-dd8f-43ee-b71a-300c8a97374f
+    - a9355fcf-483d-4de7-a6ef-9a2cb1815389: 1be85cb4-9f5a-487e-b0ae-026f171a5470
+    - bbe1311e-b413-4ebe-9e63-c7068d778eeb: b5325927-24fe-44b7-af7a-e5af8e46ef56
+    - dc1c11ae-fb54-473d-ba8f-d2828e1e6503: f3be161f-28ae-4876-94a9-f309aaa35f3a
+    - e038ed07-0687-438e-855b-11d45453e29e: 4aeed536-9c6e-49fc-aac9-1f56c18d44bb
+    - ff7212a7-a573-4173-a7a6-fd1b806d9db7: 94c8c689-c87c-43a6-baca-9beda4b16996
+  SourceState: !<own> 2ab64d76-0fe2-4a9b-a8ac-decea9722dad
+- !<SceneObject/f3be161f-28ae-4876-94a9-f309aaa35f3a>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb3945e6-a3b1-49e6-94f8-6fffb3832142
+  Components:
+    []

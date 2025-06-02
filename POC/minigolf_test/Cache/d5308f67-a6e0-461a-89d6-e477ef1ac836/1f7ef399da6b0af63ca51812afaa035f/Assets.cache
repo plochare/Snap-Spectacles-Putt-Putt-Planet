@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    634073e1-e329-40be-a537-c5d7871633c7: d5308f67-a6e0-461a-89d6-e477ef1ac836/1f7ef399da6b0af63ca51812afaa035f/Data/bounce2.mp3
+  Assets:
+    - !<FileAudioTrack/634073e1-e329-40be-a537-c5d7871633c7>
+      PackagePath: ""
+  SourceHash: 1f7ef399da6b0af63ca51812afaa035f
+  FileHash: af5d300500f315e1e53a60ec7f0994af
+  NativePackageItems:
+    []

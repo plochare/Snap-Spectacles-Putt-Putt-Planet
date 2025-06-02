@@ -1,0 +1,676 @@
+import { Interactable } from "SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable";
+import WorldCameraFinderProvider from "SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider";
+import { SIK } from "SpectaclesInteractionKit/SIK";
+// import { Buffer } from "Scripts/Utils/Buffer";
+import { InteractorEvent } from "SpectaclesInteractionKit/Core/Interactor/InteractorEvent";
+import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/Interactor/Interactor";
+// import { Grabbable } from "./Grabbable";
+// import { ScreenLogger } from "./Utils/ScreenLogger";
+
+/**
+ * @component
+ * @class BallArcBehavior
+ *
+ * This component controls the behavior of a "ball arc" object in an interactive
+ * AR scene. It uses physics and interaction handlers to simulate picking up the ball,
+ * accumulating velocity/force based on hand gestures, and then launching the ball
+ * into the scene. It also plays a sound effect upon collisions and removes the
+ * object if it falls below a certain Y-threshold (representing "ground").
+ */
+@component
+export class BallArcBehavior extends BaseScriptComponent {
+    
+    /**
+     * @input
+     * Text Display Fields
+    */
+    @input
+    currentScoreText: Text
+
+    @input
+    highScoreText: Text
+
+    @input
+    timerText: Text
+
+    /**
+     * @input
+     * Audio sound effects upon certain collisions.
+     */
+    @input
+    bounce1audio: AudioComponent
+
+    @input
+    bounce2audio: AudioComponent
+
+    @input
+    bounce3audio: AudioComponent
+
+    @input
+    backboardaudio: AudioComponent
+
+    @input
+    @hint('This is the material that will provide the mesh outline')
+    public targetOutlineMaterial: Material;
+
+    @input
+    @allowUndefined
+    public meshVisual:RenderMeshVisual;
+
+    @input
+    gameContainer!: SceneObject
+
+    @input
+    arcContainer!: SceneObject
+
+    @input
+    dragObject!: SceneObject
+
+    @input
+    targetObject!: SceneObject
+
+    @input
+    ballObject!: SceneObject
+
+    //@input
+    //ballPhysicsBody!: BodyComponent
+
+    @input
+    t0Object!: SceneObject
+
+    @input
+    t1Object!: SceneObject
+
+    @input
+    t2Object!: SceneObject
+
+    @input
+    t3Object!: SceneObject
+
+    @input
+    t4Object!: SceneObject
+
+    @input
+    t5Object!: SceneObject
+
+    @input
+    t6Object!: SceneObject
+
+    @input
+    t7Object!: SceneObject
+
+    @input
+    t8Object!: SceneObject
+    
+    @input
+    t9Object!: SceneObject
+    
+    @input
+    clubObject!: SceneObject
+
+    @input
+    basketball_1!: SceneObject
+
+    @input
+    basketball_2!: SceneObject
+
+
+    private calculateMidpoint(pos1: vec3, pos2: vec3): vec3 {
+        return pos1.add(pos2).uniformScale(0.5)
+    }
+        
+    private calculateDistance(pos1: vec3, pos2: vec3): number {
+       return 0
+    }
+        
+    private calculateAngle(pos1: vec3, pos2: vec3): number {
+       const dx = pos2.x - pos1.x
+       const dz = pos2.z - pos1.z
+       const radians = Math.atan2(dz, dx)
+       const degrees = (radians * 180) / Math.PI
+       return degrees
+    }
+   
+    /**
+     * Reference to the physics body component of the tennis ball.
+     * Used to apply mass, handle collisions, and manipulate velocity.
+     */
+    physicsBody: BodyComponent
+
+    /**
+     * Reference to the Interactable component, which allows this object
+     * to be "grabbed" or interacted with by the user's hand or controller.
+     */
+    interactable: Interactable
+
+    /**
+     * Cached reference to the object's Transform component.
+     * Used frequently for position and rotation updates.
+     */
+    protected t: Transform
+
+    // Reference to SIK (Spectacles Interaction Kit) hand input data.
+    private handInputData = SIK.HandInputData;
+
+    // Storing a reference to a specific tracked hand (e.g. 'right' or 'left').
+    private hand = this.handInputData.getHand('right');
+
+    // Indicates if the ball is currently being held by the user.
+    private isHolding = false
+
+    // Accumulated force applied to the ball while holding, calculated from hand acceleration.
+    private accumulatedForce: vec3 = vec3.zero()
+
+    // Stores the previous frame's hand velocity to calculate acceleration.
+    private prevHandVelocity: vec3 = vec3.zero()
+
+    /**
+     * The physical mass of the tennis ball in scene units.
+     */
+    protected OBJECT_MASS = 0.056
+
+    /**
+     * Scales hand acceleration when applying force to the ball.
+     */
+    protected HAND_ACCELERATION_MULTIPLIER = 0.08
+
+    /**
+     * Scales the base velocity applied from the hand's movement when releasing the ball.
+     */
+    protected HAND_BASE_VELOCITY_MULTIPLIER = 0.6
+
+    /**
+     * If the ball falls below this Y position in the scene world,
+     * it will be destroyed, simulating hitting "the ground."
+     */
+    private GROUND_Y_OFFSET = -350
+
+    // private grabbable:Grabbable;
+    
+    private isGrabbed: boolean = false;
+    private isHandOverlapping: boolean = false;
+
+    private highlightMaterial: Material;
+    
+    initialHandPos: vec3;
+    initialTPos: vec3;
+    initialHandRot: quat;
+    initialTRot: quat;
+
+    private GRAVITY = -200
+    private arcHeight = 0
+
+    private launchAngleDeg = 0
+    private launchAngleRad = 0
+
+    public arcControllerAngle = 0    
+    private bounceCounter = 0
+
+    private currentScoreVal = 0
+    private highScoreVal = 0
+    private timerVal = 90
+    private internalStartTime = 0
+    
+    private lerptime = 0
+    private startPosition = 0
+    private endPosition = 0
+    public gamestate = 'initGame'
+
+    private intervalId = 0
+    
+    /**
+     * Called once when the component is initialized.
+     * Sets up physics, audio, and interaction events.
+     */
+    onAwake() {
+        /*
+        if (!this.grabbable) {
+            this.grabbable = this.sceneObject.getComponent(Grabbable.getTypeName());
+        }
+
+        if (!this.grabbable) {
+            print("This module requires the Grabbable component.");
+            return;
+        }
+        */
+
+        // Set audio playback mode for minimal latency on collision sound.
+        //this.audio.playbackMode = Audio.PlaybackMode.LowLatency
+
+        // Configure physics body parameters.
+        this.physicsBody = this.sceneObject.getComponent("Physics.BodyComponent")
+        this.physicsBody.mass = this.OBJECT_MASS
+        this.physicsBody.onCollisionEnter.add(this.onCollisionEnter.bind(this))
+
+        this.highlightMaterial = this.targetOutlineMaterial.clone();
+
+        // Configure interactable event handlers for picking up and releasing the ball.
+        this.interactable = this.sceneObject.getComponent(Interactable.getTypeName())
+        this.interactable.onTriggerStart(this.onTriggerStart.bind(this))
+        this.interactable.onTriggerEnd(this.onTriggerEnd.bind(this))
+        /*
+        this.grabbable.onHoverStartEvent.add(() => {
+            this.addMaterialToRenderMeshArray();
+        }); 
+        this.grabbable.onHoverEndEvent.add(() => {
+            this.removeMaterialFromRenderMeshArray();
+        });
+
+        this.grabbable.onGrabStartEvent.add(this.onTriggerStart.bind(this)); 
+        this.grabbable.onGrabEndEvent.add(this.onTriggerEnd.bind(this));
+        */
+        
+        // Register an update event callback to handle per-frame logic.
+        this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this))
+
+        // Cache a reference to the object's transform for efficient position/rotation updates.
+        this.t = this.getTransform()
+        
+        /*
+        this.currentScoreText.text = this.currentScoreVal.toString()
+        this.highScoreText.text = this.highScoreVal.toString()
+        this.timerText.text = this.timerVal.toString()
+        this.restartTimer()
+        */
+        // 
+        this.setRandomBallArc()
+        this.gamestate = "playerAim"
+    }
+
+    restartTimer(){
+        this.internalStartTime = Math.floor(getTime())
+    }
+
+    /**
+     * Called when the ball collides with another object.
+     * Plays a sound if it collides with a non-ball object with sufficient force.
+     *
+     * @param e Collision event containing collision details.
+     */
+    onCollisionEnter(e) {
+        let collision = e.collision;
+        let shouldPlayAudio = false
+
+        // Used to determine the closest collision contact point to the world camera.
+        let closestHit = null;
+        let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
+        let hitObject: SceneObject = null
+    
+        e.collision.contacts.forEach(contact => {
+            // Update closest collision point for reference if none is set,
+            // or if this contact is closer to the camera.
+            if (closestHit == null) { 
+                hitObject = collision.collider.getSceneObject()
+                closestHit = contact.position 
+            } else {
+                if (contact.position.distance(wCamera) < closestHit.distance(wCamera)) {
+                    closestHit = contact.position
+                    hitObject = collision.collider.getSceneObject()
+                }
+            }
+
+            // If we hit something that isn't another ball and the collision impulse is big enough,
+            // we play a sound.
+            //if (collision.collider.getSceneObject().name.indexOf("Ball") < 0 && contact.impulse > 0.1) {
+                //shouldPlayAudio = true
+            //}
+        })
+        this.bounceCounter++
+        if (this.bounceCounter>3){
+            this.resetBall()
+        }
+        //if (shouldPlayAudio) {
+            //this.audio.play(1)
+        //}
+    }
+
+    /**
+     * Called when the user starts interacting with (grabbing) the ball.
+     *
+     * @param e Interactor event containing info about which hand started the interaction.
+     */
+    onTriggerStart(interactor:Interactor) {
+
+        this.initialTPos = this.t.getWorldPosition()
+        /*
+        // Determine which hand we are using based on the input type.
+        this.hand = this.handInputData.getHand(interactor.inputType == InteractorInputType.LeftHand ? 'left' : 'right');
+
+        this.initialHandPos = this.hand.indexKnuckle.position;
+        this.initialTPos = this.t.getWorldPosition();
+        this.initialHandRot = this.hand.indexKnuckle.rotation;
+        this.initialTRot = this.t.getWorldRotation();
+
+        // Calculate a "start point" in front of the hand where the ball should appear when grabbed.
+        let startPoint = this.hand.indexKnuckle.position.add(this.hand.thumbKnuckle.position).uniformScale(0.5)
+        let nudgeLeftDir = this.hand.middleKnuckle.position.sub(this.hand.pinkyKnuckle.position)
+        startPoint = startPoint.add(nudgeLeftDir.normalize().uniformScale(5))
+        let nudgeUpDir = this.hand.indexKnuckle.position.sub(this.hand.wrist.position)
+        startPoint = startPoint.add(nudgeUpDir.normalize().uniformScale(3))
+
+        // Calculate the "end point" and direction for orienting the ball in the hand.
+        let endPoint = this.hand.indexTip.position.add(this.hand.thumbTip.position).uniformScale(0.5)
+        let direction = endPoint.sub(startPoint)
+
+        // Move the ball to the end point and orient it.
+        this.t.setWorldPosition(endPoint)
+        this.t.setWorldRotation(quat.lookAt(direction, vec3.up()))
+
+        // Reset velocities and force accumulation since we just picked up the ball.
+        this.prevHandVelocity = vec3.zero()
+        this.accumulatedForce = vec3.zero()
+        */
+        this.meshVisual.enabled = false
+        this.isHolding = true
+
+    }
+
+    /**
+     * Called when the user releases the ball.
+     * The ball becomes dynamic and is launched with the accumulated force and base velocity.
+     */
+    onTriggerEnd() {
+        // Once released, the ball should be affected by physics again.
+        // this.physicsBody.intangible = false
+        // this.physicsBody.dynamic = false
+
+        // Calculate the velocity to apply to the ball from the hand movement.
+        // let baseVelocity = this.getHandVelocity()
+        // baseVelocity = baseVelocity.uniformScale(this.HAND_BASE_VELOCITY_MULTIPLIER)
+        
+        // Final velocity = base velocity + any accumulated force from acceleration.
+        // this.physicsBody.velocity = baseVelocity.add(this.accumulatedForce)
+        
+        /* Ball Move
+        let vertVelocity = Math.sqrt(Math.abs(2.0 * this.GRAVITY * this.arcHeight))
+        let horizVelocity = vertVelocity / Math.tan(this.launchAngleRad) 
+        let arcAngleRad = (this.arcControllerAngle - 90) * (Math.PI / 180) 
+        print("vertVelocity : " + vertVelocity)
+
+        this.dragObject.getComponent("Physics.BodyComponent").intangible = true
+
+        this.ballObject.getComponent("Physics.BodyComponent").dynamic = true
+        this.ballObject.getComponent("Physics.BodyComponent").velocity = new vec3(-1 * horizVelocity * Math.sin(arcAngleRad), vertVelocity, -1 * horizVelocity * Math.cos(arcAngleRad))
+        */
+        if (this.gamestate == "playerAim"){
+            this.lerptime = 0
+            this.startPosition = this.clubObject.getTransform().getLocalPosition()
+            this.endPosition = this.t1Object.getTransform().getLocalPosition()
+            this.gamestate = "playerSwing"
+        }
+        
+        //this.ballObject.physicsBody.velocity = new vec3(0.0, 100.0, 0.0);
+
+        this.isHolding = false
+
+        // Reset force and velocity trackers.
+        //this.prevHandVelocity = vec3.zero()
+        //this.accumulatedForce = vec3.zero()
+    }
+
+    addMaterialToRenderMeshArray() {
+        const matCount = this.meshVisual.getMaterialsCount();
+
+        let addMaterial = true;
+        for (let k = 0; k < matCount; k++) {
+            const material = this.meshVisual.getMaterial(k);
+            if (material.isSame(this.highlightMaterial)) {
+                addMaterial = false;
+                break;
+            }
+        }
+
+        if (addMaterial) {
+            const materials = this.meshVisual.materials;
+            materials.unshift(this.highlightMaterial);
+            this.meshVisual.materials = materials;
+        }
+    }
+
+    removeMaterialFromRenderMeshArray() {
+        const materials = [];
+
+        const matCount = this.meshVisual.getMaterialsCount();
+
+        for (let k = 0; k < matCount; k++) {
+            const material = this.meshVisual.getMaterial(k);
+
+            if (material.isSame(this.highlightMaterial)) {
+                continue;
+            }
+
+            materials.push(material);
+        }
+
+        this.meshVisual.clearMaterials();
+
+        for (let k = 0; k < materials.length; k++) {
+            this.meshVisual.addMaterial(materials[k]);
+        }
+    }
+
+    getDeltaHandPos () {
+        return this.hand.indexKnuckle.position.sub(this.initialHandPos);
+    }
+
+    getDeltaHandRot () {
+        return this.hand.indexKnuckle.rotation.multiply(this.initialHandRot.invert());
+    }
+
+    /**
+     * Called every frame. Updates the ball's physics state and checks if it should be destroyed.
+     * When holding, accumulates force from hand acceleration. Also handles rotation buffering.
+     */
+    onUpdate() {
+
+        /*
+        this.timerVal = this.internalStartTime + 60 - Math.floor(getTime())
+        this.timerText.text = this.timerVal.toString()
+        if (this.timerVal == 0){
+            this.resetGame()
+            this.restartTimer()
+        }
+        */
+        /*
+        let handVelocity = this.getHandVelocity()
+
+        // If the ball is currently held, accumulate force based on changes in hand velocity (acceleration).
+        if (this.isHolding && getDeltaTime() > 0) {
+            let handAcceleration = (handVelocity.sub(this.prevHandVelocity)).uniformScale(1/(Math.max(0.016666, getDeltaTime())));
+            this.accumulatedForce = this.accumulatedForce.add(handAcceleration.uniformScale(this.HAND_ACCELERATION_MULTIPLIER));        
+            this.prevHandVelocity = handVelocity;
+        }
+        */
+        if (this.gamestate == "playerAim"){
+            this.displayStroke()
+        }
+        
+        if (this.gamestate == "playerSwing"){
+            // golf club in motion  
+            this.lerptime += 0.1 * getDeltaTime()
+            
+        // print('lerptime' + this.lerptime)
+            const currentPosition = vec3.lerp(this.startPosition, this.endPosition, this.lerptime);
+            this.clubObject.getTransform().setLocalPosition(currentPosition);
+        }
+        
+
+        // If the ball falls below a certain height, reset ball (simulate hitting the ground).
+        if (this.ballObject.getTransform().getWorldPosition().y < this.GROUND_Y_OFFSET) {
+            this.resetBall()
+        }
+        
+        
+    }
+
+    displayStroke(){
+        const dragpoint = this.dragObject.getTransform().getLocalPosition()
+        const startpoint = this.t1Object.getTransform().getLocalPosition()
+        const startWorldPoint = this.t1Object.getTransform().getWorldPosition()
+        this.dragObject.getTransform().setLocalPosition(new vec3(dragpoint.x, 0, dragpoint.z))
+        //
+        
+        let dragDistz = dragpoint.z - startpoint.z
+        let dragDistx = dragpoint.x - startpoint.x
+        
+        let sumOfSquares = Math.pow(dragDistz, 2) + Math.pow(dragDistx, 2) 
+
+        let dragDistance = Math.sqrt(sumOfSquares)
+        
+        if (dragDistance>22){
+            dragDistance = 22
+        }
+        
+        const launchAngle = this.calculateAngle(this.dragObject.getTransform().getWorldPosition(), this.t1Object.getTransform().getWorldPosition()) 
+        
+        this.clubObject.getTransform().setLocalRotation(quat.quatFromEuler(0,(launchAngle + 90) * -0.0174533,0))
+        
+        this.clubObject.getTransform().setLocalPosition(new vec3(startpoint.x + dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        
+        this.t2Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.15*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.15*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t3Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.25*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.25*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t4Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.35*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.35*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t5Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.45*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.45*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t6Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.55*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.55*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t7Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.65*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.65*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t8Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.75*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.75*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+        this.t9Object.getTransform().setLocalPosition(new vec3(startpoint.x + 0.85*dragDistance*Math.cos((launchAngle) * -0.0174533), 0, startpoint.z + 0.85*dragDistance*Math.sin((launchAngle) * 0.0174533)))
+
+        //
+        const apexPoint = this.t8Object.getTransform().getLocalPosition()
+        this.arcHeight = apexPoint.y - startpoint.y + 1.25
+        const arcLength = (apexPoint.x - startpoint.x)/2
+        this.launchAngleRad = Math.atan2(this.arcHeight, arcLength)
+    }
+
+    public collisionBall(){
+        if (this.ballObject.getTransform().getLocalPosition().y < 2){
+            this.bounceCounter++
+            if (this.bounceCounter == 1){
+                this.bounce1audio.play(1)
+            }
+            if (this.bounceCounter == 2){
+                this.bounce2audio.play(1)
+            }
+            if (this.bounceCounter == 3){
+                this.bounce3audio.play(1)
+            }
+            if (this.bounceCounter>3){
+                this.resetBall()
+            }
+        }else{
+            this.backboardaudio.play(1)
+        }
+    }
+    
+    /**
+     * Resets the game paramters
+     * */
+    resetGame(){
+        this.currentScoreVal = 0
+        this.currentScoreText.text = this.currentScoreVal.toString()
+    }
+    
+    /**
+     * Resets the ball and ball arc
+     * */
+    resetBall(){
+
+        // Random Test
+        this.setRandomBallArc()
+        this.bounceCounter = 0
+
+        // Reset Initial Ball Position
+        this.ballObject.getComponent("Physics.BodyComponent").dynamic = false
+        this.ballObject.getTransform().setLocalPosition(vec3.zero())
+        this.ballObject.getComponent("Physics.BodyComponent").velocity = vec3.zero()
+        // Reset Arc Positions
+        this.dragObject.getComponent("Physics.BodyComponent").intangible = false
+        this.dragObject.getTransform().setLocalPosition(new vec3(0,10,0))
+        //
+        this.displayStroke()
+        this.meshVisual.enabled = true
+    }
+
+    /**
+     * AppendScore
+     * */
+    appendScore(){
+        this.currentScoreVal++
+        this.currentScoreText.text = this.currentScoreVal.toString()
+        //
+        if (this.currentScoreVal>this.highScoreVal){
+            this.highScoreVal = this.currentScoreVal
+            this.highScoreText.text = this.highScoreVal.toString()
+        }
+    }
+    /**
+    * Creates the random and ball arc distance and angle
+    * */
+    setRandomBallArc(){
+        
+        let randomDistance1 = Math.floor(Math.random() * 20) - Math.floor(Math.random() * 20) 
+        let randomDistance2 = Math.floor(Math.random() * -30)
+        // 
+        this.arcContainer.getTransform().setLocalPosition(new vec3(randomDistance1,0,randomDistance2))
+        
+    }
+
+    public DisableArcSelection(){
+        // this.meshVisual.enabled = false
+        // this.physicsBody.enabled = false
+    }
+
+    public EnableArcSelection(){
+        // this.meshVisual.enabled = true
+        // this.physicsBody.enabled = true
+    }
+
+    public EnableBasketball1(){
+        this.basketball_1.enabled = true
+        this.basketball_2.enabled = false
+    }
+
+    public EnableBasketball2(){
+        this.basketball_1.enabled = false
+        this.basketball_2.enabled = true
+    }
+    /**
+     * Destroys the scene object and removes it from the world.
+     * Typically called when the ball is considered "lost" below ground level.
+     */
+    destroy() {
+        this.sceneObject.destroy()
+    }
+
+    /**
+     * Retrieves the current hand velocity vector used for computing ball's launch velocity and acceleration.
+     *
+     * @returns Current velocity of the user's hand as a vec3.
+     */
+    getHandVelocity(): vec3 {
+        // If in the Lens Studio Editor, return a fixed simulated velocity
+        if (global.deviceInfoSystem.isEditor()) {
+            return WorldCameraFinderProvider.getInstance().forward().uniformScale(-1050);
+        }
+    
+        // Retrieve the hand's object-specific velocity data if available
+        const objectSpecificData = this.hand.objectTracking3D.objectSpecificData;
+        if (objectSpecificData) {
+            const handVelocity = objectSpecificData['global'];
+    
+            // If the magnitude of the velocity is too low,
+            // it is likely just jitter so we ignore by returning 0
+            if (handVelocity.length < 2) {
+                return vec3.zero();
+            }
+    
+            return handVelocity;
+        }
+    
+        // If no tracking data is available, return zero
+        return vec3.zero();
+    }
+    
+
+}

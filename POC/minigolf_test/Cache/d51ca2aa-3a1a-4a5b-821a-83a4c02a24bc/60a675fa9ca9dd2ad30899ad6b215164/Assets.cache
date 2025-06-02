@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5e188dd5-1147-40ad-9bf2-850d80f1a2ec: d51ca2aa-3a1a-4a5b-821a-83a4c02a24bc/60a675fa9ca9dd2ad30899ad6b215164/Data/swish.mp3
+  Assets:
+    - !<FileAudioTrack/5e188dd5-1147-40ad-9bf2-850d80f1a2ec>
+      PackagePath: ""
+  SourceHash: 60a675fa9ca9dd2ad30899ad6b215164
+  FileHash: 09f73ec62a3f7b1c49a63bdcf1bae77f
+  NativePackageItems:
+    []

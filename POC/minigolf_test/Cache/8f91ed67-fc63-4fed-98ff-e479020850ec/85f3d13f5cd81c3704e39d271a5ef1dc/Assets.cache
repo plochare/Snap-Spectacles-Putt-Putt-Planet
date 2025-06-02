@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5eb92ec1-bf65-49da-a119-db86b07b7ae8: 8f91ed67-fc63-4fed-98ff-e479020850ec/85f3d13f5cd81c3704e39d271a5ef1dc/Data/half-court.png
+  Assets:
+    - !<FileTexture/5eb92ec1-bf65-49da-a119-db86b07b7ae8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 739
+        Height: 724
+  SourceHash: 85f3d13f5cd81c3704e39d271a5ef1dc
+  FileHash: 223fb52be47e88f83f164d0810b6ca93
+  NativePackageItems:
+    []

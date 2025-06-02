@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/1c36ccb6-2d8f-4c0d-836f-ac27f7d5b1c1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 507c5692-2a67-4524-89d0-ed1a3b69ea56
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 507c5692-2a67-4524-89d0-ed1a3b69ea56
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 23cb38dc-e1e3-47e5-a950-b83613b08491
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/23cb38dc-e1e3-47e5-a950-b83613b08491>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8a75c67e-a035-4541-8398-f3877b8a09e9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    _behindDistance: false
+    _drawDebug: false
+    _planeSize: false
+    _proximityDistance: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - _planeSize: !<Vec2> {x: 10.000000, y: 10.000000}
+      _proximityDistance: !<float> 20.000000
+      _drawDebug: false
+      _behindDistance: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input vec2 _planeSize = {10,10}"
+    - // @input float _proximityDistance
+    - // @input bool _drawDebug
+    - // @input float _behindDistance
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

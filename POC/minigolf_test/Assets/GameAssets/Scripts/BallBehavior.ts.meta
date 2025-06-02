@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/06fc0c61-75af-4403-ac25-ce9baaaa1a84>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e91ac8d1-0445-4326-ad6e-46f1d0efe434
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e91ac8d1-0445-4326-ad6e-46f1d0efe434
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 92ac2c06-d3b4-4d49-a1a5-72fc5669f022
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/92ac2c06-d3b4-4d49-a1a5-72fc5669f022>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b6b4fba8-cbde-4224-aab0-d13a1375783d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    arcContainer: false
+    ballArcScript: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - arcContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ballArcScript: !<MappingBased.BallArcBehavior> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject arcContainer
+    - // @input BallArcBehavior ballArcScript

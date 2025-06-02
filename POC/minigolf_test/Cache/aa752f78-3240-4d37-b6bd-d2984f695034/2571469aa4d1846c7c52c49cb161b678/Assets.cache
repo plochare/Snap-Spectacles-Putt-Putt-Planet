@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9d624ce6-288c-4b87-aa88-3c58c2fbc1ce: aa752f78-3240-4d37-b6bd-d2984f695034/2571469aa4d1846c7c52c49cb161b678/Data/Hockey_Score_Diffuse.png
+  Assets:
+    - !<FileTexture/9d624ce6-288c-4b87-aa88-3c58c2fbc1ce>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 2571469aa4d1846c7c52c49cb161b678
+  FileHash: 66b41de4c119759377f375256d2a6a4c
+  NativePackageItems:
+    []

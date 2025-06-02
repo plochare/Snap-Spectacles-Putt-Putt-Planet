@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    28b478ca-724d-4b73-9b6a-f2a838be024b: 6624c278-5c20-44ce-bb8b-49f5a9e17a0e/03422774af35bcd2a2b61f82e2843fae/Data/Hockey_Score_Board.mesh
+  Assets:
+    - !<FileMesh/28b478ca-724d-4b73-9b6a-f2a838be024b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1860
+        Vertices: 1351
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.111117, y: 0.578891, z: 0.265921}
+  SourceHash: 03422774af35bcd2a2b61f82e2843fae
+  FileHash: 6adf8bb3f3275e97fd588a1d1cc2e102
+  NativePackageItems:
+    []
