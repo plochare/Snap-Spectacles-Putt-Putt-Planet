@@ -79,6 +79,7 @@ export class PlaceSurfaceDetector extends BaseScriptComponent {
     }
    
     private startBuildingPathState(startPosition: vec3, startRotation: quat, startObject: SceneObject) {
+    
     }
    
    

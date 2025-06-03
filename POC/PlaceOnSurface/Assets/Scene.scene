@@ -192,7 +192,7 @@
   PrefabRemaps:
     []
   Name: "[OPTIONAL] Visuals"
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -4044,7 +4044,7 @@
     "":
       pathRmv: !<reference.RenderMeshVisual> 7cded377-6c70-420a-869d-0e99c55d8ee1
       pfbSurfaceDetection: !<reference.ObjectPrefab> bbeb98be-e2ec-4500-8424-4f1a76494c9b
-      pfbPlaceObject: !<reference.ObjectPrefab> f893e3e0-d0e1-4302-98f9-d9c19df51ecc
+      pfbPlaceObject: !<reference.ObjectPrefab> 4033e4a2-a093-4fb0-bcc5-031b3b2e05a2
       camObj: !<reference.SceneObject> b03d8e1f-3173-4e63-8552-3d716f664184
       camObjOffset: !<reference.SceneObject> d8ac4151-64bb-465c-a31c-6fe0e8f2cab8
       ui: !<MappingBased.UI> be1a590a-20f3-4fd1-ad5e-c21930da45ce

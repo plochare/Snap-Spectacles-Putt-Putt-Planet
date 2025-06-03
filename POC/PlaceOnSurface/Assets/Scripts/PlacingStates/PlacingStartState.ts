@@ -54,7 +54,7 @@ export class PlacingStartState {
 
         this.onStartPlaced(pos, rot, this.startLineTransform.getSceneObject());
 
-        SoundController.getInstance().playSound("stopCreatePath");
+        // SoundController.getInstance().playSound("stopCreatePath");
     }
 
     private displaceAwayFromCamera(pos:vec3){
