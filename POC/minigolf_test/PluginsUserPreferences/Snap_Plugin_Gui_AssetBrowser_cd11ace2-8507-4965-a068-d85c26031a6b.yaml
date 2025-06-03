@@ -8,6 +8,7 @@ CollapsedEntities:
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
+      - GameAssets
       - GameAssets/AlcoveCourse.glb
       - GameAssets/AlcoveCourse.glb/.hidden
       - "GameAssets/AlcoveCourse.glb/.hidden/Material #264"
@@ -50,11 +51,10 @@ CollapsedEntities:
       - GameAssets/Physics/Basketball Matter.matter
       - GameAssets/Physics/Floor Matter.matter
       - GameAssets/Physics/Physics World Settings.worldSettings
-      - GameAssets/Scripts
-      - GameAssets/Scripts/BallArcBehavior.ts
       - GameAssets/Scripts/BallBehavior.ts
+      - GameAssets/Scripts/BallSwingBehavior.ts
       - GameAssets/Scripts/CountdownTimer.ts
-      - GameAssets/Scripts/HoopBehavior.ts
+      - GameAssets/Scripts/HoleBehavior.ts
       - GameAssets/Sounds
       - GameAssets/Sounds/backboard.mp3
       - GameAssets/Sounds/bounce1.mp3

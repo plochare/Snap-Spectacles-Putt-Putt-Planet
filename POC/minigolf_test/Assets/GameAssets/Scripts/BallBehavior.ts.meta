@@ -27,16 +27,16 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     arcContainer: false
-    ballArcScript: false
+    ballSwingScript: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
     - arcContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      ballArcScript: !<MappingBased.BallArcBehavior> 00000000-0000-0000-0000-000000000000
+      ballSwingScript: !<MappingBased.BallSwingBehavior> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input SceneObject arcContainer
-    - // @input BallArcBehavior ballArcScript
+    - // @input BallSwingBehavior ballSwingScript

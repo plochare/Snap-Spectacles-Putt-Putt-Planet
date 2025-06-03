@@ -1,28 +1,20 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 610
+    size: 602
     values:
       - 2D Art
       - 2D Art/TutorialUI
-      - 2D Art/TutorialUI/Resources
-      - 2D Art/TutorialUI/Resources/Fonts
       - 2D Art/TutorialUI/Resources/Fonts/AvenirNextLTPro-Bold.otf
-      - 2D Art/TutorialUI/Resources/Materials
       - 2D Art/TutorialUI/Resources/Materials/BG.mat
       - 2D Art/TutorialUI/Resources/Materials/rButtonOK2.mat
-      - 2D Art/TutorialUI/Resources/Meshes
       - 2D Art/TutorialUI/Resources/Meshes/Plane.mesh
-      - 2D Art/TutorialUI/Resources/Shaders
       - 2D Art/TutorialUI/Resources/Shaders/Empty 1.ss_graph
       - 2D Art/TutorialUI/Resources/Shaders/rbuttons.ss_graph
-      - 2D Art/TutorialUI/Resources/Textures
       - 2D Art/TutorialUI/Resources/Textures/Text Texture OK.textTexture
       - 2D Art/TutorialUI/Resources/Textures/r_button.png
       - 2D Art/TutorialUI/Resources/Textures/tutorial_BG_mask.png
       - 2D Art/UI
-      - 2D Art/UI/Resources
-      - 2D Art/UI/Resources/Fonts
       - 2D Art/UI/Resources/Fonts/AvenirNextLTPro-Bold.otf
       - 2D Art/UI/Resources/Fonts/AvenirNextLTPro-BoldIt.otf
       - 2D Art/UI/Resources/Fonts/AvenirNextLTPro-Medium.otf
@@ -262,7 +254,6 @@ CollapsedEntities:
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
       - MaterialParams.png
-      - Materials
       - Materials/PathBuilderUnlit_v2
       - Materials/PathBuilderUnlit_v2/Arrows_RGBA_v1.png
       - Materials/PathBuilderUnlit_v2/Materials
@@ -280,6 +271,7 @@ CollapsedEntities:
       - Materials/Side_Arrow_Occlusion_v2/Materials/Side_Arrow.mat
       - Normal.png
       - PBR.mat
+      - Prefabs
       - Prefabs/Cone.prefab
       - Prefabs/TestSwing.prefab
       - RenderTargets
