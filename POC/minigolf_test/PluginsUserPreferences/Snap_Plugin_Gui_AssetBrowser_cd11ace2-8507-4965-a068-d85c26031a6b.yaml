@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 948
+    size: 1136
     values:
       - Base.png
       - Device Camera Texture.deviceCameraTexture
@@ -12,7 +12,6 @@ CollapsedEntities:
       - GameAssets/AlcoveCourse.glb/.hidden
       - "GameAssets/AlcoveCourse.glb/.hidden/Material #264"
       - GameAssets/AlcoveCourse.glb/AlcoveCourse
-      - GameAssets/AlcoveCourse.glb/Materials
       - "GameAssets/AlcoveCourse.glb/Materials/Material #264"
       - "GameAssets/AlcoveCourse.glb/Materials/Material #266"
       - "GameAssets/AlcoveCourse.glb/Materials/Material #267"
@@ -26,13 +25,232 @@ CollapsedEntities:
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 4
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 5
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 6
-      - GameAssets/AlcoveCourse.glb/Textures
       - GameAssets/AlcoveCourse.glb/Textures/texture
       - GameAssets/AlcoveCourse.glb/Textures/texture 3
       - GameAssets/AlcoveCourse.glb/Textures/texture 5
       - GameAssets/AlcoveCourse.glb/Textures/texture 7
       - GameAssets/AlcoveCourse.glb/Textures/texture 9
       - GameAssets/Cylinder.mesh
+      - GameAssets/GolfCourseAssets
+      - GameAssets/GolfCourseAssets/Holly.glb
+      - GameAssets/GolfCourseAssets/Holly.glb/.hidden
+      - GameAssets/GolfCourseAssets/Holly.glb/.hidden/Cube__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Holly
+      - GameAssets/GolfCourseAssets/Holly.glb/Materials
+      - GameAssets/GolfCourseAssets/Holly.glb/Materials/Cube__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Materials/Material.001
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.001__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.002__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.003__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.004__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.005__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.006__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.007__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.008__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.009__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.010__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.011__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.012__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.013__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.014__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.015__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.016__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.017__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.018__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.019__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube.040__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube__0
+      - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Text_Material.001_0
+      - GameAssets/GolfCourseAssets/bumper_car.glb
+      - GameAssets/GolfCourseAssets/course_01.glb
+      - GameAssets/GolfCourseAssets/course_01.glb/.hidden
+      - GameAssets/GolfCourseAssets/course_01.glb/.hidden/Brown
+      - GameAssets/GolfCourseAssets/course_01.glb/Materials
+      - GameAssets/GolfCourseAssets/course_01.glb/Materials/Brown
+      - GameAssets/GolfCourseAssets/course_01.glb/Materials/Green
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane.019
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane.035
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane.042
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane1.019
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane1.035
+      - GameAssets/GolfCourseAssets/course_01.glb/Meshes/Plane1.042
+      - GameAssets/GolfCourseAssets/course_01.glb/course_01
+      - GameAssets/GolfCourseAssets/course_02.glb
+      - GameAssets/GolfCourseAssets/course_02.glb/.hidden
+      - GameAssets/GolfCourseAssets/course_02.glb/.hidden/Brown
+      - GameAssets/GolfCourseAssets/course_02.glb/Materials
+      - GameAssets/GolfCourseAssets/course_02.glb/Materials/Brown
+      - GameAssets/GolfCourseAssets/course_02.glb/Materials/Green
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.036
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.037
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.038
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.039
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.040
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.041
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.046
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.047
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.069
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.071
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.074
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane.075
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.036
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.037
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.038
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.039
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.040
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.041
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.046
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.047
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.069
+      - GameAssets/GolfCourseAssets/course_02.glb/Meshes/Plane1.071
+      - GameAssets/GolfCourseAssets/course_02.glb/course_02
+      - GameAssets/GolfCourseAssets/course_03.glb
+      - GameAssets/GolfCourseAssets/course_03.glb/.hidden
+      - GameAssets/GolfCourseAssets/course_03.glb/.hidden/Brown
+      - GameAssets/GolfCourseAssets/course_03.glb/Materials
+      - GameAssets/GolfCourseAssets/course_03.glb/Materials/Brown
+      - GameAssets/GolfCourseAssets/course_03.glb/Materials/Green
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.043
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.048
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.050
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.051
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.053
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.054
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.055
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.056
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.057
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane.059
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.043
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.048
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.050
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.051
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.053
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.054
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.055
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.056
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.057
+      - GameAssets/GolfCourseAssets/course_03.glb/Meshes/Plane1.059
+      - GameAssets/GolfCourseAssets/course_03.glb/course_03
+      - GameAssets/GolfCourseAssets/course_04.glb
+      - GameAssets/GolfCourseAssets/course_04.glb/.hidden
+      - GameAssets/GolfCourseAssets/course_04.glb/.hidden/Brown
+      - GameAssets/GolfCourseAssets/course_04.glb/Materials
+      - GameAssets/GolfCourseAssets/course_04.glb/Materials/Brown
+      - GameAssets/GolfCourseAssets/course_04.glb/Materials/Green
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.001
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.060
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.061
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.062
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.063
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.064
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.065
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.068
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.077
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.078
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.079
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane.080
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.001
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.060
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.061
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.062
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.063
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.064
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.065
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.068
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.077
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.078
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.079
+      - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.080
+      - GameAssets/GolfCourseAssets/course_04.glb/course_04
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden/Mastodon
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Idle
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Idle_2
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Trumpet
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Walk
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Materials
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Materials/Mastodon
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes/Mastodon_1_Mastodon_0
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes/Mastodon_tusks_Mastodon_0
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures/texture
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures/texture 3
+      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/low_poly_american_mastodon_mammut_americanum
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/.hidden
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/.hidden/ColumbianMammouth
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/ColumbianMammoth_Idle
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/ColumbianMammoth_Trumpet
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/CoumbianMammoth_WalkCycle
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Materials
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Materials/ColumbianMammouth
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes/Columbian_mammoth__ColumbianMammouth_0
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes/Columbian_mammoth_tusks_ColumbianMammouth_0
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures/texture
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures/texture 3
+      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/low_poly_columbian_mammoth_mammuthus_columbi
+      - GameAssets/GolfCourseAssets/magicwheel.glb
+      - GameAssets/GolfCourseAssets/pier.glb
+      - GameAssets/GolfCourseAssets/pier.glb/.hidden
+      - GameAssets/GolfCourseAssets/pier.glb/.hidden/material_0
+      - GameAssets/GolfCourseAssets/pier.glb/Materials
+      - GameAssets/GolfCourseAssets/pier.glb/Materials/material_0
+      - GameAssets/GolfCourseAssets/pier.glb/Meshes
+      - GameAssets/GolfCourseAssets/pier.glb/Meshes/Object_0
+      - GameAssets/GolfCourseAssets/pier.glb/Meshes/Object_1
+      - GameAssets/GolfCourseAssets/pier.glb/Textures
+      - GameAssets/GolfCourseAssets/pier.glb/Textures/Image_0
+      - GameAssets/GolfCourseAssets/pier.glb/Textures/Image_1
+      - GameAssets/GolfCourseAssets/pier.glb/Textures/Image_2
+      - GameAssets/GolfCourseAssets/pier.glb/pier
+      - GameAssets/GolfCourseAssets/skull.glb
+      - GameAssets/GolfCourseAssets/skull.glb/.hidden
+      - GameAssets/GolfCourseAssets/skull.glb/.hidden/Scene_-_Root
+      - GameAssets/GolfCourseAssets/skull.glb/Materials
+      - GameAssets/GolfCourseAssets/skull.glb/Materials/Scene_-_Root
+      - GameAssets/GolfCourseAssets/skull.glb/Meshes
+      - GameAssets/GolfCourseAssets/skull.glb/Meshes/Object_0
+      - GameAssets/GolfCourseAssets/skull.glb/skull
+      - GameAssets/GolfCourseAssets/wood.glb
+      - GameAssets/GolfCourseAssets/wood.glb/.hidden
+      - GameAssets/GolfCourseAssets/wood.glb/.hidden/Cube__0
+      - GameAssets/GolfCourseAssets/wood.glb/Materials
+      - GameAssets/GolfCourseAssets/wood.glb/Materials/Cube__0
+      - GameAssets/GolfCourseAssets/wood.glb/Materials/Material.001
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.020__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.021__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.022__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.023__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.024__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.025__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.026__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.027__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.028__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.029__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.030__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.031__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.032__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.033__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.034__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.035__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.036__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.037__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.038__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Cube.039__0
+      - GameAssets/GolfCourseAssets/wood.glb/Meshes/Text_Material.001_0
+      - GameAssets/GolfCourseAssets/wood.glb/wood
       - GameAssets/ImageMaterial.mat
       - GameAssets/PBR
       - GameAssets/PBR/PBR 10.mat
@@ -54,57 +272,24 @@ CollapsedEntities:
       - GameAssets/Scripts/BallArcBehavior.ts
       - GameAssets/Scripts/BallBehavior.ts
       - GameAssets/Scripts/CountdownTimer.ts
-      - GameAssets/Scripts/HoopBehavior.ts
-      - GameAssets/Sounds
+      - GameAssets/Scripts/HoleBehavior.ts
+      - GameAssets/Sounds/applause_heavy.mp3
+      - GameAssets/Sounds/applause_light.mp3
+      - GameAssets/Sounds/applause_med.mp3
       - GameAssets/Sounds/backboard.mp3
       - GameAssets/Sounds/bounce1.mp3
       - GameAssets/Sounds/bounce2.mp3
       - GameAssets/Sounds/bounce3.mp3
+      - GameAssets/Sounds/button.mp3
+      - GameAssets/Sounds/cup.mp3
+      - GameAssets/Sounds/error.mp3
+      - GameAssets/Sounds/hitBump.mp3
+      - GameAssets/Sounds/hitWall.mp3
+      - GameAssets/Sounds/plop.mp3
+      - GameAssets/Sounds/putt.mp3
       - GameAssets/Sounds/swish.mp3
+      - GameAssets/Sounds/water.mp3
       - GameAssets/Sphere.mesh
-      - GameAssets/basketball-1.glb
-      - GameAssets/basketball-1.glb/.hidden
-      - GameAssets/basketball-1.glb/.hidden/wire_198225087
-      - GameAssets/basketball-1.glb/Materials
-      - GameAssets/basketball-1.glb/Materials/wire_198225087
-      - GameAssets/basketball-1.glb/Meshes
-      - GameAssets/basketball-1.glb/Meshes/Object_0
-      - GameAssets/basketball-1.glb/Meshes/Object_1
-      - GameAssets/basketball-1.glb/Textures
-      - GameAssets/basketball-1.glb/Textures/texture
-      - GameAssets/basketball-1.glb/basketball-1
-      - GameAssets/basketball-2.glb
-      - GameAssets/basketball-2.glb/.hidden
-      - GameAssets/basketball-2.glb/.hidden/Basketball_mat
-      - GameAssets/basketball-2.glb/Materials
-      - GameAssets/basketball-2.glb/Materials/Basketball_mat
-      - GameAssets/basketball-2.glb/Meshes
-      - GameAssets/basketball-2.glb/Meshes/Basketball_mesh_Basketball_mat_0
-      - GameAssets/basketball-2.glb/Textures
-      - GameAssets/basketball-2.glb/Textures/texture
-      - GameAssets/basketball-2.glb/Textures/texture 3
-      - GameAssets/basketball-2.glb/Textures/texture1
-      - GameAssets/basketball-2.glb/basketball-2
-      - GameAssets/basketball_hoop.glb
-      - GameAssets/basketball_hoop.glb/.hidden
-      - GameAssets/basketball_hoop.glb/.hidden/BBallBoardMaterial
-      - GameAssets/basketball_hoop.glb/Materials
-      - GameAssets/basketball_hoop.glb/Materials/BBallBoardMaterial
-      - GameAssets/basketball_hoop.glb/Materials/BBallNetMaterial
-      - GameAssets/basketball_hoop.glb/Materials/BasketballlMaterial
-      - GameAssets/basketball_hoop.glb/Meshes
-      - GameAssets/basketball_hoop.glb/Meshes/ball_BasketballlMaterial_0
-      - GameAssets/basketball_hoop.glb/Meshes/board_BBallBoardMaterial_0
-      - GameAssets/basketball_hoop.glb/Meshes/net_BBallNetMaterial_0
-      - GameAssets/basketball_hoop.glb/Textures
-      - GameAssets/basketball_hoop.glb/Textures/texture
-      - GameAssets/basketball_hoop.glb/Textures/texture 10
-      - GameAssets/basketball_hoop.glb/Textures/texture 12
-      - GameAssets/basketball_hoop.glb/Textures/texture 15
-      - GameAssets/basketball_hoop.glb/Textures/texture 3
-      - GameAssets/basketball_hoop.glb/Textures/texture 5
-      - GameAssets/basketball_hoop.glb/Textures/texture 8
-      - GameAssets/basketball_hoop.glb/basketball_hoop
       - GameAssets/court.png
       - GameAssets/golf_ball_lp.glb
       - GameAssets/golf_ball_lp.glb/.hidden
@@ -132,6 +317,8 @@ CollapsedEntities:
       - PBR 2.mat
       - PBR 3.mat
       - PBR 4.mat
+      - PBR 5.mat
+      - PBR 6.mat
       - PBR.mat
       - Render Target.renderTarget
       - Scene.scene
@@ -717,6 +904,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
+      - pbr.ss_graph
       - scoreboard
       - scoreboard/Assets
       - scoreboard/Assets/Materials

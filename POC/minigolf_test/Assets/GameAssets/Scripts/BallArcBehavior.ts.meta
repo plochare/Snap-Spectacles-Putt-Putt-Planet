@@ -29,8 +29,6 @@
     arcContainer: false
     backboardaudio: false
     ballObject: false
-    basketball_1: false
-    basketball_2: false
     bounce1audio: false
     bounce2audio: false
     bounce3audio: false
@@ -73,8 +71,6 @@
       t8Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       arcContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      basketball_1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      basketball_2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       bounce1audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       bounce2audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       bounce3audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
@@ -113,5 +109,3 @@
     - // @input SceneObject t8Object
     - // @input SceneObject t9Object
     - // @input SceneObject clubObject
-    - // @input SceneObject basketball_1
-    - // @input SceneObject basketball_2
