@@ -4,7 +4,7 @@ import { SIK } from "SpectaclesInteractionKit/SIK";
 // import { Buffer } from "Scripts/Utils/Buffer";
 import { InteractorEvent } from "SpectaclesInteractionKit/Core/Interactor/InteractorEvent";
 import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/Interactor/Interactor";
-import {BallArcBehavior} from "./BallArcBehavior"
+import {BallPathBehavior} from "./BallPathBehavior"
 
 /**
  * @component
@@ -17,10 +17,10 @@ import {BallArcBehavior} from "./BallArcBehavior"
 export class HoleBehavior extends BaseScriptComponent {
 
     @input 
-    ballArcScript!: BallArcBehavior
+    ballPathScript!: BallPathBehavior
 
     @input
-    swishaudio: AudioComponent
+    cupaudio: AudioComponent
 
     physicsBody: BodyComponent
     protected OBJECT_MASS = 0.056
@@ -34,13 +34,14 @@ export class HoleBehavior extends BaseScriptComponent {
 
     onCollisionEnter(e) {
         let collision = e.collision;
-
-        this.swishaudio.play(1)
-
-        // Used to determine the closest collision contact point to the world camera.
-        //let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
-        this.ballArcScript.appendScore()
-        this.ballArcScript.resetBall()
+        //if (this.ballPathScript.getBallVelocity() < 10){
+            this.cupaudio.play(1)
+   
+            // Used to determine the closest collision contact point to the world camera.
+            //let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
+            this.ballPathScript.appendScore()
+            this.ballPathScript.resetBall()
+        //}
     }
     
 }

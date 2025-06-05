@@ -26,7 +26,6 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    arcContainer: false
     backboardaudio: false
     ballObject: false
     bounce1audio: false
@@ -37,7 +36,12 @@
     dragObject: false
     gameContainer: false
     highScoreText: false
+    hole0: false
+    hole1: false
+    hole2: false
+    hole3: false
     meshVisual: false
+    putterContainer: false
     t0Object: false
     t1Object: false
     t2Object: false
@@ -70,7 +74,6 @@
       t7Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       t8Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      arcContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       bounce1audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       bounce2audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       bounce3audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
@@ -80,10 +83,19 @@
       timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       t9Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       clubObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hole0: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hole1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hole2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hole3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      putterContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
+    - // @input SceneObject hole0
+    - // @input SceneObject hole1
+    - // @input SceneObject hole2
+    - // @input SceneObject hole3
     - // @input Component.Text currentScoreText
     - // @input Component.Text highScoreText
     - // @input Component.Text timerText
@@ -94,7 +106,7 @@
     - '// @input Asset.Material targetOutlineMaterial {"hint":"This is the material that will provide the mesh outline"}'
     - // @input Component.RenderMeshVisual meshVisual
     - // @input SceneObject gameContainer
-    - // @input SceneObject arcContainer
+    - // @input SceneObject putterContainer
     - // @input SceneObject dragObject
     - // @input SceneObject targetObject
     - // @input SceneObject ballObject

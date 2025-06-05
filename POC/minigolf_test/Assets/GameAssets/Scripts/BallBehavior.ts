@@ -4,7 +4,7 @@ import { SIK } from "SpectaclesInteractionKit/SIK";
 // import { Buffer } from "Scripts/Utils/Buffer";
 import { InteractorEvent } from "SpectaclesInteractionKit/Core/Interactor/InteractorEvent";
 import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/Interactor/Interactor";
-import {BallArcBehavior} from "./BallArcBehavior"
+import {BallPathBehavior} from "./BallPathBehavior"
 /**
  * @component
  * @class BallBehavior
@@ -19,7 +19,7 @@ export class BallBehavior extends BaseScriptComponent {
     arcContainer!: SceneObject
 
     @input 
-    ballArcScript!: BallArcBehavior
+    ballPathScript!: BallPathBehavior
 
     physicsBody: BodyComponent
     protected OBJECT_MASS = 0.056
@@ -46,7 +46,7 @@ export class BallBehavior extends BaseScriptComponent {
         let closestHit = null;
         let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
         let hitObject: SceneObject = null
-        /*
+        
         e.collision.contacts.forEach(contact => {
             // Update closest collision point for reference if none is set,
             // or if this contact is closer to the camera.
@@ -62,16 +62,15 @@ export class BallBehavior extends BaseScriptComponent {
 
             // If we hit something that isn't another ball and the collision impulse is big enough,
             // we play a sound.
-            //if (collision.collider.getSceneObject().name.indexOf("Ball") < 0 && contact.impulse > 0.1) {
-                //shouldPlayAudio = true
-            //}
+            if (collision.collider.getSceneObject().name.indexOf("Wall") > -1 && contact.impulse > 0.6) {
+                this.ballPathScript.collisionBall()
+            }
         })
-        */
-
-        this.ballArcScript.collisionBall()
 
         //if (shouldPlayAudio) {
             //this.audio.play(1)
-        //}
+            //this.ballPathScript.collisionBall()
+       // }
+        
     }
 }

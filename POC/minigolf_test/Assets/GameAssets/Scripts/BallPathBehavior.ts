@@ -1,7 +1,6 @@
 import { Interactable } from "SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable";
 import WorldCameraFinderProvider from "SpectaclesInteractionKit/Providers/CameraProvider/WorldCameraFinderProvider";
 import { SIK } from "SpectaclesInteractionKit/SIK";
-
 import { InteractorEvent } from "SpectaclesInteractionKit/Core/Interactor/InteractorEvent";
 import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/Interactor/Interactor";
 
@@ -9,7 +8,7 @@ import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/I
 
 /**
  * @component
- * @class BallArcBehavior
+ * @class BallPathBehavior
  *
  * This component controls the behavior of a "ball arc" object in an interactive
  * AR scene. It uses physics and interaction handlers to simulate picking up the ball,
@@ -18,7 +17,23 @@ import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/I
  * object if it falls below a certain Y-threshold (representing "ground").
  */
 @component
-export class BallArcBehavior extends BaseScriptComponent {
+export class BallPathBehavior extends BaseScriptComponent {
+    
+    /**
+     * @input
+     * Course Hole Numbers
+    */
+    @input
+    hole0!: SceneObject
+
+    @input
+    hole1!: SceneObject
+
+    @input
+    hole2!: SceneObject
+    
+    @input
+    hole3!: SceneObject
     
     /**
      * @input
@@ -61,7 +76,7 @@ export class BallArcBehavior extends BaseScriptComponent {
     gameContainer!: SceneObject
 
     @input
-    arcContainer!: SceneObject
+    putterContainer!: SceneObject
 
     @input
     dragObject!: SceneObject
@@ -229,10 +244,10 @@ export class BallArcBehavior extends BaseScriptComponent {
         this.currentScoreText.text = this.currentScoreVal.toString()
         this.highScoreText.text = this.highScoreVal.toString()
         this.timerText.text = this.timerVal.toString()
-        this.restartTimer()
         */
         // 
-        this.setRandomBallArc()
+        this.showCourse0()
+        this.setRandomBallPlacement()
         this.gamestate = "playerAim"
     }
 
@@ -240,6 +255,47 @@ export class BallArcBehavior extends BaseScriptComponent {
         this.internalStartTime = Math.floor(getTime())
     }
 
+    showCourse0(){
+        this.hole0.enabled = true
+        this.hole1.enabled = false
+        this.hole2.enabled = false
+        this.hole3.enabled = false
+        // set initial ball + club position
+        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
+        let startZ = Math.floor(Math.random() * -5) - 65
+        this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
+    }
+    showCourse1(){
+        this.hole0.enabled = false
+        this.hole1.enabled = true
+        this.hole2.enabled = false
+        this.hole3.enabled = false
+        // set initial ball + club position
+        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
+        let startZ = Math.floor(Math.random() * -5) - 65
+        this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
+    }
+    showCourse2(){
+        this.hole0.enabled = false
+        this.hole1.enabled = false
+        this.hole2.enabled = true
+        this.hole3.enabled = false
+        // set initial ball + club position
+        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
+        let startZ = Math.floor(Math.random() * -5) - 65
+        this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
+    }
+    showCourse3(){
+        this.hole0.enabled = false
+        this.hole1.enabled = false
+        this.hole2.enabled = false
+        this.hole3.enabled = true
+        // set initial ball + club position
+        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
+        let startZ = Math.floor(Math.random() * -5) - 65
+        this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
+    }
+    
     /**
      * Called when the ball collides with another object.
      * Plays a sound if it collides with a non-ball object with sufficient force.
@@ -274,10 +330,12 @@ export class BallArcBehavior extends BaseScriptComponent {
                 //shouldPlayAudio = true
             //}
         })
+        /*
         this.bounceCounter++
         if (this.bounceCounter>3){
             this.resetBall()
         }
+        */
         //if (shouldPlayAudio) {
             //this.audio.play(1)
         //}
@@ -382,7 +440,7 @@ export class BallArcBehavior extends BaseScriptComponent {
                 this.gamestate ="playerAim"
             } 
         }
-
+        
         if (this.gamestate == "playerAim"){
             this.displayStroke()
         }
@@ -435,7 +493,7 @@ export class BallArcBehavior extends BaseScriptComponent {
         if (dragDistance>22){
             dragDistance = 22   
         }
-        this.ballPower = dragDistance * 3.5
+        this.ballPower = dragDistance * 6
         
         this.ballAngle = this.calculateAngle(this.dragObject.getTransform().getWorldPosition(), this.t1Object.getTransform().getWorldPosition()) 
         
@@ -454,6 +512,9 @@ export class BallArcBehavior extends BaseScriptComponent {
     }
 
     public collisionBall(){
+        print("audio collision")
+        this.bounce1audio.play(1)
+        
         /*
         if (this.ballObject.getTransform().getLocalPosition().y < 2){
             this.bounceCounter++
@@ -470,9 +531,14 @@ export class BallArcBehavior extends BaseScriptComponent {
                 this.resetBall()
             }
         }else{
-            this.backboardaudio.play(1)
+            
         }
         */
+    }
+    
+    public getBallVelocity() : number {
+        let currentVelocity = Math.sqrt((this.ballObject.getComponent("Physics.BodyComponent").velocity.x*this.ballObject.getComponent("Physics.BodyComponent").velocity.x) + (this.ballObject.getComponent("Physics.BodyComponent").velocity.z * this.ballObject.getComponent("Physics.BodyComponent").velocity.z))
+        return currentVelocity
     }
     
     /**
@@ -526,7 +592,7 @@ export class BallArcBehavior extends BaseScriptComponent {
     resetBall(){
 
         // Random Test
-        this.setRandomBallArc()
+        this.setRandomBallPlacement()
         this.bounceCounter = 0
 
         // Reset Initial Ball Position
@@ -556,14 +622,14 @@ export class BallArcBehavior extends BaseScriptComponent {
         }
     }
     /**
-    * Creates the random and ball arc distance and angle
+    * Creates the random ball position
     * */
-    setRandomBallArc(){
+    setRandomBallPlacement(){
         
-        let randomDistance1 = Math.floor(Math.random() * 20) - Math.floor(Math.random() * 20) 
+        let randomDistance1 = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
         let randomDistance2 = Math.floor(Math.random() * -5) - 65
         // 
-        this.arcContainer.getTransform().setLocalPosition(new vec3(randomDistance1,0,randomDistance2))
+        this.putterContainer.getTransform().setLocalPosition(new vec3(randomDistance1,0,randomDistance2))
         
     }
 

@@ -1,9 +1,10 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1136
+    size: 1285
     values:
       - Base.png
+      - Cone.mesh
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
@@ -12,6 +13,7 @@ CollapsedEntities:
       - GameAssets/AlcoveCourse.glb/.hidden
       - "GameAssets/AlcoveCourse.glb/.hidden/Material #264"
       - GameAssets/AlcoveCourse.glb/AlcoveCourse
+      - GameAssets/AlcoveCourse.glb/Materials
       - "GameAssets/AlcoveCourse.glb/Materials/Material #264"
       - "GameAssets/AlcoveCourse.glb/Materials/Material #266"
       - "GameAssets/AlcoveCourse.glb/Materials/Material #267"
@@ -25,6 +27,7 @@ CollapsedEntities:
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 4
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 5
       - GameAssets/AlcoveCourse.glb/Meshes/Mesh 6
+      - GameAssets/AlcoveCourse.glb/Textures
       - GameAssets/AlcoveCourse.glb/Textures/texture
       - GameAssets/AlcoveCourse.glb/Textures/texture 3
       - GameAssets/AlcoveCourse.glb/Textures/texture 5
@@ -63,6 +66,17 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Cube__0
       - GameAssets/GolfCourseAssets/Holly.glb/Meshes/Text_Material.001_0
       - GameAssets/GolfCourseAssets/bumper_car.glb
+      - GameAssets/GolfCourseAssets/bumper_car.glb/.hidden
+      - GameAssets/GolfCourseAssets/bumper_car.glb/.hidden/bumpercar
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Materials
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Materials/bumpercar
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Meshes
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Meshes/bumpercar_bumpercar_0
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Textures
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Textures/texture
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Textures/texture 3
+      - GameAssets/GolfCourseAssets/bumper_car.glb/Textures/texture 6
+      - GameAssets/GolfCourseAssets/bumper_car.glb/bumper_car
       - GameAssets/GolfCourseAssets/course_01.glb
       - GameAssets/GolfCourseAssets/course_01.glb/.hidden
       - GameAssets/GolfCourseAssets/course_01.glb/.hidden/Brown
@@ -167,6 +181,19 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.079
       - GameAssets/GolfCourseAssets/course_04.glb/Meshes/Plane1.080
       - GameAssets/GolfCourseAssets/course_04.glb/course_04
+      - GameAssets/GolfCourseAssets/flag.glb
+      - GameAssets/GolfCourseAssets/flag.glb/.hidden
+      - GameAssets/GolfCourseAssets/flag.glb/.hidden/RedFlag
+      - GameAssets/GolfCourseAssets/flag.glb/Materials
+      - GameAssets/GolfCourseAssets/flag.glb/Materials/RedFlag
+      - GameAssets/GolfCourseAssets/flag.glb/Materials/RedWhite
+      - GameAssets/GolfCourseAssets/flag.glb/Meshes
+      - GameAssets/GolfCourseAssets/flag.glb/Meshes/Mesh_2
+      - GameAssets/GolfCourseAssets/flag.glb/Meshes/Mesh_21
+      - GameAssets/GolfCourseAssets/flag.glb/Textures
+      - GameAssets/GolfCourseAssets/flag.glb/Textures/Image_3
+      - GameAssets/GolfCourseAssets/flag.glb/Textures/Image_4
+      - GameAssets/GolfCourseAssets/flag.glb/flag
       - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb
       - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden
       - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden/Mastodon
@@ -201,6 +228,143 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures/texture 3
       - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/low_poly_columbian_mammoth_mammuthus_columbi
       - GameAssets/GolfCourseAssets/magicwheel.glb
+      - GameAssets/GolfCourseAssets/magicwheel.glb/.hidden
+      - GameAssets/GolfCourseAssets/magicwheel.glb/.hidden/UnUsed
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Animations
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Animations/Take 001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Materials
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Materials/UnUsed
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Materials/lambert1
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat13_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat14_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat15_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat16_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat17_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat18_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat19_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat20_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat21_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat22_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat23_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/Seat24_UnUsed_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube107_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube124_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube131_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube132_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube152_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube153_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube154_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube155_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube156_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube157_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube158_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube159_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube160_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube161_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube43_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube53_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube70_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube76_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube85_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.001
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.002
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.003
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.004
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.005
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.006
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.007
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.008
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.009
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.010
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCube86_lambert1_0.011
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Meshes/pCylinder97_lambert1_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_0
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_1
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_2
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_3
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_4
+      - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_5
+      - GameAssets/GolfCourseAssets/magicwheel.glb/magicwheel
       - GameAssets/GolfCourseAssets/pier.glb
       - GameAssets/GolfCourseAssets/pier.glb/.hidden
       - GameAssets/GolfCourseAssets/pier.glb/.hidden/material_0
@@ -253,26 +417,15 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/wood.glb/wood
       - GameAssets/ImageMaterial.mat
       - GameAssets/PBR
-      - GameAssets/PBR/PBR 10.mat
-      - GameAssets/PBR/PBR 2.mat
-      - GameAssets/PBR/PBR 3.mat
-      - GameAssets/PBR/PBR 4.mat
-      - GameAssets/PBR/PBR 5.mat
-      - GameAssets/PBR/PBR 6.mat
-      - GameAssets/PBR/PBR 7.mat
-      - GameAssets/PBR/PBR 8.mat
-      - GameAssets/PBR/PBR 9.mat
-      - GameAssets/PBR/PBR.mat
-      - GameAssets/PBR/pbr.ss_graph
       - GameAssets/Physics
       - GameAssets/Physics/Basketball Matter.matter
       - GameAssets/Physics/Floor Matter.matter
       - GameAssets/Physics/Physics World Settings.worldSettings
-      - GameAssets/Scripts
-      - GameAssets/Scripts/BallArcBehavior.ts
       - GameAssets/Scripts/BallBehavior.ts
+      - GameAssets/Scripts/BallPathBehavior.ts
       - GameAssets/Scripts/CountdownTimer.ts
       - GameAssets/Scripts/HoleBehavior.ts
+      - GameAssets/Sounds
       - GameAssets/Sounds/applause_heavy.mp3
       - GameAssets/Sounds/applause_light.mp3
       - GameAssets/Sounds/applause_med.mp3
@@ -290,7 +443,6 @@ CollapsedEntities:
       - GameAssets/Sounds/swish.mp3
       - GameAssets/Sounds/water.mp3
       - GameAssets/Sphere.mesh
-      - GameAssets/court.png
       - GameAssets/golf_ball_lp.glb
       - GameAssets/golf_ball_lp.glb/.hidden
       - GameAssets/golf_ball_lp.glb/.hidden/lambert2SG
@@ -301,12 +453,20 @@ CollapsedEntities:
       - GameAssets/golf_ball_lp.glb/Textures
       - GameAssets/golf_ball_lp.glb/Textures/texture
       - GameAssets/golf_ball_lp.glb/golf_ball_lp
-      - GameAssets/half-court.png
+      - GameAssets/logos
+      - GameAssets/logos/MITRH.png
+      - GameAssets/logos/awe.png
+      - GameAssets/logos/black.png
+      - GameAssets/logos/lens studio.png
+      - GameAssets/logos/snapAR.png
+      - GameAssets/logos/snapchat-logo.png
+      - GameAssets/logos/spectacles.png
       - GameAssets/putter.glb
       - GameAssets/putter.glb/.hidden
       - GameAssets/putter.glb/.hidden/standardSurface1
       - GameAssets/putter.glb/Materials
       - GameAssets/putter.glb/Materials/standardSurface1
+      - GameAssets/putter.glb/Meshes
       - GameAssets/putter.glb/Meshes/pCube2_standardSurface1_0
       - GameAssets/putter.glb/Textures
       - GameAssets/putter.glb/Textures/texture
@@ -314,21 +474,14 @@ CollapsedEntities:
       - GameAssets/putter.glb/Textures/texture 6
       - GameAssets/putter.glb/Textures/texture 8
       - GameAssets/putter.glb/putter
-      - PBR 2.mat
-      - PBR 3.mat
-      - PBR 4.mat
-      - PBR 5.mat
-      - PBR 6.mat
-      - PBR.mat
+      - Image 2.mat
+      - Image.mat
       - Render Target.renderTarget
       - Scene.scene
-      - SpectaclesInteractionKit
-      - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerStartAudioTrack.wav
-      - SpectaclesInteractionKit/Assets/Materials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
       - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
@@ -372,7 +525,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Materials/ScaleBasedTargetOutline.mat
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarButton.mat
       - SpectaclesInteractionKit/Assets/Materials/ScrollBarSlider.mat
-      - SpectaclesInteractionKit/Assets/Materials/SimplePBRMaterial.mat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonDarkDefault.mat
       - SpectaclesInteractionKit/Assets/Materials/SliderMat/PinchButtonOnSelect.mat
@@ -403,7 +555,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Meshes/SnapGhost_Mesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/SphereMesh.mesh
       - SpectaclesInteractionKit/Assets/Meshes/Uncheck.mesh
-      - SpectaclesInteractionKit/Assets/Shaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerHighlight.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
@@ -443,7 +594,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOff.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOn.ss_graph
       - SpectaclesInteractionKit/Assets/Shaders/ToggleOnSelect.ss_graph
-      - SpectaclesInteractionKit/Assets/Shaders/simple_pbr.ss_graph
       - SpectaclesInteractionKit/Assets/Textures
       - SpectaclesInteractionKit/Assets/Textures/2DBitmojiAvatar.png
       - SpectaclesInteractionKit/Assets/Textures/Base.png
@@ -904,7 +1054,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
-      - pbr.ss_graph
+      - flat.ss_graph
       - scoreboard
       - scoreboard/Assets
       - scoreboard/Assets/Materials
@@ -1138,5 +1288,4 @@ CollapsedEntities:
       - scoreboard/SpectaclesSyncKit/SpectaclesInteractionKit/Utils/views/LineRenderer/LineMeshUtils.ts
       - scoreboard/SpectaclesSyncKit/SpectaclesInteractionKit/Utils/views/LineRenderer/LineRenderer.ts
       - scoreboard/SpectaclesSyncKit/SpectaclesInteractionKit/Utils/views/View.ts
-      - simple_pbr.ss_graph
   options: 4

@@ -55,9 +55,9 @@
   InstanceCount: 1
   Defines:
     - ENABLE_BASE_TEX
-    - ENABLE_NORMALMAP
     - ENABLE_LIGHTING
-  BlendMode: Disabled
+    - ENABLE_NORMALMAP
+  BlendMode: PremultipliedAlphaAuto
   Properties:
     Port_Center_N016:
       typeIdx: 3
@@ -74,7 +74,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: 28cce450-e626-45f4-9792-f8244c8e79df
+        id: ae628793-7e5d-48c9-bd5d-b18e513de294
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -110,7 +110,7 @@
     normalTex:
       typeIdx: 9
       value:
-        id: 7523d621-ca03-403e-ab43-4aa22f94c9fd
+        id: ae628793-7e5d-48c9-bd5d-b18e513de294
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat

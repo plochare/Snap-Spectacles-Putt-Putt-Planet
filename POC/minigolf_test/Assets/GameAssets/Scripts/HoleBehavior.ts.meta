@@ -26,17 +26,17 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    ballArcScript: false
-    swishaudio: false
+    ballPathScript: false
+    cupaudio: false
   ScriptTypesHidden:
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - ballArcScript: !<MappingBased.BallArcBehavior> 00000000-0000-0000-0000-000000000000
-      swishaudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+    - cupaudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      ballPathScript: !<MappingBased.BallPathBehavior> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    - // @input BallArcBehavior ballArcScript
-    - // @input Component.AudioComponent swishaudio
+    - // @input BallPathBehavior ballPathScript
+    - // @input Component.AudioComponent cupaudio
