@@ -2970,26 +2970,6 @@
     []
   Components:
     []
-- !<RenderMeshVisual/19572d08-035a-4085-8da6-d6fff9f032b6>
-  PrefabRemaps:
-    []
-  Name: Object_1
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 24adc469-f0d2-496b-a49b-74d0eb37392e
-  Mesh: !<reference> d46177ab-b2e8-4a07-b450-4bff484aa6ef
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/1957fced-f278-474c-b082-4728f0dc6e6d>
   PrefabRemaps:
     []
@@ -7121,26 +7101,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<RenderMeshVisual/3cc55fdb-fa71-4b5e-b424-63c82cf0983a>
-  PrefabRemaps:
-    []
-  Name: Basketball_mesh_Basketball_mat_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> ac7cc638-a4c9-493f-b748-48f8ebdbd35c
-  Mesh: !<reference> 0dd1bb20-ceda-4370-89e3-4fcf11c263c5
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/3cc593b0-5dcc-4915-8cf6-865d626474b1>
   PrefabRemaps:
     []
@@ -7535,13 +7495,17 @@
       hole1: !<reference.SceneObject> e35d898d-3680-49e8-832b-270ef5a97d4e
       hole2: !<reference.SceneObject> cbdaf61f-5d43-4400-92e6-702a27e70437
       hole3: !<reference.SceneObject> a52abad8-0073-47c5-9d2a-b130c553b4d5
+      UIprompt: !<reference.SceneObject> 601acf99-ac7c-40e8-a9ec-5a7988747826
       currentScoreText: !<reference.Text> 4be77817-9cec-4296-aa6b-54e40db56c90
       highScoreText: !<reference.Text> 0a43f2b5-10a8-4983-98bb-9b2c360750f7
       timerText: !<reference.Text> 39d2d459-33cd-4f9c-ad3d-81e2f30a8b62
-      bounce1audio: !<reference.AudioComponent> abf26301-cb65-4434-b2ac-c30bfd1bfff0
-      bounce2audio: !<reference.AudioComponent> 3d9e5283-4041-4197-badf-152ef3de02c7
-      bounce3audio: !<reference.AudioComponent> 0c738746-1c36-48c2-96c1-4902ba5f311f
-      backboardaudio: !<reference.AudioComponent> 4fe1330c-f835-49b7-835e-96218b5bf4b2
+      wallaudio: !<reference.AudioComponent> abf26301-cb65-4434-b2ac-c30bfd1bfff0
+      bumpaudio: !<reference.AudioComponent> 3d9e5283-4041-4197-badf-152ef3de02c7
+      erroraudio: !<reference.AudioComponent> 0c738746-1c36-48c2-96c1-4902ba5f311f
+      puttaudio: !<reference.AudioComponent> 4fe1330c-f835-49b7-835e-96218b5bf4b2
+      clap0audio: !<reference.AudioComponent> 6f32e6ed-9b8b-4df6-b941-e62bc23cac4c
+      clap1audio: !<reference.AudioComponent> a2e6ccf4-57aa-469b-ad16-6a469881a419
+      clap3audio: !<reference.AudioComponent> ab94cb87-9be7-4377-8cf8-a1a7d2aad7a2
       targetOutlineMaterial: !<reference.Material> d44061c5-5283-4be5-8967-10f911bf047c
       meshVisual: !<reference.RenderMeshVisual> 856b2918-d9d6-48e1-bc9e-1b6b131b60b1
       gameContainer: !<reference.SceneObject> bc854069-2c8c-44bb-bab9-816fe4137e81
@@ -9036,17 +9000,15 @@
   Enabled: true
   ScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
   ScriptInputsDefault:
-    editEventCallbacks: true
-    customFunctionForOnButtonPinched: true
-    onButtonPinchedFunctionNames: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      editEventCallbacks: false
-      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      editEventCallbacks: true
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 3ef80fe5-63d4-40bc-a33a-0e172ab83813
       onButtonPinchedFunctionNames: !<string[]>
-        []
+        - onNextHole
   ScriptTypes:
     "":
       {}
@@ -9545,22 +9507,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/4d4a6b21-6ee4-40d7-9c99-3d4968747f7b>
-  PrefabRemaps:
-    []
-  Name: BasketballModel
-  Enabled: false
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000001}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 0.026000, y: 0.026000, z: 0.026000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 644cf300-214d-4199-953f-fcab57f0a742
-    - !<own> 5fc9ddf9-6fa2-4d43-832c-fd14a6592a7d
-  Components:
-    []
 - !<SceneObject/4d591792-51d8-4ec9-b0c5-75eb809e3fbc>
   PrefabRemaps:
     []
@@ -11621,17 +11567,15 @@
   Enabled: true
   ScriptAsset: !<reference> a54c5722-d3fb-4aa5-97ff-f7425978bc59
   ScriptInputsDefault:
-    editEventCallbacks: true
-    customFunctionForOnButtonPinched: true
-    onButtonPinchedFunctionNames: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      editEventCallbacks: false
-      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      editEventCallbacks: true
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 3ef80fe5-63d4-40bc-a33a-0e172ab83813
       onButtonPinchedFunctionNames: !<string[]>
-        []
+        - onPlayHole
   ScriptTypes:
     "":
       {}
@@ -12108,21 +12052,6 @@
     - !<own> 6a096727-47ac-45d9-ab9f-1088d255d6d9
   Components:
     []
-- !<SceneObject/5fc9ddf9-6fa2-4d43-832c-fd14a6592a7d>
-  PrefabRemaps:
-    []
-  Name: Basketball2
-  Enabled: false
-  Layers: 1
-  LocalTransform:
-    position: {x: -0.000049, y: 0.000000, z: 0.000000}
-    rotation: {x: 90.000000, y: 59.999989, z: -0.000019}
-    scale: {x: 5.100000, y: 5.100000, z: 5.100000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 3cc55fdb-fa71-4b5e-b424-63c82cf0983a
 - !<ColliderComponent/600ed2da-29c5-4251-944c-8de50e8e1be9>
   PrefabRemaps:
     []
@@ -12145,7 +12074,7 @@
   PrefabRemaps:
     []
   Name: UIPrompt
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 10.000000, z: 90.000000}
@@ -12268,21 +12197,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/60f8235e-9041-4d81-8eb8-bef3b5898ae9>
-  PrefabRemaps:
-    []
-  Name: half
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 19572d08-035a-4085-8da6-d6fff9f032b6
 - !<SceneObject/61074161-697d-4025-8219-6d7166149076>
   PrefabRemaps:
     []
@@ -12696,21 +12610,6 @@
   ForceCompound: false
   Intangible: false
   ShowCollider: false
-- !<SceneObject/644cf300-214d-4199-953f-fcab57f0a742>
-  PrefabRemaps:
-    []
-  Name: basketball1
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: -19.000000, z: 0.000000}
-    rotation: {x: -90.000008, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 60f8235e-9041-4d81-8eb8-bef3b5898ae9
-  Components:
-    - !<own> eaf76b76-9a03-4016-b25a-92e47ae968da
 - !<SceneObject/6461b80e-c34f-4f5a-9119-cd0def860d5c>
   PrefabRemaps:
     []
@@ -13447,7 +13346,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -10.000000, z: -90.000000}
+    position: {x: 0.000000, y: -10.000000, z: -130.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -19822,7 +19721,7 @@
 - !<SceneObject/9d5ee296-b32b-46b5-bb3c-7f676a1d04ed>
   PrefabRemaps:
     []
-  Name: StartButton
+  Name: NextButton
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -21040,7 +20939,7 @@
     - fc8737b2-69c9-45ed-afd5-0f888b1bd231: d421629d-6daf-43e6-9b83-e418c14ec4a9
     - fcb1bf90-29d9-44f5-af7e-d27eef1b6b8b: 952b7b9e-0eb1-4279-8562-f3b0a093ba07
   Name: course_03
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -2.300000, y: -51.400002, z: -66.000000}
@@ -25694,7 +25593,7 @@
     - e257ccce-25fc-44ed-886a-1669a63fe75c: 0608db80-970a-4de3-b50e-85c80e7136ff
     - ff5746f7-b949-4aa0-801f-63d0ac0b5055: 19eb2ff9-9dd2-4d6b-92e7-44a1eac8f1a4
   Name: course_02
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 2.000000, y: -51.400002, z: -62.000000}
@@ -28297,7 +28196,7 @@
     - f90f1dba-43fc-4d48-a438-cf194c618bc1: da4d9a27-d2e1-458c-b005-49511b122fad
     - ff5334cb-c0b4-430c-915d-6d904306ef5a: fd9f72a8-986a-44c6-822c-bf7e36585ee2
   Name: course_01
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -51.400002, z: -68.000000}
@@ -29101,26 +29000,6 @@
     - !<own> d98ae9eb-e73b-42bc-b853-cfc62c528431
   Components:
     []
-- !<RenderMeshVisual/eaf76b76-9a03-4016-b25a-92e47ae968da>
-  PrefabRemaps:
-    []
-  Name: Object_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 24adc469-f0d2-496b-a49b-74d0eb37392e
-  Mesh: !<reference> 4a4aae20-0980-421e-adc8-4dc970356675
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
 - !<SceneObject/eafdcfab-3b2d-450b-9208-de5ea77cfaf8>
   PrefabRemaps:
     []
@@ -30517,7 +30396,6 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 66019b01-55a8-4850-bca3-1d17438925d0
-    - !<own> 4d4a6b21-6ee4-40d7-9c99-3d4968747f7b
   Components:
     - !<own> e8a15e5f-c0a6-485f-bed5-4714d8542ab8
     - !<own> 1c7c29c9-455d-46dc-b9ba-c6a4a2b94507

@@ -418,7 +418,6 @@ CollapsedEntities:
       - GameAssets/ImageMaterial.mat
       - GameAssets/PBR
       - GameAssets/Physics
-      - GameAssets/Physics/Basketball Matter.matter
       - GameAssets/Physics/Floor Matter.matter
       - GameAssets/Physics/Physics World Settings.worldSettings
       - GameAssets/Scripts/BallBehavior.ts
@@ -478,6 +477,7 @@ CollapsedEntities:
       - Image.mat
       - Render Target.renderTarget
       - Scene.scene
+      - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
       - SpectaclesInteractionKit/Assets/Audio/TriggerEndAudioTrack.wav

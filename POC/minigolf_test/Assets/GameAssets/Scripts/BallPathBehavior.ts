@@ -10,7 +10,7 @@ import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/I
  * @component
  * @class BallPathBehavior
  *
- * This component controls the behavior of a "ball arc" object in an interactive
+ * This component controls the behavior of a "ball path" object in an interactive
  * AR scene. It uses physics and interaction handlers to simulate picking up the ball,
  * accumulating velocity/force based on hand gestures, and then launching the ball
  * into the scene. It also plays a sound effect upon collisions and removes the
@@ -37,6 +37,13 @@ export class BallPathBehavior extends BaseScriptComponent {
     
     /**
      * @input
+     * UI Prompts
+    */
+    @input
+    UIprompt!: SceneObject
+    
+    /**
+     * @input
      * Text Display Fields
     */
     @input
@@ -53,16 +60,25 @@ export class BallPathBehavior extends BaseScriptComponent {
      * Audio sound effects upon certain collisions.
      */
     @input
-    bounce1audio: AudioComponent
+    wallaudio: AudioComponent
 
     @input
-    bounce2audio: AudioComponent
+    bumpaudio: AudioComponent
 
     @input
-    bounce3audio: AudioComponent
+    erroraudio: AudioComponent
 
     @input
-    backboardaudio: AudioComponent
+    puttaudio: AudioComponent
+    
+    @input
+    clap0audio: AudioComponent
+    
+    @input
+    clap1audio: AudioComponent
+    
+    @input
+    clap3audio: AudioComponent
 
     @input
     @hint('This is the material that will provide the mesh outline')
@@ -210,8 +226,13 @@ export class BallPathBehavior extends BaseScriptComponent {
     private startPosition = new vec3(0.0, 0.0, 0.0)
     private endPosition = new vec3(0.0, 0.0, 0.0)
     public gamestate = 'initGame'
+    public currentCourseNumber = -1
 
     private intervalId = 0
+    
+    private holePar = [4, 4, 5]
+    private playerStrokes = [0, 0, 0]
+    private playerScore = 0
     
     /**
      * Called once when the component is initialized.
@@ -247,7 +268,8 @@ export class BallPathBehavior extends BaseScriptComponent {
         */
         // 
         this.showCourse0()
-        this.setRandomBallPlacement()
+        this.hideUIprompt()
+        //this.setRandomBallPlacement()
         this.gamestate = "playerAim"
     }
 
@@ -261,8 +283,8 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.hole2.enabled = false
         this.hole3.enabled = false
         // set initial ball + club position
-        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
-        let startZ = Math.floor(Math.random() * -5) - 65
+        let startX = 0
+        let startZ = -65
         this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
     }
     showCourse1(){
@@ -271,8 +293,8 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.hole2.enabled = false
         this.hole3.enabled = false
         // set initial ball + club position
-        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
-        let startZ = Math.floor(Math.random() * -5) - 65
+        let startX = 12
+        let startZ = -74
         this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
     }
     showCourse2(){
@@ -281,8 +303,8 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.hole2.enabled = true
         this.hole3.enabled = false
         // set initial ball + club position
-        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
-        let startZ = Math.floor(Math.random() * -5) - 65
+        let startX = 60
+        let startZ = -74
         this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
     }
     showCourse3(){
@@ -291,9 +313,69 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.hole2.enabled = false
         this.hole3.enabled = true
         // set initial ball + club position
-        let startX = Math.floor(Math.random() * 5) - Math.floor(Math.random() * 5) 
-        let startZ = Math.floor(Math.random() * -5) - 65
+        let startX = -17
+        let startZ = -72
         this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
+    }
+    
+    showUIprompt(){
+        this.UIprompt.enabled = true
+    }
+    
+    hideUIprompt(){
+        this.UIprompt.enabled = false
+    }
+    
+    onPlayHole(){
+        if (this.currentCourseNumber == -1){
+            this.showCourse0()
+            this.hideUIprompt()  
+        }
+        if (this.currentCourseNumber == 0){
+            this.showCourse1()
+            this.hideUIprompt()
+        }
+        if (this.currentCourseNumber == 1){
+            this.showCourse2()
+            this.hideUIprompt()
+        }
+        if (this.currentCourseNumber == 2){
+            this.showCourse3()
+            this.hideUIprompt()
+        }
+        // Reset Path Positions
+        this.dragObject.getComponent("Physics.BodyComponent").intangible = false
+        this.dragObject.getTransform().setLocalPosition(this.ballObject.getTransform().getLocalPosition())
+        //
+        this.showTrajectoryDots()
+        this.displayStroke() 
+        this.meshVisual.enabled = true
+        //
+        this.ballObject.enabled = true
+        //
+        this.t1Object.enabled = true
+        this.t2Object.enabled = true
+        this.t3Object.enabled = true
+        this.t4Object.enabled = true
+        this.t5Object.enabled = true
+        this.t6Object.enabled = true
+        this.t7Object.enabled = true
+        this.t8Object.enabled = true
+        this.t9Object.enabled = true
+        this.clubObject.enabled = true
+        //
+        this.gamestate = "playerAim"
+    }
+    
+    onNextHole(){
+        this.currentCourseNumber++
+        if (this.currentCourseNumber<3){
+            this.onPlayHole()
+        }else{
+            this.currentCourseNumber = 0
+            this.onPlayHole()
+            // OnRestartGame
+        }
     }
     
     /**
@@ -331,10 +413,6 @@ export class BallPathBehavior extends BaseScriptComponent {
             //}
         })
         /*
-        this.bounceCounter++
-        if (this.bounceCounter>3){
-            this.resetBall()
-        }
         */
         //if (shouldPlayAudio) {
             //this.audio.play(1)
@@ -372,6 +450,7 @@ export class BallPathBehavior extends BaseScriptComponent {
             this.endPosition = this.t1Object.getTransform().getLocalPosition()
             //
             this.hideTrajectoryDots()
+            this.playerStrokes[this.currentCourseNumber] = this.playerStrokes[this.currentCourseNumber] + 1
             this.gamestate = "playerSwing"
         }
         
@@ -445,7 +524,6 @@ export class BallPathBehavior extends BaseScriptComponent {
             this.displayStroke()
         }
         
-        
         if (this.gamestate == "playerSwing"){
             // golf club in motion  
             this.lerptime += 3 * getDeltaTime()
@@ -513,19 +591,19 @@ export class BallPathBehavior extends BaseScriptComponent {
 
     public collisionBall(){
         print("audio collision")
-        this.bounce1audio.play(1)
+        this.wallaudio.play(1)
         
         /*
         if (this.ballObject.getTransform().getLocalPosition().y < 2){
             this.bounceCounter++
             if (this.bounceCounter == 1){
-                this.bounce1audio.play(1)
+                this.wallaudio.play(1)
             }
             if (this.bounceCounter == 2){
-                this.bounce2audio.play(1)
+                this.bumpaudio.play(1)
             }
             if (this.bounceCounter == 3){
-                this.bounce3audio.play(1)
+                this.erroraudio.play(1)
             }
             if (this.bounceCounter>3){
                 this.resetBall()
@@ -586,8 +664,29 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.currentScoreText.text = this.currentScoreVal.toString()
     }
     
+    hideBall(){
+        // Reset Initial Ball Position
+        this.ballObject.getComponent("Physics.BodyComponent").dynamic = false
+        this.ballObject.getTransform().setLocalPosition(vec3.zero())
+        this.ballObject.getComponent("Physics.BodyComponent").velocity = vec3.zero()
+        //
+        this.dragObject.getComponent("Physics.BodyComponent").intangible = true
+        this.ballObject.enabled = false
+        //
+        this.t1Object.enabled = false
+        this.t2Object.enabled = false
+        this.t3Object.enabled = false
+        this.t4Object.enabled = false
+        this.t5Object.enabled = false
+        this.t6Object.enabled = false
+        this.t7Object.enabled = false
+        this.t8Object.enabled = false
+        this.t9Object.enabled = false
+        this.clubObject.enabled = false
+    }
+    
     /**
-     * Resets the ball and ball arc
+     * Resets the ball and ball path
      * */
     resetBall(){
 
@@ -599,7 +698,7 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.ballObject.getComponent("Physics.BodyComponent").dynamic = false
         this.ballObject.getTransform().setLocalPosition(vec3.zero())
         this.ballObject.getComponent("Physics.BodyComponent").velocity = vec3.zero()
-        // Reset Arc Positions
+        // Reset Path Positions
         this.dragObject.getComponent("Physics.BodyComponent").intangible = false
         this.dragObject.getTransform().setLocalPosition(this.ballObject.getTransform().getLocalPosition())
         //this.dragObject.getTransform().setLocalPosition(new vec3(0,10,0))
@@ -610,16 +709,28 @@ export class BallPathBehavior extends BaseScriptComponent {
     }
 
     /**
-     * AppendScore
+     * UpdateScoreboard 
      * */
-    appendScore(){
-        this.currentScoreVal++
-        this.currentScoreText.text = this.currentScoreVal.toString()
+    updateScoreboard(){
+        if (this.playerStrokes[this.currentCourseNumber] == this.holePar[this.currentCourseNumber]){
+           this.wallaudio.play(1)
+        }
+        if (this.playerStrokes[this.currentCourseNumber] < this.holePar[this.currentCourseNumber]){
+           this.wallaudio.play(1)
+        }
+        if (this.playerStrokes[this.currentCourseNumber] > this.holePar[this.currentCourseNumber]){
+            this.wallaudio.play(1)    
+        }
         //
+        this.playerScore = this.playerStrokes[0] + this.playerStrokes[1] + this.playerStrokes[2]
+        // this.currentScoreVal++
+        // this.currentScoreText.text = this.currentScoreVal.toString()
+        //
+        /*
         if (this.currentScoreVal>this.highScoreVal){
             this.highScoreVal = this.currentScoreVal
             this.highScoreText.text = this.highScoreVal.toString()
-        }
+        }*/
     }
     /**
     * Creates the random ball position

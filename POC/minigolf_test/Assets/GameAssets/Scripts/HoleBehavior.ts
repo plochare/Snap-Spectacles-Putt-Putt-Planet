@@ -39,8 +39,10 @@ export class HoleBehavior extends BaseScriptComponent {
    
             // Used to determine the closest collision contact point to the world camera.
             //let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
-            this.ballPathScript.appendScore()
-            this.ballPathScript.resetBall()
+            this.ballPathScript.gamestate = "holeFinish"
+            this.ballPathScript.updateScoreboard()
+            this.ballPathScript.hideBall()
+            this.ballPathScript.showUIprompt()
         //}
     }
     
