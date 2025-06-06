@@ -31,7 +31,7 @@
     bumpaudio: false
     clap0audio: false
     clap1audio: false
-    clap3audio: false
+    clap2audio: false
     clubObject: false
     currentScoreText: false
     dragObject: false
@@ -95,7 +95,7 @@
       puttaudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       clap0audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       clap1audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
-      clap3audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      clap2audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -114,7 +114,7 @@
     - // @input Component.AudioComponent puttaudio
     - // @input Component.AudioComponent clap0audio
     - // @input Component.AudioComponent clap1audio
-    - // @input Component.AudioComponent clap3audio
+    - // @input Component.AudioComponent clap2audio
     - '// @input Asset.Material targetOutlineMaterial {"hint":"This is the material that will provide the mesh outline"}'
     - // @input Component.RenderMeshVisual meshVisual
     - // @input SceneObject gameContainer

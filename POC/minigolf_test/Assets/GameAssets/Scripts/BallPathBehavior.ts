@@ -18,7 +18,7 @@ import { Interactor, InteractorInputType } from "SpectaclesInteractionKit/Core/I
  */
 @component
 export class BallPathBehavior extends BaseScriptComponent {
-    
+   
     /**
      * @input
      * Course Hole Numbers
@@ -78,7 +78,7 @@ export class BallPathBehavior extends BaseScriptComponent {
     clap1audio: AudioComponent
     
     @input
-    clap3audio: AudioComponent
+    clap2audio: AudioComponent
 
     @input
     @hint('This is the material that will provide the mesh outline')
@@ -327,6 +327,8 @@ export class BallPathBehavior extends BaseScriptComponent {
     }
     
     onPlayHole(){
+        //
+        
         if (this.currentCourseNumber == -1){
             this.showCourse0()
             this.hideUIprompt()  
@@ -375,6 +377,8 @@ export class BallPathBehavior extends BaseScriptComponent {
             this.currentCourseNumber = 0
             this.onPlayHole()
             // OnRestartGame
+            this.playerStrokes = [0, 0, 0]
+            this.playerScore = 0
         }
     }
     
@@ -509,7 +513,7 @@ export class BallPathBehavior extends BaseScriptComponent {
     onUpdate() {
         
         if (this.gamestate == "ballMove"){
-            if (Math.abs(this.ballObject.getComponent("Physics.BodyComponent").velocity.x)<0.01 && Math.abs(this.ballObject.getComponent("Physics.BodyComponent").velocity.z)<0.01){
+            if (Math.abs(this.ballObject.getComponent("Physics.BodyComponent").velocity.x)<0.1 && Math.abs(this.ballObject.getComponent("Physics.BodyComponent").velocity.z)<0.1){
                 this.showTrajectoryDots()
                 this.displayStroke()
                 this.ballObject.getComponent("Physics.BodyComponent").dynamic = false
@@ -553,12 +557,12 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.ballObject.getComponent("Physics.BodyComponent").dynamic = true
         this.ballObject.getComponent("Physics.BodyComponent").velocity = new vec3(velx,0,velz)
     }
-    
+   
     displayStroke(){
         const dragpoint = this.dragObject.getTransform().getLocalPosition()
         const startpoint = this.t1Object.getTransform().getLocalPosition()
         const startWorldPoint = this.t1Object.getTransform().getWorldPosition()
-        this.dragObject.getTransform().setLocalPosition(new vec3(dragpoint.x, 0, dragpoint.z))
+        this.dragObject.getTransform().setLocalPosition(new vec3(dragpoint.x, this.ballObject.getTransform().getLocalPosition().y, dragpoint.z))
         //
         
         let dragDistz = dragpoint.z - startpoint.z
@@ -713,13 +717,13 @@ export class BallPathBehavior extends BaseScriptComponent {
      * */
     updateScoreboard(){
         if (this.playerStrokes[this.currentCourseNumber] == this.holePar[this.currentCourseNumber]){
-           this.wallaudio.play(1)
+           this.clap0audio.play(1)
         }
         if (this.playerStrokes[this.currentCourseNumber] < this.holePar[this.currentCourseNumber]){
-           this.wallaudio.play(1)
+           this.clap1audio.play(1)
         }
         if (this.playerStrokes[this.currentCourseNumber] > this.holePar[this.currentCourseNumber]){
-            this.wallaudio.play(1)    
+            this.clap2audio.play(1)    
         }
         //
         this.playerScore = this.playerStrokes[0] + this.playerStrokes[1] + this.playerStrokes[2]
@@ -727,6 +731,7 @@ export class BallPathBehavior extends BaseScriptComponent {
         // this.currentScoreText.text = this.currentScoreVal.toString()
         //
         /*
+        
         if (this.currentScoreVal>this.highScoreVal){
             this.highScoreVal = this.currentScoreVal
             this.highScoreText.text = this.highScoreVal.toString()
