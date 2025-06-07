@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/2cff89ce-e301-4e4f-87c6-491cff70cb48>
+- !<AssetImportMetadata/b9ef815f-2b37-4c32-beff-8ae539f90140>
   ImportedAssetIds:
-    ShaderGraph: !<reference> 5c214d36-113a-4d5f-98c7-9748f99cc69e
+    ShaderGraph: !<reference> 4c67260f-f8ea-426b-a78e-685ea0777365
   ImporterName: ShaderGraphPassImporter
-  PrimaryAsset: !<reference> 5c214d36-113a-4d5f-98c7-9748f99cc69e
+  PrimaryAsset: !<reference> 4c67260f-f8ea-426b-a78e-685ea0777365
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:

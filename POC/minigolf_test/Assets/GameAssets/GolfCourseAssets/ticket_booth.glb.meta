@@ -1,0 +1,2372 @@
+- !<AssetImportMetadata/9450c99e-bcdb-4822-8f3d-ce9dafb9f13c>
+  ImportedAssetIds:
+    .hidden/lambert10: !<reference> e1c94fc1-e7b8-421c-b186-e2143c7da32a
+    040e1ca97b7064c7: !<reference> 1034094e-3e51-426a-839d-bd7f66b289e4
+    056ffe7f598e9c36: !<reference> 5fe1c6bb-7b78-46f7-9891-f9ac7d941ca0
+    0701dd8f0d502314: !<reference> ebf93b27-f20f-41d0-936f-fd95439ead66
+    0ef75f6aefb038a1: !<reference> 6c35ad85-13a4-446a-b61c-692cf52ff773
+    0fee508031cee673: !<reference> 5fbc36c8-6a98-4b1c-a82e-28a27f8b5c88
+    1038ed92abc04fd6: !<reference> ae4a92b1-d6cb-46e7-a822-6954831a0e86
+    14025849dc2cccd8: !<reference> e08e3bbb-b675-4348-9c31-d51200ff4c61
+    15a7ec74d45fe1e6: !<reference> bdd5c3d1-692c-4444-af28-958d202bc5ce
+    15ed21ad78f4fd10: !<reference> 824d3429-7a68-49bf-86a7-0cc02cabf56a
+    167aae5e534548a1: !<reference> 4ed3ad3c-953b-4323-859c-63a63f39b2d2
+    167b5412c72395de: !<reference> 2cae697d-5b5f-48da-8d12-518187c2f748
+    16d20f0ffcbbe11f: !<reference> f93677a1-ae38-4226-afac-25fc3dd35032
+    17e3243318d0e7ce: !<reference> 3b5d2c12-e77c-44e3-b989-744d64cd7236
+    188de3a9221becd2: !<reference> 44297c89-b406-4e51-bb4b-13f901d1f6d7
+    19a89e81efa56fe3: !<reference> c0c96ae0-c0d9-4157-98b4-b6d5ceb37ae4
+    1a07feceddc860c1: !<reference> bf396b54-9aa0-4727-ab7d-04eb7a7f1cde
+    1af3fd176a85204d: !<reference> 74e1478c-cadd-4787-8f38-708bdf6500cd
+    1dfbc1b69a52a2fd: !<reference> 6f39998f-3a25-48bc-9612-d2f55600570e
+    1ee2bcbb47b0154e: !<reference> da07fbb3-8b66-4aba-90a3-1adcec54256d
+    1faf2979ce74ab25: !<reference> 76a65717-9027-4128-9e64-5ecf9ce95355
+    20c433c14755c64b: !<reference> 73fbc906-53c1-43d0-9159-40f80c4f6a1d
+    22008f11eda03768: !<reference> 933fb313-7742-475b-8674-b0a72a7f813a
+    22077b174c9298f5: !<reference> c4b4b823-7d19-41e3-a2b0-eaa5a86cf4aa
+    23b892c5ba4a8b98: !<reference> 1a8838e6-62a7-4f40-b46e-36abbd25dfd0
+    24b520fd7f3dde52: !<reference> 7614bb24-2838-4b71-b0a2-19afbd1664d6
+    24be004d62b90e94: !<reference> 3a2e97e3-4833-4576-b5fe-0877b31d1410
+    2d5041aaa10a50e4: !<reference> 9597875a-ce54-44e6-866c-ed769c398d96
+    2e938cfe87eaec38: !<reference> ec9d4311-6353-46d5-a243-1d5316a5c779
+    3420eff9cbe6aa85: !<reference> c4a58f16-0fb2-401c-a98e-fc6cd2accf80
+    361500d1070208f3: !<reference> ba22f0ad-c4a9-443a-8bfb-c2a4cb2a2ce0
+    3bbdbe8683835f0e: !<reference> 89916afa-b6b4-435a-a429-098f3167c702
+    3dd747c9edd49ec7: !<reference> 7ba3c0d4-6a01-4c23-9c06-53b21a0cee99
+    40a3f31378580894: !<reference> 8e54d8a1-23d7-43e2-820c-3b5f8c6b95bc
+    45f98dfdfcec32c2: !<reference> 0feaef6b-b4ae-497b-8c34-8faf05b514ca
+    49ce7e976e8ad055: !<reference> c456df42-5be4-4138-af09-6a67c2a12d89
+    4a3e924fad0e2f27: !<reference> 4eddac22-6323-4b39-876e-f4a9bb7031cc
+    4a439bfa655c2f58: !<reference> 529a70d5-68b1-4672-8496-d0be43e9171d
+    4ee91ad966498ac4: !<reference> 5291ba60-c0ec-429a-a079-83885cfa88f6
+    5456cd091e7655cc: !<reference> 904e6d66-5b43-4a7f-8ca5-89452ccfff33
+    57ea99c90175a21a: !<reference> 58f7ee45-1721-409a-adb3-4c601f9e1c3d
+    590d0b83af9efa3b: !<reference> 5553c131-921c-4509-a3b8-fa58f3f47807
+    594399108af1b4c1: !<reference> 335e0575-6ebf-48be-9750-ff83eb11f335
+    599dd26d17af89ce: !<reference> 3d2d76d3-1b72-48b0-9f42-581918a1ef72
+    5b02fe596eac4ffa: !<reference> f2fe55cb-d0e3-43bb-8f00-c1213761bbed
+    5eab48ce5dd51213: !<reference> bcd79992-f458-45bb-899c-bfeaec4da667
+    6649fd6177d84219: !<reference> cc468a99-c9a0-4bbf-bd3c-015606c079da
+    66780cf3a4dcb2b8: !<reference> fa9e620d-9a77-4d2e-8e89-915df8c45f60
+    667a71d97d582511: !<reference> 85f39348-0891-4fe5-8644-e4a29f719b9b
+    672e3d655db107f4: !<reference> 29580590-1f0e-44b6-935d-5eabb4506d9a
+    6816756f61550465: !<reference> 48cdb187-bbff-4696-b58a-0b1e026c4db3
+    68f03cd8cfc7b795: !<reference> f30ecca4-c5ec-4049-b56e-a83a3582c6a0
+    6af28438d49b5e1b: !<reference> 1fd6c31f-d496-425c-be46-d582727cdd45
+    6b14d91ffd1fbc66: !<reference> a9c2715c-a3b1-438a-8a9b-57bd113b09bd
+    6ce3a00bcf1b6458: !<reference> 25c0db62-82e4-4df2-8e19-a4330db23849
+    6d6fb8d846816e25: !<reference> 10971958-b6d2-4932-9c6c-89d98dbb7836
+    7005a43c9e0ba235: !<reference> c4951aee-a930-47c7-b1e9-4000b6d038d1
+    718dab2922697988: !<reference> 47031dcd-ee66-4693-80a5-98277f23f786
+    71fe7a901d29afd9: !<reference> c2836c70-57a6-42ef-a78c-675ff21eeed2
+    727eac7e33369762: !<reference> 6291e3e7-fdcf-4c41-b5ba-1d1e7be33fe6
+    7489a0679453422e: !<reference> bb69bcab-1d65-4c06-acb2-e8901795387c
+    768b0f47b3a9e63d: !<reference> 91131de9-1111-48ab-a4ab-0f349a35dc90
+    770e36e519ca5d0c: !<reference> 5f14ccc1-fdbb-4a66-81f5-7d8d4ce717d1
+    78fe40dabbd12f64: !<reference> eea4ccbe-8485-4cd0-8509-9a81fc451308
+    7c7bee3a0a85042d: !<reference> 355799b0-69b0-4b14-b2a8-7a1cadf7d409
+    7cff5079999cf3f4: !<reference> 41f11516-1510-42ad-91d7-d34fbc9c023f
+    7dba0e06fd18204d: !<reference> 4c7eed7c-c858-46a4-95af-1f871e7259a9
+    856b37f4488e3de0: !<reference> 35d1703a-58f9-4ad3-9436-b7b532968b77
+    8824001d7895a4d0: !<reference> ef7b79c3-53f8-47f1-b8bd-fb9725d3ec53
+    89156f825c86a268: !<reference> 5a2d17c4-45ae-4157-9f22-acc352687691
+    8c9935d43fee2226: !<reference> 6736f06c-0ea4-4c30-9b60-41755c961868
+    8cc004ff93d4b7dd: !<reference> 307f32c2-5e12-401a-a027-c1052330a8b5
+    97e2f26735007346: !<reference> 2397ac7e-f098-49e8-bbeb-b9c68ce3d516
+    9aa8f3b08eefef5d: !<reference> 87a4f55b-3a01-4918-9b50-263b19f98206
+    9aec0b01a5198b48: !<reference> 505646bb-ed33-47e6-9469-592b14aec92d
+    9c0144cc05f6dc09: !<reference> 11e31c11-9c3f-437f-8dac-4ff857347827
+    9e2cd1f3c5dcb95c: !<reference> 84de271d-c41a-4f6d-bd01-abcb5ff33826
+    9e7f1313733b01fd: !<reference> f8225963-7e87-4b74-ab3a-4d59f16ace24
+    9fdef3cfd6d12854: !<reference> 77fea144-c3b2-461a-abb5-23214c97c802
+    Materials/lambert10: !<reference> d78dba8f-4d58-42f4-b8f8-033ac8f08c41
+    Materials/lambert10|lambert10|GraphPassInfo: !<reference> 4b335523-5547-41e1-8728-2985466ebc96
+    Materials/lambert12: !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+    Materials/lambert12|lambert12|GraphPassInfo: !<reference> 8b54f4f2-effd-4c12-b8db-7e36084882df
+    Materials/lambert13: !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+    Materials/lambert13|lambert13|GraphPassInfo: !<reference> 73fd6e7a-3462-41da-8161-42d2e56ee421
+    Materials/lambert14: !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+    Materials/lambert14|lambert14|GraphPassInfo: !<reference> af4ae09f-9867-43ee-b826-8c44df39db46
+    Materials/lambert15: !<reference> 127bcdd4-ff36-4f36-b866-6d5d41c4403b
+    Materials/lambert15|lambert15|GraphPassInfo: !<reference> cb91dfdb-eb63-4eb5-b1a3-26720c466b4b
+    Materials/lambert17: !<reference> b281d9e3-8d27-4935-82c0-fb9d52a51196
+    Materials/lambert17|lambert17|GraphPassInfo: !<reference> 00dd6700-f725-4c84-88eb-b9878c8899f4
+    Materials/lambert18: !<reference> 7f4a943c-11dd-482a-aea2-b9254b43e830
+    Materials/lambert18|lambert18|GraphPassInfo: !<reference> 5c73da1e-ce4f-4850-b5b1-87d5220c2ec0
+    Materials/lambert19: !<reference> 37805c00-525c-41b9-8dc5-4a4f1619d9ba
+    Materials/lambert19|lambert19|GraphPassInfo: !<reference> 37993f1c-de69-4c82-ab1a-cc65b08f7c0b
+    Materials/lambert2: !<reference> 3c75a339-aad6-455c-9b11-e43988abb882
+    Materials/lambert20: !<reference> 08d82d08-956f-4e32-bad9-3769bdebe736
+    Materials/lambert20|lambert20|GraphPassInfo: !<reference> 232ddb58-9d49-499b-a55b-0bb07d2e2910
+    Materials/lambert21: !<reference> 3fa94eda-b385-4777-8c6e-064e4ce78554
+    Materials/lambert21|lambert21|GraphPassInfo: !<reference> ca43a17f-b23d-409a-bdc9-d761b126de2d
+    Materials/lambert22: !<reference> 9f5dcbb2-f68b-4203-95e3-9d148f743f12
+    Materials/lambert22|lambert22|GraphPassInfo: !<reference> 773415d6-8814-4d35-b23d-ca52d6ee710b
+    Materials/lambert23: !<reference> 1374cdc6-da2b-449e-b4c3-14aa0ccc5c4e
+    Materials/lambert23|lambert23|GraphPassInfo: !<reference> 3827257d-b4de-49a9-8d93-bc5b99cda40c
+    Materials/lambert25: !<reference> eabd48e3-50fc-45b0-a706-9ba5d907916e
+    Materials/lambert25|lambert25|GraphPassInfo: !<reference> 1526a8d6-76ea-498a-924c-08ab9091c299
+    Materials/lambert2|lambert2|GraphPassInfo: !<reference> d407b480-d24b-41d0-8664-dcb0312ea07f
+    Materials/lambert4: !<reference> bfb3f1c9-fce9-4130-a66a-07bc39f35275
+    Materials/lambert4|lambert4|GraphPassInfo: !<reference> 02b98cef-abf1-417f-81f7-19e195c15791
+    Materials/lambert6: !<reference> 0635fecd-eef4-4727-a4ce-a1e54b8154b7
+    Materials/lambert6|lambert6|GraphPassInfo: !<reference> 6d3785e0-3215-4ac7-993e-255b955b7763
+    Materials/lambert7: !<reference> 505301a3-4b8a-45ad-a24a-205555775f18
+    Materials/lambert7|lambert7|GraphPassInfo: !<reference> 88d58b3a-980a-4aa9-bb7e-ffbc1798bd6c
+    Materials/lambert8: !<reference> 55b001b8-2942-4790-be03-4b7600799a33
+    Materials/lambert8|lambert8|GraphPassInfo: !<reference> 21e3e9d7-28c7-4c3b-9f8c-c0abb4259a27
+    Materials/lambert9: !<reference> b4334393-640c-414d-8fdc-7ea22d3f7009
+    Materials/lambert9|lambert9|GraphPassInfo: !<reference> 5713c054-373a-476d-b518-5b32c1b420f2
+    Meshes/boothBottom_lambert17_0: !<reference> 8b10da4c-a08a-455f-9a7b-a7a0b182c0f0
+    Meshes/boothBottom_lambert18_0: !<reference> dd1f1685-ce91-47e0-ac4c-052b19cb3b9b
+    Meshes/boothBottom_lambert22_0: !<reference> 219ed2c7-4e1e-45f0-a15a-4e5ccdb1762c
+    Meshes/boothBottom_lambert7_0: !<reference> 71a0f8ca-3751-4bca-9d3f-5b48c44c2abf
+    Meshes/bulb10_lambert14_0: !<reference> 30586508-10c6-4f58-9dde-aee27ce92302
+    Meshes/bulb1_lambert14_0: !<reference> 4d6a81b9-8d68-4c56-ad82-d69be1158215
+    Meshes/bulb2_lambert14_0: !<reference> a3a92ba3-b404-4b05-b67b-10e0e2433ef0
+    Meshes/bulb3_lambert14_0: !<reference> 9e62817b-55be-40d7-8af9-d3409e841b59
+    Meshes/bulb4_lambert14_0: !<reference> 7e6734cc-5450-4ea5-877a-1c97b28ce8e9
+    Meshes/bulb5_lambert14_0: !<reference> 4d65066d-c648-4772-9281-8a1979ce031a
+    Meshes/bulb6_lambert14_0: !<reference> 48eee472-3686-40ca-8b55-f561c8bf855f
+    Meshes/bulb7_lambert14_0: !<reference> a5d3b0ae-cb5a-4257-8bb4-b77745b7fe19
+    Meshes/bulb8_lambert14_0: !<reference> cf66221e-18cd-4bb2-90f5-7cf1cce91ad2
+    Meshes/bulb9_lambert14_0: !<reference> cc1cd178-2ec1-4cfa-8a6f-0b3898d91e4c
+    Meshes/polySurface61_lambert21_0: !<reference> fa249314-9987-4344-9b4d-5ccb4fc5b9d4
+    Meshes/polySurface61_lambert9_0: !<reference> 2e243d10-54b6-487c-bd61-e7e23246ce44
+    Meshes/polySurface62_lambert12_0: !<reference> c5459526-8dc6-45f2-b979-03ebe5b68703
+    Meshes/polySurface63_lambert12_0: !<reference> 583aa326-1a83-4a72-919d-a82f4a19ffdc
+    Meshes/polySurface64_lambert12_0: !<reference> b91c1b35-44f6-4078-a985-c40303d660ec
+    Meshes/polySurface65_lambert13_0: !<reference> acc5b74c-c32f-413d-88b0-1d07f319f066
+    Meshes/polySurface66_lambert12_0: !<reference> ef6696a6-26c8-4e76-bc91-bccf2337ba9c
+    Meshes/polySurface67_lambert13_0: !<reference> 6ab06c7e-8a11-4a0e-81d1-0da45d6fc347
+    Meshes/polySurface68_lambert13_0: !<reference> 127f0281-996f-45d2-8549-bcf100b040fd
+    Meshes/polySurface69_lambert12_0: !<reference> ceaa1051-7af2-496b-be07-5607bc6cf0b0
+    Meshes/polySurface70_lambert12_0: !<reference> 3aed4849-4d6f-40f7-a8e2-cf011caa1dcb
+    Meshes/polySurface71_lambert13_0: !<reference> 38d3f31d-4154-4673-ae2b-e1779c51eb54
+    Meshes/polySurface72_lambert12_0: !<reference> a376e941-a39c-4b37-b1a3-0a11cb2b861b
+    Meshes/polySurface73_lambert13_0: !<reference> 90662e99-a06f-43b6-a79b-e9d325913e8c
+    Meshes/polySurface74_lambert13_0: !<reference> 25a21b6f-c537-4fc3-8aee-7cbdd12fd4a2
+    Meshes/shelf_lambert2_0: !<reference> d09f345d-6d4d-4cd3-935c-477fbd7d3da5
+    Meshes/topSign_lambert10_0: !<reference> 1cbc205d-c2c2-409e-8f8f-fcbc4cf892f0
+    Meshes/topSign_lambert15_0: !<reference> 9dff4bb9-ed37-4f47-a2b9-bc7d75d0b025
+    Meshes/wallBack_lambert6_0: !<reference> c7e07184-8d88-423f-bf23-c513693e3844
+    Meshes/wallLeft_lambert20_0: !<reference> fe7871f2-7932-4034-9eca-1c73b603009b
+    Meshes/wallLeft_lambert23_0: !<reference> ca93170f-b672-4ec8-8daf-2017af01686f
+    Meshes/wallLeft_lambert8_0: !<reference> 1c18add6-4187-4864-8747-73cfc2a04b05
+    Meshes/wallRight_lambert19_0: !<reference> 032783a2-de83-4b04-bf65-63192c242ed0
+    Meshes/wallRight_lambert25_0: !<reference> 8d97cacf-39ad-447c-900d-e2bb4aeaa150
+    Meshes/wallRight_lambert4_0: !<reference> fc6dae5d-963a-4f4b-84b0-736cde195653
+    Scene: !<reference> 7a457a96-4b1b-4164-8673-ed229fb1753b
+    a089b7b60802e277: !<reference> 991612e1-38ce-4ef4-a7b6-a8b72ab87a33
+    a244380206913d47: !<reference> 6089c094-74c7-4554-94ed-192aa2b95b38
+    a3a2854062231371: !<reference> 03bd4412-23c4-4795-914c-c94a87a7ae84
+    afbb7a6af1d535e2: !<reference> 940f54cc-5e7c-4176-811b-2ce935081f6e
+    b021977c100f5102: !<reference> a58a02bc-d001-450f-9a78-9d7d834b92f8
+    b103e5421d23c6e5: !<reference> 2cc351da-faa2-4674-becb-7819022bc52a
+    b23704e2d2e1993b: !<reference> a657538a-3e5e-470f-8d0a-cb051fa0b18d
+    b623a5a679810e9e: !<reference> 11343151-1951-4103-9f88-ca8f49f9ee80
+    b9a3ba20e9888ac1: !<reference> 291b9e2b-a6e1-4fcf-80df-a9edaa391953
+    bc71e0c5b8cd01b2: !<reference> 78dee70e-00b3-44c4-a9f0-de53e05f5c09
+    bd6ee2ceefefb512: !<reference> 433bee0e-9a84-422e-85a7-27610914e83b
+    c010c84705c4cba4: !<reference> 6c1a5b96-70e1-4b95-bb7d-c23955e265ab
+    c16bf3844b90c4e2: !<reference> 220ae806-da6f-4654-a37c-8332665bc730
+    c394eb9bd36395bb: !<reference> 988cd715-57e0-420a-82d0-6159608d4d78
+    c4dd384d94f4d105: !<reference> f7fb62ba-e649-4ed6-94e7-f6de1ff48d02
+    c5bdc28af9751585: !<reference> 0aae1003-fc1b-40cb-a37c-5ab21ddf15af
+    cb8be348e33973a7: !<reference> e53b425c-c346-445c-b7d5-264e68185608
+    cd5e08b5bd2a9d80: !<reference> 68bd897c-6072-4897-a8e0-f11afb0e7d83
+    d0b105cff629e5ae: !<reference> 3efa27f7-1f85-4713-8321-c8473f8392de
+    d46b1d20940674e4: !<reference> d07da1e4-cfd5-4317-a6c8-d103c3c0823e
+    d64aa7db93ae271f: !<reference> 9edf546f-22a4-4f02-af0d-d195fdcaf5e0
+    dabc57e8734bca7b: !<reference> a247d3f5-5bb1-4a27-ae0b-37360c0c9415
+    dbbe649bb0e2c560: !<reference> 5adf190e-fba9-48ab-b6ae-a39a36a5a4b4
+    dc00903ec2d763fe: !<reference> 04963b52-93af-4668-a0e4-d14e483a203d
+    e1269cdb1e09ad1b: !<reference> d37072ba-6134-4bed-ab47-70ae66f384e5
+    e37044fa667ec913: !<reference> aa09aa26-7ef2-42ba-9ae1-d388517f248f
+    e5cd746e2daaa4d2: !<reference> 68e5fe34-3efa-45e6-a964-ba42ff26305e
+    eb5c8e166cd5626a: !<reference> ef8b16b6-d0ae-493b-bdfb-cd9740ea7921
+    ecd59980feb555b8: !<reference> 7b944a19-5384-4c7c-965f-9a5598bc5adf
+    ecf02147e76e48b0: !<reference> 819b64c5-1e01-41a1-ae98-d0126b415005
+    ed2aa892642ddf02: !<reference> c9aec8eb-c58d-4b48-8c1b-e3750693e6a3
+    ef4347e1840dc369: !<reference> b8d23bf7-b444-4a06-b200-6d9701e0a199
+    efb81eddc7f912ce: !<reference> 1d9b6774-111f-49a7-8db1-436581d62fba
+    efc3cdd00b9609fd: !<reference> 3524da03-2bd8-4db5-ad39-9b4f26e28586
+    f4ca087deee9e613: !<reference> e3d57b71-60b2-49d4-a9be-4343aa076b6d
+    f52a95a8b10a2cf1: !<reference> f3d068ca-d699-4ed7-8db1-a53bf66f1161
+    f80abe36f3e3dc1b: !<reference> e7b1cffd-5a76-402a-9c77-0f556e6af5c9
+    f860edee2b044cd1: !<reference> 4c533163-092d-4199-8ccf-e5cb0543cd63
+    fa34c39d0e10eab0: !<reference> d01342f6-bb26-4d56-a3ba-ce8deffabc85
+    fcc897577438c89a: !<reference> 4ad1bf1f-fb92-43f8-866e-4dbc1d443b80
+    ff7936aad4ab157c: !<reference> 85905ef1-9fff-4e2c-9da7-283d17eb742a
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 7a457a96-4b1b-4164-8673-ed229fb1753b
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 1583fa11-65c8-4195-944e-8a626b54c78a
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/026dd28f-8f14-4af7-bbe4-9b6fcc2155b7>
+  PrefabRemaps:
+    []
+  Name: polySurface61
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2928289a-19a9-4150-bd75-fd178fe5e722
+    - !<own> 446fd6ac-f167-419d-bd14-4909a1220b93
+  Components:
+    []
+- !<SceneObject/02b96ee1-1e42-4fd8-ba8c-dc460693165b>
+  PrefabRemaps:
+    []
+  Name: shelf
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f99e2bc2-6918-42ea-b59d-9351382e845c
+  Components:
+    []
+- !<SceneObject/04063da1-9076-4d91-a1e7-b57f02889513>
+  PrefabRemaps:
+    []
+  Name: bulb1_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f31fed2-a007-4963-b2c6-7ef04133027a
+- !<RenderMeshVisual/04e80405-b190-426f-8174-c78b9e527001>
+  PrefabRemaps:
+    []
+  Name: polySurface67_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> 6ab06c7e-8a11-4a0e-81d1-0da45d6fc347
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/07099c8a-62d8-42d8-bef6-000e7dec86e7>
+  PrefabRemaps:
+    []
+  Name: component_39
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/0a173738-d03d-4cc0-b730-1395c4434528>
+  PrefabRemaps:
+    []
+  Name: bulb10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> efe7ae79-56fd-4851-86a9-5e879bb74918
+  Components:
+    []
+- !<SceneObject/0bbabea9-5099-42dc-af00-44377952dd01>
+  PrefabRemaps:
+    []
+  Name: polySurface62_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7eb5651-50cb-4477-b873-ba3f9a0ed7cd
+- !<RenderMeshVisual/0d49c71e-3c76-408e-82c5-e1688fdf34e6>
+  PrefabRemaps:
+    []
+  Name: polySurface63_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> 583aa326-1a83-4a72-919d-a82f4a19ffdc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0d6e40b3-8555-4dea-97cb-68b84448e73a>
+  PrefabRemaps:
+    []
+  Name: bulb7_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d956e2a0-0c19-42d1-86ad-babbe4fe6ec1
+- !<SceneObject/0de2581a-978a-4bc6-946b-9d2e77cb5556>
+  PrefabRemaps:
+    []
+  Name: bulb4_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c7a7f778-6252-48e3-87f4-d216d6af4ae9
+- !<SceneObject/0dea422c-92ac-4286-a432-131e24de96c7>
+  PrefabRemaps:
+    []
+  Name: polySurface73
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cef7dc9b-7177-495f-afb3-5580729fd38c
+  Components:
+    []
+- !<RenderMeshVisual/0e81e463-7137-4dbe-bfbf-0507f8436b96>
+  PrefabRemaps:
+    []
+  Name: polySurface69_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> ceaa1051-7af2-496b-be07-5607bc6cf0b0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1400978a-8682-474c-9ba8-e718ad437a65>
+  PrefabRemaps:
+    []
+  Name: topSign_lambert10_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 966f4dd0-43ac-40ae-b34c-6246146b8154
+- !<RenderMeshVisual/155f9a0f-203f-4189-8bfa-27169c8e8fde>
+  PrefabRemaps:
+    []
+  Name: polySurface73_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> 90662e99-a06f-43b6-a79b-e9d325913e8c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/1583fa11-65c8-4195-944e-8a626b54c78a>
+  SourceRemaps:
+    - 03bd4412-23c4-4795-914c-c94a87a7ae84: a7f6919d-110e-4fa5-9d9c-4a0e87ab9908
+    - 04963b52-93af-4668-a0e4-d14e483a203d: edd6dd43-84e6-4ebb-8a68-6e193c686feb
+    - 0aae1003-fc1b-40cb-a37c-5ab21ddf15af: 1fa34c0e-3e08-4bf8-951a-49b9b9884929
+    - 0feaef6b-b4ae-497b-8c34-8faf05b514ca: 6768d1bd-786a-478c-a006-9e64f45fb370
+    - 1034094e-3e51-426a-839d-bd7f66b289e4: bd6727f1-5a6b-4475-a8a4-b6b4ec80e37a
+    - 10971958-b6d2-4932-9c6c-89d98dbb7836: f99e2bc2-6918-42ea-b59d-9351382e845c
+    - 11343151-1951-4103-9f88-ca8f49f9ee80: bc6f37b5-a37e-427c-a807-a30152dc5c37
+    - 11e31c11-9c3f-437f-8dac-4ff857347827: 6e18ee53-7aaa-479c-8187-29dc04d4ac77
+    - 1a8838e6-62a7-4f40-b46e-36abbd25dfd0: f690701e-ec9d-4672-8fd7-4b3fbdaef5f3
+    - 1d9b6774-111f-49a7-8db1-436581d62fba: 8c1a0b52-9b1b-468c-b3b2-2327de82684f
+    - 1fd6c31f-d496-425c-be46-d582727cdd45: f86b30ff-5aa4-4e16-b3e5-47bc93575e80
+    - 220ae806-da6f-4654-a37c-8332665bc730: eb7fe174-4134-4ffd-b04e-0ab93854c539
+    - 2397ac7e-f098-49e8-bbeb-b9c68ce3d516: 2b9ee3c8-ae5a-44c2-a0e3-1277c6f58d6e
+    - 25c0db62-82e4-4df2-8e19-a4330db23849: dc21161c-9f56-42b4-9698-4e629d370863
+    - 291b9e2b-a6e1-4fcf-80df-a9edaa391953: e4afd9d9-d99d-405e-829d-3562b1601e7f
+    - 29580590-1f0e-44b6-935d-5eabb4506d9a: 66b7a539-dad0-4446-b035-5d18d451f2bc
+    - 2cae697d-5b5f-48da-8d12-518187c2f748: 155f9a0f-203f-4189-8bfa-27169c8e8fde
+    - 2cc351da-faa2-4674-becb-7819022bc52a: 85d4442d-d19e-4d33-b48c-5da2b7efc8b4
+    - 307f32c2-5e12-401a-a027-c1052330a8b5: 07099c8a-62d8-42d8-bef6-000e7dec86e7
+    - 335e0575-6ebf-48be-9750-ff83eb11f335: 0dea422c-92ac-4286-a432-131e24de96c7
+    - 3524da03-2bd8-4db5-ad39-9b4f26e28586: 51a6c9d4-1659-4ad8-b029-2fdbbab67132
+    - 355799b0-69b0-4b14-b2a8-7a1cadf7d409: 808ad57b-e652-4e7d-935c-52d5686e13a9
+    - 35d1703a-58f9-4ad3-9436-b7b532968b77: 71a28841-1900-4165-b23c-37cb4427d54f
+    - 3a2e97e3-4833-4576-b5fe-0877b31d1410: 6618634e-0189-4627-bb8b-260872ed7e8c
+    - 3b5d2c12-e77c-44e3-b989-744d64cd7236: 3ba3225d-9bcc-4432-95ef-5d148d44db35
+    - 3d2d76d3-1b72-48b0-9f42-581918a1ef72: 42c7793d-1fae-450b-91bd-1854aaee77f5
+    - 3efa27f7-1f85-4713-8321-c8473f8392de: 2928289a-19a9-4150-bd75-fd178fe5e722
+    - 41f11516-1510-42ad-91d7-d34fbc9c023f: 4063c4c1-576d-4818-b266-1038f5d2b99c
+    - 433bee0e-9a84-422e-85a7-27610914e83b: 82ce22a2-fca7-4a74-aa4d-ad210afe50fe
+    - 44297c89-b406-4e51-bb4b-13f901d1f6d7: bf25751c-3f22-48a7-bb00-8557020299f2
+    - 47031dcd-ee66-4693-80a5-98277f23f786: 22f1a500-89a1-4089-ba26-7e51b21620ce
+    - 48cdb187-bbff-4696-b58a-0b1e026c4db3: cc38b9ca-ca0d-4843-a34a-ce6d98b7ccab
+    - 4ad1bf1f-fb92-43f8-866e-4dbc1d443b80: cef7dc9b-7177-495f-afb3-5580729fd38c
+    - 4c533163-092d-4199-8ccf-e5cb0543cd63: 791aee99-98de-40a2-b539-c2375d9ae7e2
+    - 4c7eed7c-c858-46a4-95af-1f871e7259a9: a84b3985-1552-4e60-aaf8-e342ee74a083
+    - 4ed3ad3c-953b-4323-859c-63a63f39b2d2: c8182363-a482-4fb9-a470-5e5c98298170
+    - 4eddac22-6323-4b39-876e-f4a9bb7031cc: 8cd03d05-9aab-4905-9954-d46dc01743f7
+    - 505646bb-ed33-47e6-9469-592b14aec92d: 5d67e098-5341-4b38-af9a-3b89d65c66d5
+    - 5291ba60-c0ec-429a-a079-83885cfa88f6: 966f4dd0-43ac-40ae-b34c-6246146b8154
+    - 529a70d5-68b1-4672-8496-d0be43e9171d: e6a5e7cd-b674-4079-817f-e4d64c8b417f
+    - 5553c131-921c-4509-a3b8-fa58f3f47807: d89d80fd-6b96-46fc-9574-154c8a27bcbe
+    - 58f7ee45-1721-409a-adb3-4c601f9e1c3d: a0acc78e-4354-4f11-bb7f-00373043c00f
+    - 5a2d17c4-45ae-4157-9f22-acc352687691: 32903b42-7fe9-465a-aa6b-9c276fc8a3be
+    - 5adf190e-fba9-48ab-b6ae-a39a36a5a4b4: 04063da1-9076-4d91-a1e7-b57f02889513
+    - 5f14ccc1-fdbb-4a66-81f5-7d8d4ce717d1: 6e9dcbed-7f3b-442a-be3a-1f4cf2efed83
+    - 5fbc36c8-6a98-4b1c-a82e-28a27f8b5c88: ea6400b4-09df-4be0-b359-fb4df6fc1ada
+    - 5fe1c6bb-7b78-46f7-9891-f9ac7d941ca0: ddd086dd-9c85-4df5-b48b-327f4ced9968
+    - 6089c094-74c7-4554-94ed-192aa2b95b38: b4c8f474-7c3a-43b1-8047-aa2369ffb89f
+    - 6291e3e7-fdcf-4c41-b5ba-1d1e7be33fe6: fc0e99ca-831b-4bcb-9d31-7dd0a7334c0e
+    - 6736f06c-0ea4-4c30-9b60-41755c961868: 3c034b38-c632-4983-bd44-d23ddd7c0a16
+    - 68bd897c-6072-4897-a8e0-f11afb0e7d83: 6040440f-d200-4a5f-9af0-fefb26c997e1
+    - 68e5fe34-3efa-45e6-a964-ba42ff26305e: c50dc35c-da0b-476d-92b6-2951c255d544
+    - 6c1a5b96-70e1-4b95-bb7d-c23955e265ab: 27e747ca-ff51-4454-97cd-81a4f5f04723
+    - 6c35ad85-13a4-446a-b61c-692cf52ff773: 865934c7-42e6-4495-b1b0-cfcba3c7cb7f
+    - 6f39998f-3a25-48bc-9612-d2f55600570e: 0a173738-d03d-4cc0-b730-1395c4434528
+    - 73fbc906-53c1-43d0-9159-40f80c4f6a1d: 0bbabea9-5099-42dc-af00-44377952dd01
+    - 74e1478c-cadd-4787-8f38-708bdf6500cd: 0de2581a-978a-4bc6-946b-9d2e77cb5556
+    - 7614bb24-2838-4b71-b0a2-19afbd1664d6: 5767c8dd-bbae-44e9-bbea-a8166f5202e8
+    - 76a65717-9027-4128-9e64-5ecf9ce95355: 762ce655-e8b8-4a5e-81d7-371af770e63b
+    - 77fea144-c3b2-461a-abb5-23214c97c802: fecda3f9-7ca1-4be6-9609-80c517cb7700
+    - 78dee70e-00b3-44c4-a9f0-de53e05f5c09: 1f31fed2-a007-4963-b2c6-7ef04133027a
+    - 7a457a96-4b1b-4164-8673-ed229fb1753b: 54d11a26-11da-40ae-99aa-6651950b508f
+    - 7b944a19-5384-4c7c-965f-9a5598bc5adf: 0d49c71e-3c76-408e-82c5-e1688fdf34e6
+    - 7ba3c0d4-6a01-4c23-9c06-53b21a0cee99: 5b059f64-0d43-48d1-be64-5b4a87fa3071
+    - 819b64c5-1e01-41a1-ae98-d0126b415005: 3540827c-2971-4a7a-bb16-704439d26a17
+    - 824d3429-7a68-49bf-86a7-0cc02cabf56a: 6321b83b-72cc-4102-a61b-81b22cb9ed03
+    - 84de271d-c41a-4f6d-bd01-abcb5ff33826: 9eaeb6a2-360d-4d2d-b523-e0e025fe86db
+    - 85905ef1-9fff-4e2c-9da7-283d17eb742a: beb53615-c968-4707-a33d-3db604027e8e
+    - 85f39348-0891-4fe5-8644-e4a29f719b9b: d956e2a0-0c19-42d1-86ad-babbe4fe6ec1
+    - 87a4f55b-3a01-4918-9b50-263b19f98206: 0e81e463-7137-4dbe-bfbf-0507f8436b96
+    - 89916afa-b6b4-435a-a429-098f3167c702: 5af37698-46f7-476f-8746-7a3c89e29ea3
+    - 8e54d8a1-23d7-43e2-820c-3b5f8c6b95bc: 4fba5d11-d007-4e90-99fa-cc778bf8582a
+    - 904e6d66-5b43-4a7f-8ca5-89452ccfff33: e7705fd6-1252-4669-bb1c-1f2170075e4a
+    - 91131de9-1111-48ab-a4ab-0f349a35dc90: 64ab2ba1-f9b7-4a21-99ee-ba7844a9dedc
+    - 933fb313-7742-475b-8674-b0a72a7f813a: 02b96ee1-1e42-4fd8-ba8c-dc460693165b
+    - 940f54cc-5e7c-4176-811b-2ce935081f6e: 5b706d2c-9548-4ef6-b1bb-f0ed69bd3ee6
+    - 9597875a-ce54-44e6-866c-ed769c398d96: 94774e67-e939-4f3b-a9b0-21dd50c43292
+    - 988cd715-57e0-420a-82d0-6159608d4d78: 026dd28f-8f14-4af7-bbe4-9b6fcc2155b7
+    - 991612e1-38ce-4ef4-a7b6-a8b72ab87a33: 5d4e57b2-c836-402d-8dcf-0f05234c6fe4
+    - 9edf546f-22a4-4f02-af0d-d195fdcaf5e0: e191b90f-d30a-484b-9e48-7ebc52ee5d8a
+    - a247d3f5-5bb1-4a27-ae0b-37360c0c9415: 3a018045-8862-4427-b8ca-0730e2285556
+    - a58a02bc-d001-450f-9a78-9d7d834b92f8: 70bfcc25-70ec-4f12-bcd3-eb523f5344f2
+    - a657538a-3e5e-470f-8d0a-cb051fa0b18d: 2ec6104b-6778-4bc2-b85d-102ad4142573
+    - a9c2715c-a3b1-438a-8a9b-57bd113b09bd: 1e346184-c79e-46bf-b614-d4bf65f95437
+    - aa09aa26-7ef2-42ba-9ae1-d388517f248f: 498188a2-2c4b-4e3a-a73a-acffbc3bab43
+    - ae4a92b1-d6cb-46e7-a822-6954831a0e86: 19f3a4b2-14dc-4957-8003-7fb80a25bde3
+    - b8d23bf7-b444-4a06-b200-6d9701e0a199: 1400978a-8682-474c-9ba8-e718ad437a65
+    - ba22f0ad-c4a9-443a-8bfb-c2a4cb2a2ce0: b7eb5651-50cb-4477-b873-ba3f9a0ed7cd
+    - bb69bcab-1d65-4c06-acb2-e8901795387c: e2ebc89b-6105-43ea-ba44-b97c687f6c5c
+    - bcd79992-f458-45bb-899c-bfeaec4da667: de36ad4e-84e0-4f98-af44-1bd6d06798b5
+    - bdd5c3d1-692c-4444-af28-958d202bc5ce: f44d7547-ddf9-4c54-ba91-75ee015044a2
+    - bf396b54-9aa0-4727-ab7d-04eb7a7f1cde: 6978519e-ab34-4e7e-a8dc-145c6d76db81
+    - c0c96ae0-c0d9-4157-98b4-b6d5ceb37ae4: 6708b08d-0850-4224-89e2-6831a268ee7d
+    - c2836c70-57a6-42ef-a78c-675ff21eeed2: 446fd6ac-f167-419d-bd14-4909a1220b93
+    - c456df42-5be4-4138-af09-6a67c2a12d89: 821ddf26-8b8a-460c-b8b7-9ac875bcee27
+    - c4951aee-a930-47c7-b1e9-4000b6d038d1: f27ee6ca-81e8-4229-912d-d94155c92f5e
+    - c4a58f16-0fb2-401c-a98e-fc6cd2accf80: 51efc2a7-4e78-4679-9021-226b838b4a8f
+    - c4b4b823-7d19-41e3-a2b0-eaa5a86cf4aa: c7a7f778-6252-48e3-87f4-d216d6af4ae9
+    - c9aec8eb-c58d-4b48-8c1b-e3750693e6a3: 32f40f15-1d67-43c3-8cd8-0f8438354e53
+    - cc468a99-c9a0-4bbf-bd3c-015606c079da: ac527a51-5a6f-406a-ac13-41e9eb9ca90f
+    - d01342f6-bb26-4d56-a3ba-ce8deffabc85: bdfd3348-c665-419a-ba25-9b5cdca04adf
+    - d07da1e4-cfd5-4317-a6c8-d103c3c0823e: 5ae9ae61-6889-4598-b036-4b545a2031bd
+    - d37072ba-6134-4bed-ab47-70ae66f384e5: 726076d6-de5c-4259-9c1c-0a4db9b0596b
+    - da07fbb3-8b66-4aba-90a3-1adcec54256d: a8698374-f8bd-4757-88a8-cbbe25265299
+    - e08e3bbb-b675-4348-9c31-d51200ff4c61: 42fd3564-fa7a-4d90-ba3f-6a0bd76d6c1a
+    - e3d57b71-60b2-49d4-a9be-4343aa076b6d: efe7ae79-56fd-4851-86a9-5e879bb74918
+    - e53b425c-c346-445c-b7d5-264e68185608: 04e80405-b190-426f-8174-c78b9e527001
+    - e7b1cffd-5a76-402a-9c77-0f556e6af5c9: bae23dc6-2c8c-4adf-a999-01d1b62f0704
+    - ebf93b27-f20f-41d0-936f-fd95439ead66: 20b66e0e-d77c-4d37-8881-82f6a99f6e37
+    - ec9d4311-6353-46d5-a243-1d5316a5c779: 5eebbe68-725f-4fff-9be0-657b32538f42
+    - eea4ccbe-8485-4cd0-8509-9a81fc451308: bd6e7d8e-5794-4e66-9b0f-c7ae564c414f
+    - ef7b79c3-53f8-47f1-b8bd-fb9725d3ec53: 78a10221-fac8-4b1d-a8fa-ae00f74255af
+    - ef8b16b6-d0ae-493b-bdfb-cd9740ea7921: aa376479-7469-439a-976d-f53cb30d5285
+    - f2fe55cb-d0e3-43bb-8f00-c1213761bbed: 3e3ec679-456f-4a3d-93cc-3fcec7515ea3
+    - f30ecca4-c5ec-4049-b56e-a83a3582c6a0: dd80c820-040e-483c-82cc-6afd5415d95c
+    - f3d068ca-d699-4ed7-8db1-a53bf66f1161: 8bc45590-a5ec-4264-9a27-bb16425365f6
+    - f7fb62ba-e649-4ed6-94e7-f6de1ff48d02: 94b2301f-de7f-42c8-874f-7fc8ed91cc4f
+    - f8225963-7e87-4b74-ab3a-4d59f16ace24: b4e725e8-ea75-415c-a017-a8ff5646e31b
+    - f93677a1-ae38-4226-afac-25fc3dd35032: 0d6e40b3-8555-4dea-97cb-68b84448e73a
+    - fa9e620d-9a77-4d2e-8e89-915df8c45f60: 5aff3ce4-740c-4003-89f7-d3f3e65b7016
+  SourceState: !<own> 54d11a26-11da-40ae-99aa-6651950b508f
+- !<SceneObject/19f3a4b2-14dc-4957-8003-7fb80a25bde3>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert18_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e191b90f-d30a-484b-9e48-7ebc52ee5d8a
+- !<SceneObject/1e346184-c79e-46bf-b614-d4bf65f95437>
+  PrefabRemaps:
+    []
+  Name: polySurface72_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6321b83b-72cc-4102-a61b-81b22cb9ed03
+- !<RenderMeshVisual/1f31fed2-a007-4963-b2c6-7ef04133027a>
+  PrefabRemaps:
+    []
+  Name: bulb1_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 4d6a81b9-8d68-4c56-ad82-d69be1158215
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1fa34c0e-3e08-4bf8-951a-49b9b9884929>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert4_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bfb3f1c9-fce9-4130-a66a-07bc39f35275
+  Mesh: !<reference> fc6dae5d-963a-4f4b-84b0-736cde195653
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/20b66e0e-d77c-4d37-8881-82f6a99f6e37>
+  PrefabRemaps:
+    []
+  Name: polySurface64
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bae23dc6-2c8c-4adf-a999-01d1b62f0704
+  Components:
+    []
+- !<SceneObject/22f1a500-89a1-4089-ba26-7e51b21620ce>
+  PrefabRemaps:
+    []
+  Name: wallBack
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 64ab2ba1-f9b7-4a21-99ee-ba7844a9dedc
+  Components:
+    []
+- !<SceneObject/27e747ca-ff51-4454-97cd-81a4f5f04723>
+  PrefabRemaps:
+    []
+  Name: polySurface71
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6708b08d-0850-4224-89e2-6831a268ee7d
+  Components:
+    []
+- !<SceneObject/2928289a-19a9-4150-bd75-fd178fe5e722>
+  PrefabRemaps:
+    []
+  Name: polySurface61_lambert21_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8182363-a482-4fb9-a470-5e5c98298170
+- !<RenderMeshVisual/2b9ee3c8-ae5a-44c2-a0e3-1277c6f58d6e>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert7_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 505301a3-4b8a-45ad-a24a-205555775f18
+  Mesh: !<reference> 71a0f8ca-3751-4bca-9d3f-5b48c44c2abf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2ec6104b-6778-4bc2-b85d-102ad4142573>
+  PrefabRemaps:
+    []
+  Name: bulb8_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> cf66221e-18cd-4bb2-90f5-7cf1cce91ad2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/32903b42-7fe9-465a-aa6b-9c276fc8a3be>
+  PrefabRemaps:
+    []
+  Name: bulb5_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 726076d6-de5c-4259-9c1c-0a4db9b0596b
+- !<RenderMeshVisual/32f40f15-1d67-43c3-8cd8-0f8438354e53>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert8_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 55b001b8-2942-4790-be03-4b7600799a33
+  Mesh: !<reference> 1c18add6-4187-4864-8747-73cfc2a04b05
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3540827c-2971-4a7a-bb16-704439d26a17>
+  PrefabRemaps:
+    []
+  Name: polySurface70
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f27ee6ca-81e8-4229-912d-d94155c92f5e
+  Components:
+    []
+- !<SceneObject/3a018045-8862-4427-b8ca-0730e2285556>
+  PrefabRemaps:
+    []
+  Name: polySurface62
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0bbabea9-5099-42dc-af00-44377952dd01
+  Components:
+    []
+- !<SceneObject/3ba3225d-9bcc-4432-95ef-5d148d44db35>
+  PrefabRemaps:
+    []
+  Name: polySurface68
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bd6e7d8e-5794-4e66-9b0f-c7ae564c414f
+  Components:
+    []
+- !<SceneObject/3c034b38-c632-4983-bd44-d23ddd7c0a16>
+  PrefabRemaps:
+    []
+  Name: bulb2_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6040440f-d200-4a5f-9af0-fefb26c997e1
+- !<RenderMeshVisual/3e3ec679-456f-4a3d-93cc-3fcec7515ea3>
+  PrefabRemaps:
+    []
+  Name: polySurface71_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> 38d3f31d-4154-4673-ae2b-e1779c51eb54
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4063c4c1-576d-4818-b266-1038f5d2b99c>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert19_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 37805c00-525c-41b9-8dc5-4a4f1619d9ba
+  Mesh: !<reference> 032783a2-de83-4b04-bf65-63192c242ed0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/42c7793d-1fae-450b-91bd-1854aaee77f5>
+  PrefabRemaps:
+    []
+  Name: bulb6
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a84b3985-1552-4e60-aaf8-e342ee74a083
+  Components:
+    []
+- !<SceneObject/42fd3564-fa7a-4d90-ba3f-6a0bd76d6c1a>
+  PrefabRemaps:
+    []
+  Name: polySurface74
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d89d80fd-6b96-46fc-9574-154c8a27bcbe
+  Components:
+    []
+- !<SceneObject/446fd6ac-f167-419d-bd14-4909a1220b93>
+  PrefabRemaps:
+    []
+  Name: polySurface61_lambert9_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94774e67-e939-4f3b-a9b0-21dd50c43292
+- !<SceneObject/498188a2-2c4b-4e3a-a73a-acffbc3bab43>
+  PrefabRemaps:
+    []
+  Name: bulb7
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0d6e40b3-8555-4dea-97cb-68b84448e73a
+  Components:
+    []
+- !<SceneObject/4fba5d11-d007-4e90-99fa-cc778bf8582a>
+  PrefabRemaps:
+    []
+  Name: polySurface67_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 04e80405-b190-426f-8174-c78b9e527001
+- !<SceneObject/51a6c9d4-1659-4ad8-b029-2fdbbab67132>
+  PrefabRemaps:
+    []
+  Name: polySurface65_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5ae9ae61-6889-4598-b036-4b545a2031bd
+- !<SceneObject/51efc2a7-4e78-4679-9021-226b838b4a8f>
+  PrefabRemaps:
+    []
+  Name: wallLeft
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f44d7547-ddf9-4c54-ba91-75ee015044a2
+    - !<own> 70bfcc25-70ec-4f12-bcd3-eb523f5344f2
+    - !<own> 9eaeb6a2-360d-4d2d-b523-e0e025fe86db
+  Components:
+    []
+- !<ObjectPrefab/54d11a26-11da-40ae-99aa-6651950b508f>
+  PackagePath: ""
+  objects:
+    - !<own> 5aff3ce4-740c-4003-89f7-d3f3e65b7016
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5767c8dd-bbae-44e9-bbea-a8166f5202e8>
+  PrefabRemaps:
+    []
+  Name: topSign_lambert15_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 808ad57b-e652-4e7d-935c-52d5686e13a9
+- !<RenderMeshVisual/5ae9ae61-6889-4598-b036-4b545a2031bd>
+  PrefabRemaps:
+    []
+  Name: polySurface65_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> acc5b74c-c32f-413d-88b0-1d07f319f066
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5af37698-46f7-476f-8746-7a3c89e29ea3>
+  PrefabRemaps:
+    []
+  Name: bulb8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 821ddf26-8b8a-460c-b8b7-9ac875bcee27
+  Components:
+    []
+- !<SceneObject/5aff3ce4-740c-4003-89f7-d3f3e65b7016>
+  PrefabRemaps:
+    []
+  Name: ticket_booth
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8cd03d05-9aab-4905-9954-d46dc01743f7
+  Components:
+    []
+- !<RenderMeshVisual/5b059f64-0d43-48d1-be64-5b4a87fa3071>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert17_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b281d9e3-8d27-4935-82c0-fb9d52a51196
+  Mesh: !<reference> 8b10da4c-a08a-455f-9a7b-a7a0b182c0f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5b706d2c-9548-4ef6-b1bb-f0ed69bd3ee6>
+  PrefabRemaps:
+    []
+  Name: bulb4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0de2581a-978a-4bc6-946b-9d2e77cb5556
+  Components:
+    []
+- !<SceneObject/5d4e57b2-c836-402d-8dcf-0f05234c6fe4>
+  PrefabRemaps:
+    []
+  Name: polySurface66_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6e9dcbed-7f3b-442a-be3a-1f4cf2efed83
+- !<SceneObject/5d67e098-5341-4b38-af9a-3b89d65c66d5>
+  PrefabRemaps:
+    []
+  Name: bulb3_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a0acc78e-4354-4f11-bb7f-00373043c00f
+- !<SceneObject/5eebbe68-725f-4fff-9be0-657b32538f42>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert4_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1fa34c0e-3e08-4bf8-951a-49b9b9884929
+- !<RenderMeshVisual/6040440f-d200-4a5f-9af0-fefb26c997e1>
+  PrefabRemaps:
+    []
+  Name: bulb2_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> a3a92ba3-b404-4b05-b67b-10e0e2433ef0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/6321b83b-72cc-4102-a61b-81b22cb9ed03>
+  PrefabRemaps:
+    []
+  Name: polySurface72_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> a376e941-a39c-4b37-b1a3-0a11cb2b861b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/64ab2ba1-f9b7-4a21-99ee-ba7844a9dedc>
+  PrefabRemaps:
+    []
+  Name: wallBack_lambert6_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6978519e-ab34-4e7e-a8dc-145c6d76db81
+- !<SceneObject/6618634e-0189-4627-bb8b-260872ed7e8c>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert22_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac527a51-5a6f-406a-ac13-41e9eb9ca90f
+- !<RenderMeshVisual/66b7a539-dad0-4446-b035-5d18d451f2bc>
+  PrefabRemaps:
+    []
+  Name: bulb10_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 30586508-10c6-4f58-9dde-aee27ce92302
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6708b08d-0850-4224-89e2-6831a268ee7d>
+  PrefabRemaps:
+    []
+  Name: polySurface71_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e3ec679-456f-4a3d-93cc-3fcec7515ea3
+- !<RenderMeshVisual/6768d1bd-786a-478c-a006-9e64f45fb370>
+  PrefabRemaps:
+    []
+  Name: polySurface64_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> b91c1b35-44f6-4078-a985-c40303d660ec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/6978519e-ab34-4e7e-a8dc-145c6d76db81>
+  PrefabRemaps:
+    []
+  Name: wallBack_lambert6_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0635fecd-eef4-4727-a4ce-a1e54b8154b7
+  Mesh: !<reference> c7e07184-8d88-423f-bf23-c513693e3844
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6e18ee53-7aaa-479c-8187-29dc04d4ac77>
+  PrefabRemaps:
+    []
+  Name: boothBottom
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa376479-7469-439a-976d-f53cb30d5285
+    - !<own> 19f3a4b2-14dc-4957-8003-7fb80a25bde3
+    - !<own> 78a10221-fac8-4b1d-a8fa-ae00f74255af
+    - !<own> 6618634e-0189-4627-bb8b-260872ed7e8c
+  Components:
+    []
+- !<RenderMeshVisual/6e9dcbed-7f3b-442a-be3a-1f4cf2efed83>
+  PrefabRemaps:
+    []
+  Name: polySurface66_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> ef6696a6-26c8-4e76-bc91-bccf2337ba9c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/70bfcc25-70ec-4f12-bcd3-eb523f5344f2>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert20_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71a28841-1900-4165-b23c-37cb4427d54f
+- !<RenderMeshVisual/71a28841-1900-4165-b23c-37cb4427d54f>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert20_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 08d82d08-956f-4e32-bad9-3769bdebe736
+  Mesh: !<reference> fe7871f2-7932-4034-9eca-1c73b603009b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/726076d6-de5c-4259-9c1c-0a4db9b0596b>
+  PrefabRemaps:
+    []
+  Name: bulb5_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 4d65066d-c648-4772-9281-8a1979ce031a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/762ce655-e8b8-4a5e-81d7-371af770e63b>
+  PrefabRemaps:
+    []
+  Name: bulb5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 32903b42-7fe9-465a-aa6b-9c276fc8a3be
+  Components:
+    []
+- !<SceneObject/78a10221-fac8-4b1d-a8fa-ae00f74255af>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert17_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5b059f64-0d43-48d1-be64-5b4a87fa3071
+- !<SceneObject/791aee99-98de-40a2-b539-c2375d9ae7e2>
+  PrefabRemaps:
+    []
+  Name: polySurface65
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 51a6c9d4-1659-4ad8-b029-2fdbbab67132
+  Components:
+    []
+- !<RenderMeshVisual/808ad57b-e652-4e7d-935c-52d5686e13a9>
+  PrefabRemaps:
+    []
+  Name: topSign_lambert15_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 127bcdd4-ff36-4f36-b866-6d5d41c4403b
+  Mesh: !<reference> 9dff4bb9-ed37-4f47-a2b9-bc7d75d0b025
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/821ddf26-8b8a-460c-b8b7-9ac875bcee27>
+  PrefabRemaps:
+    []
+  Name: bulb8_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ec6104b-6778-4bc2-b85d-102ad4142573
+- !<SceneObject/82ce22a2-fca7-4a74-aa4d-ad210afe50fe>
+  PrefabRemaps:
+    []
+  Name: bulbGroup
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fecda3f9-7ca1-4be6-9609-80c517cb7700
+    - !<own> e4afd9d9-d99d-405e-829d-3562b1601e7f
+    - !<own> 8c1a0b52-9b1b-468c-b3b2-2327de82684f
+    - !<own> 5b706d2c-9548-4ef6-b1bb-f0ed69bd3ee6
+    - !<own> 762ce655-e8b8-4a5e-81d7-371af770e63b
+    - !<own> 42c7793d-1fae-450b-91bd-1854aaee77f5
+    - !<own> 498188a2-2c4b-4e3a-a73a-acffbc3bab43
+    - !<own> 5af37698-46f7-476f-8746-7a3c89e29ea3
+    - !<own> a7f6919d-110e-4fa5-9d9c-4a0e87ab9908
+    - !<own> 0a173738-d03d-4cc0-b730-1395c4434528
+  Components:
+    []
+- !<SceneObject/85d4442d-d19e-4d33-b48c-5da2b7efc8b4>
+  PrefabRemaps:
+    []
+  Name: polySurface69
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ea6400b4-09df-4be0-b359-fb4df6fc1ada
+  Components:
+    []
+- !<RenderMeshVisual/865934c7-42e6-4495-b1b0-cfcba3c7cb7f>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert25_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eabd48e3-50fc-45b0-a706-9ba5d907916e
+  Mesh: !<reference> 8d97cacf-39ad-447c-900d-e2bb4aeaa150
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8bc45590-a5ec-4264-9a27-bb16425365f6>
+  PrefabRemaps:
+    []
+  Name: 6d2f1bf6dafa4780bf30a84c32b8c5bb.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e2ebc89b-6105-43ea-ba44-b97c687f6c5c
+  Components:
+    []
+- !<SceneObject/8c1a0b52-9b1b-468c-b3b2-2327de82684f>
+  PrefabRemaps:
+    []
+  Name: bulb3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5d67e098-5341-4b38-af9a-3b89d65c66d5
+  Components:
+    []
+- !<SceneObject/8cd03d05-9aab-4905-9954-d46dc01743f7>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e7705fd6-1252-4669-bb1c-1f2170075e4a
+  Components:
+    []
+- !<RenderMeshVisual/94774e67-e939-4f3b-a9b0-21dd50c43292>
+  PrefabRemaps:
+    []
+  Name: polySurface61_lambert9_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4334393-640c-414d-8fdc-7ea22d3f7009
+  Mesh: !<reference> 2e243d10-54b6-487c-bd61-e7e23246ce44
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/94b2301f-de7f-42c8-874f-7fc8ed91cc4f>
+  PrefabRemaps:
+    []
+  Name: shelf_lambert2_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3c75a339-aad6-455c-9b11-e43988abb882
+  Mesh: !<reference> d09f345d-6d4d-4cd3-935c-477fbd7d3da5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/966f4dd0-43ac-40ae-b34c-6246146b8154>
+  PrefabRemaps:
+    []
+  Name: topSign_lambert10_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d78dba8f-4d58-42f4-b8f8-033ac8f08c41
+  Mesh: !<reference> 1cbc205d-c2c2-409e-8f8f-fcbc4cf892f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9eaeb6a2-360d-4d2d-b523-e0e025fe86db>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert23_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bdfd3348-c665-419a-ba25-9b5cdca04adf
+- !<RenderMeshVisual/a0acc78e-4354-4f11-bb7f-00373043c00f>
+  PrefabRemaps:
+    []
+  Name: bulb3_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 9e62817b-55be-40d7-8af9-d3409e841b59
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a7f6919d-110e-4fa5-9d9c-4a0e87ab9908>
+  PrefabRemaps:
+    []
+  Name: bulb9
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b4e725e8-ea75-415c-a017-a8ff5646e31b
+  Components:
+    []
+- !<SceneObject/a84b3985-1552-4e60-aaf8-e342ee74a083>
+  PrefabRemaps:
+    []
+  Name: bulb6_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de36ad4e-84e0-4f98-af44-1bd6d06798b5
+- !<RenderMeshVisual/a8698374-f8bd-4757-88a8-cbbe25265299>
+  PrefabRemaps:
+    []
+  Name: polySurface74_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> 25a21b6f-c537-4fc3-8aee-7cbdd12fd4a2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/aa376479-7469-439a-976d-f53cb30d5285>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert7_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b9ee3c8-ae5a-44c2-a0e3-1277c6f58d6e
+- !<RenderMeshVisual/ac527a51-5a6f-406a-ac13-41e9eb9ca90f>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert22_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9f5dcbb2-f68b-4203-95e3-9d148f743f12
+  Mesh: !<reference> 219ed2c7-4e1e-45f0-a15a-4e5ccdb1762c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b4c8f474-7c3a-43b1-8047-aa2369ffb89f>
+  PrefabRemaps:
+    []
+  Name: bulb9_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> cc1cd178-2ec1-4cfa-8a6f-0b3898d91e4c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b4e725e8-ea75-415c-a017-a8ff5646e31b>
+  PrefabRemaps:
+    []
+  Name: bulb9_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b4c8f474-7c3a-43b1-8047-aa2369ffb89f
+- !<RenderMeshVisual/b7eb5651-50cb-4477-b873-ba3f9a0ed7cd>
+  PrefabRemaps:
+    []
+  Name: polySurface62_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> c5459526-8dc6-45f2-b979-03ebe5b68703
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bae23dc6-2c8c-4adf-a999-01d1b62f0704>
+  PrefabRemaps:
+    []
+  Name: polySurface64_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6768d1bd-786a-478c-a006-9e64f45fb370
+- !<SceneObject/bc6f37b5-a37e-427c-a807-a30152dc5c37>
+  PrefabRemaps:
+    []
+  Name: polySurface63_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0d49c71e-3c76-408e-82c5-e1688fdf34e6
+- !<SceneObject/bd6727f1-5a6b-4475-a8a4-b6b4ec80e37a>
+  PrefabRemaps:
+    []
+  Name: topSign
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.223273, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.217948, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1400978a-8682-474c-9ba8-e718ad437a65
+    - !<own> 5767c8dd-bbae-44e9-bbea-a8166f5202e8
+  Components:
+    []
+- !<SceneObject/bd6e7d8e-5794-4e66-9b0f-c7ae564c414f>
+  PrefabRemaps:
+    []
+  Name: polySurface68_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cc38b9ca-ca0d-4843-a34a-ce6d98b7ccab
+- !<RenderMeshVisual/bdfd3348-c665-419a-ba25-9b5cdca04adf>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert23_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1374cdc6-da2b-449e-b4c3-14aa0ccc5c4e
+  Mesh: !<reference> ca93170f-b672-4ec8-8daf-2017af01686f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/beb53615-c968-4707-a33d-3db604027e8e>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8bc45590-a5ec-4264-9a27-bb16425365f6
+  Components:
+    []
+- !<SceneObject/bf25751c-3f22-48a7-bb00-8557020299f2>
+  PrefabRemaps:
+    []
+  Name: polySurface66
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5d4e57b2-c836-402d-8dcf-0f05234c6fe4
+  Components:
+    []
+- !<RenderMeshVisual/c50dc35c-da0b-476d-92b6-2951c255d544>
+  PrefabRemaps:
+    []
+  Name: polySurface70_lambert12_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5531b2f0-fd3c-4658-8710-f90fb1407c9c
+  Mesh: !<reference> 3aed4849-4d6f-40f7-a8e2-cf011caa1dcb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c7a7f778-6252-48e3-87f4-d216d6af4ae9>
+  PrefabRemaps:
+    []
+  Name: bulb4_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 7e6734cc-5450-4ea5-877a-1c97b28ce8e9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c8182363-a482-4fb9-a470-5e5c98298170>
+  PrefabRemaps:
+    []
+  Name: polySurface61_lambert21_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3fa94eda-b385-4777-8c6e-064e4ce78554
+  Mesh: !<reference> fa249314-9987-4344-9b4d-5ccb4fc5b9d4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cc38b9ca-ca0d-4843-a34a-ce6d98b7ccab>
+  PrefabRemaps:
+    []
+  Name: polySurface68_lambert13_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6151fe9a-4f60-49b1-a076-c87475f8fe3b
+  Mesh: !<reference> 127f0281-996f-45d2-8549-bcf100b040fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/cef7dc9b-7177-495f-afb3-5580729fd38c>
+  PrefabRemaps:
+    []
+  Name: polySurface73_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 155f9a0f-203f-4189-8bfa-27169c8e8fde
+- !<SceneObject/d89d80fd-6b96-46fc-9574-154c8a27bcbe>
+  PrefabRemaps:
+    []
+  Name: polySurface74_lambert13_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a8698374-f8bd-4757-88a8-cbbe25265299
+- !<RenderMeshVisual/d956e2a0-0c19-42d1-86ad-babbe4fe6ec1>
+  PrefabRemaps:
+    []
+  Name: bulb7_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> a5d3b0ae-cb5a-4257-8bb4-b77745b7fe19
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dc21161c-9f56-42b4-9698-4e629d370863>
+  PrefabRemaps:
+    []
+  Name: polySurface63
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bc6f37b5-a37e-427c-a807-a30152dc5c37
+  Components:
+    []
+- !<SceneObject/dd80c820-040e-483c-82cc-6afd5415d95c>
+  PrefabRemaps:
+    []
+  Name: polySurface72
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1e346184-c79e-46bf-b614-d4bf65f95437
+  Components:
+    []
+- !<SceneObject/ddd086dd-9c85-4df5-b48b-327f4ced9968>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert19_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4063c4c1-576d-4818-b266-1038f5d2b99c
+- !<RenderMeshVisual/de36ad4e-84e0-4f98-af44-1bd6d06798b5>
+  PrefabRemaps:
+    []
+  Name: bulb6_lambert14_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b05bb036-60e4-4204-9b59-a72237b5edf3
+  Mesh: !<reference> 48eee472-3686-40ca-8b55-f561c8bf855f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e191b90f-d30a-484b-9e48-7ebc52ee5d8a>
+  PrefabRemaps:
+    []
+  Name: boothBottom_lambert18_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7f4a943c-11dd-482a-aea2-b9254b43e830
+  Mesh: !<reference> dd1f1685-ce91-47e0-ac4c-052b19cb3b9b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e2ebc89b-6105-43ea-ba44-b97c687f6c5c>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fc0e99ca-831b-4bcb-9d31-7dd0a7334c0e
+    - !<own> f86b30ff-5aa4-4e16-b3e5-47bc93575e80
+    - !<own> eb7fe174-4134-4ffd-b04e-0ab93854c539
+  Components:
+    []
+- !<SceneObject/e4afd9d9-d99d-405e-829d-3562b1601e7f>
+  PrefabRemaps:
+    []
+  Name: bulb2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3c034b38-c632-4983-bd44-d23ddd7c0a16
+  Components:
+    []
+- !<SceneObject/e6a5e7cd-b674-4079-817f-e4d64c8b417f>
+  PrefabRemaps:
+    []
+  Name: polySurface67
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4fba5d11-d007-4e90-99fa-cc778bf8582a
+  Components:
+    []
+- !<SceneObject/e7705fd6-1252-4669-bb1c-1f2170075e4a>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> beb53615-c968-4707-a33d-3db604027e8e
+  Components:
+    - !<own> 07099c8a-62d8-42d8-bef6-000e7dec86e7
+- !<SceneObject/ea6400b4-09df-4be0-b359-fb4df6fc1ada>
+  PrefabRemaps:
+    []
+  Name: polySurface69_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0e81e463-7137-4dbe-bfbf-0507f8436b96
+- !<SceneObject/eb7fe174-4134-4ffd-b04e-0ab93854c539>
+  PrefabRemaps:
+    []
+  Name: ruffles
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 6.921948, y: 0.005846, z: 0.001657}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3a018045-8862-4427-b8ca-0730e2285556
+    - !<own> dc21161c-9f56-42b4-9698-4e629d370863
+    - !<own> 20b66e0e-d77c-4d37-8881-82f6a99f6e37
+    - !<own> 791aee99-98de-40a2-b539-c2375d9ae7e2
+    - !<own> bf25751c-3f22-48a7-bb00-8557020299f2
+    - !<own> e6a5e7cd-b674-4079-817f-e4d64c8b417f
+    - !<own> 3ba3225d-9bcc-4432-95ef-5d148d44db35
+    - !<own> 85d4442d-d19e-4d33-b48c-5da2b7efc8b4
+    - !<own> 3540827c-2971-4a7a-bb16-704439d26a17
+    - !<own> 27e747ca-ff51-4454-97cd-81a4f5f04723
+    - !<own> dd80c820-040e-483c-82cc-6afd5415d95c
+    - !<own> 0dea422c-92ac-4286-a432-131e24de96c7
+    - !<own> 42fd3564-fa7a-4d90-ba3f-6a0bd76d6c1a
+  Components:
+    []
+- !<SceneObject/edd6dd43-84e6-4ebb-8a68-6e193c686feb>
+  PrefabRemaps:
+    []
+  Name: wallRight_lambert25_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 865934c7-42e6-4495-b1b0-cfcba3c7cb7f
+- !<SceneObject/efe7ae79-56fd-4851-86a9-5e879bb74918>
+  PrefabRemaps:
+    []
+  Name: bulb10_lambert14_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 66b7a539-dad0-4446-b035-5d18d451f2bc
+- !<SceneObject/f27ee6ca-81e8-4229-912d-d94155c92f5e>
+  PrefabRemaps:
+    []
+  Name: polySurface70_lambert12_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c50dc35c-da0b-476d-92b6-2951c255d544
+- !<SceneObject/f44d7547-ddf9-4c54-ba91-75ee015044a2>
+  PrefabRemaps:
+    []
+  Name: wallLeft_lambert8_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 32f40f15-1d67-43c3-8cd8-0f8438354e53
+- !<SceneObject/f690701e-ec9d-4672-8fd7-4b3fbdaef5f3>
+  PrefabRemaps:
+    []
+  Name: wallRight
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5eebbe68-725f-4fff-9be0-657b32538f42
+    - !<own> ddd086dd-9c85-4df5-b48b-327f4ced9968
+    - !<own> edd6dd43-84e6-4ebb-8a68-6e193c686feb
+  Components:
+    []
+- !<SceneObject/f86b30ff-5aa4-4e16-b3e5-47bc93575e80>
+  PrefabRemaps:
+    []
+  Name: polySurface56
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 026dd28f-8f14-4af7-bbe4-9b6fcc2155b7
+  Components:
+    []
+- !<SceneObject/f99e2bc2-6918-42ea-b59d-9351382e845c>
+  PrefabRemaps:
+    []
+  Name: shelf_lambert2_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94b2301f-de7f-42c8-874f-7fc8ed91cc4f
+- !<SceneObject/fc0e99ca-831b-4bcb-9d31-7dd0a7334c0e>
+  PrefabRemaps:
+    []
+  Name: booth
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 02b96ee1-1e42-4fd8-ba8c-dc460693165b
+    - !<own> bd6727f1-5a6b-4475-a8a4-b6b4ec80e37a
+    - !<own> 22f1a500-89a1-4089-ba26-7e51b21620ce
+    - !<own> 51efc2a7-4e78-4679-9021-226b838b4a8f
+    - !<own> 6e18ee53-7aaa-479c-8187-29dc04d4ac77
+    - !<own> f690701e-ec9d-4672-8fd7-4b3fbdaef5f3
+    - !<own> 82ce22a2-fca7-4a74-aa4d-ad210afe50fe
+  Components:
+    []
+- !<SceneObject/fecda3f9-7ca1-4be6-9609-80c517cb7700>
+  PrefabRemaps:
+    []
+  Name: bulb1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 04063da1-9076-4d91-a1e7-b57f02889513
+  Components:
+    []

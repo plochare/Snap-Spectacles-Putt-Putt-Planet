@@ -303,7 +303,7 @@ export class BallPathBehavior extends BaseScriptComponent {
         this.hole2.enabled = true
         this.hole3.enabled = false
         // set initial ball + club position
-        let startX = 60
+        let startX = 58
         let startZ = -74
         this.putterContainer.getTransform().setLocalPosition(new vec3(startX,0,startZ))
     }

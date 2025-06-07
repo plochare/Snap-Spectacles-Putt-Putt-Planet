@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1347
+    size: 1889
     values:
       - Base.png
       - Cone.mesh
@@ -9,7 +9,6 @@ CollapsedEntities:
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
-      - GameAssets
       - GameAssets/AlcoveCourse.glb
       - GameAssets/AlcoveCourse.glb/.hidden
       - "GameAssets/AlcoveCourse.glb/.hidden/Material #264"
@@ -35,7 +34,6 @@ CollapsedEntities:
       - GameAssets/AlcoveCourse.glb/Textures/texture 7
       - GameAssets/AlcoveCourse.glb/Textures/texture 9
       - GameAssets/Cylinder.mesh
-      - GameAssets/GolfCourseAssets
       - GameAssets/GolfCourseAssets/Holly.glb
       - GameAssets/GolfCourseAssets/Holly.glb/.hidden
       - GameAssets/GolfCourseAssets/Holly.glb/.hidden/Cube__0
@@ -195,39 +193,6 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/flag.glb/Textures/Image_3
       - GameAssets/GolfCourseAssets/flag.glb/Textures/Image_4
       - GameAssets/GolfCourseAssets/flag.glb/flag
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/.hidden/Mastodon
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Idle
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Idle_2
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Trumpet
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Animations/Mastodon_Walk
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Materials
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Materials/Mastodon
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes/Mastodon_1_Mastodon_0
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Meshes/Mastodon_tusks_Mastodon_0
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures/texture
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/Textures/texture 3
-      - GameAssets/GolfCourseAssets/low_poly_american_mastodon_mammut_americanum.glb/low_poly_american_mastodon_mammut_americanum
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/.hidden
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/.hidden/ColumbianMammouth
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/ColumbianMammoth_Idle
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/ColumbianMammoth_Trumpet
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Animations/CoumbianMammoth_WalkCycle
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Materials
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Materials/ColumbianMammouth
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes/Columbian_mammoth__ColumbianMammouth_0
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Meshes/Columbian_mammoth_tusks_ColumbianMammouth_0
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures/texture
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/Textures/texture 3
-      - GameAssets/GolfCourseAssets/low_poly_columbian_mammoth_mammuthus_columbi.glb/low_poly_columbian_mammoth_mammuthus_columbi
       - GameAssets/GolfCourseAssets/magicwheel.glb
       - GameAssets/GolfCourseAssets/magicwheel.glb/.hidden
       - GameAssets/GolfCourseAssets/magicwheel.glb/.hidden/UnUsed
@@ -366,6 +331,515 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_4
       - GameAssets/GolfCourseAssets/magicwheel.glb/Textures/Image_5
       - GameAssets/GolfCourseAssets/magicwheel.glb/magicwheel
+      - GameAssets/GolfCourseAssets/mammoth.glb
+      - GameAssets/GolfCourseAssets/mammoth.glb/.hidden
+      - GameAssets/GolfCourseAssets/mammoth.glb/.hidden/ColumbianMammouth
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Chest_M_010_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/EyeEnd_L_029_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/EyeEnd_R_031_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Eye_L_028_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Eye_R_030_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/HeadEnd_M_032_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Head_M_027_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/JawEnd_M_034_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Jaw_M_033_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Neck1_M_024_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Neck3_M_025_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Neck4_M_026_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Neck_M_023_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Root_M_00_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Spine1_M_09_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail0_M_049_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail1_M_050_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail2_M_051_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail3_M_052_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail4_M_053_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail5_M_054_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/Tail6_M_055_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/_rootJoint_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backAnkle_R_07_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backHip_R_05_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backKnee_R_06_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backToes3_L_04_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/backToes3_R_08_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontAnkle_L_014_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontAnkle_R_020_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontHip_L_012_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontHip_R_018_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontKnee_L_013_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontKnee_R_019_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontRump_L_011_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontRump_R_017_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontToes3_L_015_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontToes3_R_021_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontToes4_L_016_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/frontToes4_R_022_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint10_L_044_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint10_R_047_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint11_L_045_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint11_R_048_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint1_M_035_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint1_M_035_0_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint2_M_036_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint3_M_037_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint4_M_038_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint5_M_039_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint6_M_040_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint7_M_041_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint8_M_042_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint9_L_043_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Idle/joint9_R_046_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Chest_M_010_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/EyeEnd_L_029_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/EyeEnd_R_031_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Eye_L_028_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Eye_R_030_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/HeadEnd_M_032_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Head_M_027_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/JawEnd_M_034_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Jaw_M_033_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Neck1_M_024_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Neck3_M_025_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Neck4_M_026_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Neck_M_023_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Root_M_00_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Spine1_M_09_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail0_M_049_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail1_M_050_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail2_M_051_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail3_M_052_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail4_M_053_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail5_M_054_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/Tail6_M_055_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/_rootJoint_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backAnkle_R_07_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backHip_R_05_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backKnee_R_06_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backToes3_L_04_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/backToes3_R_08_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontAnkle_L_014_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontAnkle_R_020_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontHip_L_012_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontHip_R_018_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontKnee_L_013_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontKnee_R_019_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontRump_L_011_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontRump_R_017_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontToes3_L_015_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontToes3_R_021_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontToes4_L_016_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/frontToes4_R_022_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint10_L_044_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint10_R_047_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint11_L_045_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint11_R_048_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint1_M_035_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint1_M_035_0_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint2_M_036_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint3_M_037_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint4_M_038_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint5_M_039_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint6_M_040_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint7_M_041_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint8_M_042_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint9_L_043_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/ColumbianMammoth_Trumpet/joint9_R_046_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Chest_M_010_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/EyeEnd_L_029_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/EyeEnd_R_031_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Eye_L_028_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Eye_R_030_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/HeadEnd_M_032_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Head_M_027_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/JawEnd_M_034_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Jaw_M_033_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Neck1_M_024_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Neck3_M_025_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Neck4_M_026_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Neck_M_023_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Root_M_00_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Spine1_M_09_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail0_M_049_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail1_M_050_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail2_M_051_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail3_M_052_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail4_M_053_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail5_M_054_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/Tail6_M_055_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/_rootJoint_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backAnkle_R_07_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backHip_R_05_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backKnee_R_06_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backToes3_L_04_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/backToes3_R_08_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontAnkle_L_014_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontAnkle_R_020_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontHip_L_012_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontHip_R_018_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontKnee_L_013_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontKnee_R_019_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontRump_L_011_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontRump_R_017_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontToes3_L_015_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontToes3_R_021_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontToes4_L_016_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/frontToes4_R_022_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint10_L_044_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint10_R_047_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint11_L_045_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint11_R_048_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint1_M_035_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint1_M_035_0_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint2_M_036_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint3_M_037_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint4_M_038_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint5_M_039_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint6_M_040_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint7_M_041_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint8_M_042_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint9_L_043_
+      - GameAssets/GolfCourseAssets/mammoth.glb/Animations/CoumbianMammoth_WalkCycle/joint9_R_046_
+      - GameAssets/GolfCourseAssets/mammoth.glb/ColumbianMammoth_Idle
+      - GameAssets/GolfCourseAssets/mammoth.glb/ColumbianMammoth_Trumpet
+      - GameAssets/GolfCourseAssets/mammoth.glb/CoumbianMammoth_WalkCycle
+      - GameAssets/GolfCourseAssets/mammoth.glb/Materials
+      - GameAssets/GolfCourseAssets/mammoth.glb/Materials/ColumbianMammouth
+      - GameAssets/GolfCourseAssets/mammoth.glb/Meshes
+      - GameAssets/GolfCourseAssets/mammoth.glb/Meshes/Columbian_mammoth__ColumbianMammouth_0
+      - GameAssets/GolfCourseAssets/mammoth.glb/Meshes/Columbian_mammoth_tusks_ColumbianMammouth_0
+      - GameAssets/GolfCourseAssets/mammoth.glb/Textures
+      - GameAssets/GolfCourseAssets/mammoth.glb/Textures/Image_0
+      - GameAssets/GolfCourseAssets/mammoth.glb/Textures/Image_1
+      - GameAssets/GolfCourseAssets/mammoth.glb/mammoth
+      - GameAssets/GolfCourseAssets/mastodon.glb
+      - GameAssets/GolfCourseAssets/mastodon.glb/.hidden
+      - GameAssets/GolfCourseAssets/mastodon.glb/.hidden/Mastodon
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Chest_M_014_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/EyeEnd_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/EyeEnd_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Eye_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Eye_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/HeadEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Head_M_030_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/JawEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Jaw_M_031_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Neck_M_029_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Root_M_00_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Spine1_M_013_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail0_M_043_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail1_M_044_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail2_M_045_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail3_M_046_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail4_M_047_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail5_M_048_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/Tail6_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/_rootJoint_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backAnkle_R_09_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backHip_R_07_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backKnee_R_08_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes1_L_04_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes1_R_010_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes2_L_05_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes2_R_011_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes3_L_06_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes3_R_012_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/backToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontAnkle_L_018_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontAnkle_R_025_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontHip_L_016_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontHip_R_023_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontKnee_L_017_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontKnee_R_024_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontRump_L_015_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontRump_R_022_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes1_L_019_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes1_R_026_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes2_L_020_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes2_R_027_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes3_L_021_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes3_R_028_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/frontToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint10_L_040_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint10_R_042_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint11_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint11_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint1_M_032_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint2_M_033_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint3_M_034_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint4_M_035_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint5_M_036_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint6_M_037_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint7_M_038_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint8_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint9_L_039_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle/joint9_R_041_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Chest_M_014_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/EyeEnd_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/EyeEnd_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Eye_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Eye_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/HeadEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Head_M_030_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/JawEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Jaw_M_031_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Neck_M_029_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Root_M_00_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Spine1_M_013_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail0_M_043_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail1_M_044_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail2_M_045_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail3_M_046_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail4_M_047_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail5_M_048_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/Tail6_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/_rootJoint_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backAnkle_R_09_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backHip_R_07_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backKnee_R_08_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes1_L_04_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes1_R_010_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes2_L_05_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes2_R_011_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes3_L_06_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes3_R_012_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/backToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontAnkle_L_018_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontAnkle_R_025_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontHip_L_016_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontHip_R_023_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontKnee_L_017_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontKnee_R_024_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontRump_L_015_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontRump_R_022_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes1_L_019_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes1_R_026_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes2_L_020_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes2_R_027_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes3_L_021_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes3_R_028_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/frontToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint10_L_040_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint10_R_042_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint11_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint11_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint1_M_032_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint2_M_033_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint3_M_034_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint4_M_035_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint5_M_036_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint6_M_037_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint7_M_038_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint8_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint9_L_039_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Idle_2/joint9_R_041_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Chest_M_014_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/EyeEnd_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/EyeEnd_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Eye_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Eye_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/HeadEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Head_M_030_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/JawEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Jaw_M_031_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Neck_M_029_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Root_M_00_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Spine1_M_013_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail0_M_043_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail1_M_044_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail2_M_045_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail3_M_046_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail4_M_047_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/Tail5_M_048_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/_rootJoint_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backAnkle_R_09_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backHip_R_07_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backKnee_R_08_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes1_L_04_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes1_R_010_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes2_L_05_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes2_R_011_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes3_L_06_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/backToes3_R_012_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontAnkle_L_018_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontAnkle_R_025_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontHip_L_016_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontHip_R_023_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontKnee_L_017_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontKnee_R_024_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontRump_L_015_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontRump_R_022_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes1_L_019_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes1_R_026_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes2_L_020_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes2_R_027_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes3_L_021_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes3_R_028_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/frontToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint10_L_040_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint10_R_042_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint11_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint11_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint1_M_032_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint2_M_033_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint3_M_034_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint4_M_035_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint5_M_036_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint6_M_037_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint7_M_038_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint8_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint9_L_039_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Trumpet/joint9_R_041_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Chest_M_014_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/EyeEnd_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/EyeEnd_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Eye_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Eye_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/HeadEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Head_M_030_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/JawEnd_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Jaw_M_031_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Neck_M_029_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Root_M_00_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Spine1_M_013_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail0_M_043_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail1_M_044_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail2_M_045_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail3_M_046_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail4_M_047_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail5_M_048_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/Tail6_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/_rootJoint_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backAnkle_L_03_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backAnkle_R_09_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backHip_L_01_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backHip_R_07_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backKnee_L_02_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backKnee_R_08_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes1_L_04_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes1_R_010_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes2_L_05_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes2_R_011_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes3_L_06_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes3_R_012_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/backToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontAnkle_L_018_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontAnkle_R_025_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontHip_L_016_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontHip_R_023_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontKnee_L_017_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontKnee_R_024_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontRump_L_015_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontRump_R_022_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes1_L_019_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes1_R_026_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes2_L_020_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes2_R_027_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes3_L_021_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes3_R_028_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes4_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/frontToes4_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint10_L_040_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint10_R_042_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint11_L_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint11_R_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint1_M_032_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint2_M_033_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint3_M_034_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint4_M_035_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint5_M_036_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint6_M_037_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint7_M_038_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint8_M_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint9_L_039_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Animations/Mastodon_Walk/joint9_R_041_
+      - GameAssets/GolfCourseAssets/mastodon.glb/Mastodon_Idle
+      - GameAssets/GolfCourseAssets/mastodon.glb/Mastodon_Idle_2
+      - GameAssets/GolfCourseAssets/mastodon.glb/Mastodon_Trumpet
+      - GameAssets/GolfCourseAssets/mastodon.glb/Mastodon_Walk
+      - GameAssets/GolfCourseAssets/mastodon.glb/Materials
+      - GameAssets/GolfCourseAssets/mastodon.glb/Materials/Mastodon
+      - GameAssets/GolfCourseAssets/mastodon.glb/Materials/Mastodon.001
+      - GameAssets/GolfCourseAssets/mastodon.glb/Meshes
+      - GameAssets/GolfCourseAssets/mastodon.glb/Meshes/Mastodon_1_Mastodon_0
+      - GameAssets/GolfCourseAssets/mastodon.glb/Meshes/Mastodon_tusks_Mastodon_0
+      - GameAssets/GolfCourseAssets/mastodon.glb/Textures
+      - GameAssets/GolfCourseAssets/mastodon.glb/Textures/Image_0
+      - GameAssets/GolfCourseAssets/mastodon.glb/Textures/Image_0 3
+      - GameAssets/GolfCourseAssets/mastodon.glb/Textures/Image_1
+      - GameAssets/GolfCourseAssets/mastodon.glb/Textures/Image_1 3
+      - GameAssets/GolfCourseAssets/mastodon.glb/mastodon
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/.hidden
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/.hidden/Aluminum_Brushed
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Aluminum_Brushed
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Asphalt-01
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Birch_3
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Birch_honey
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Color_Brown_Dul
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Decorative_Perfo
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Opening_no_mate
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Pewter_Weave
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Plank01_Decking
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Rose_Wood_1
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/Rustic_Oak
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Materials/SLOPED_SIDING
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_0
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_1
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_10
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_11
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_2
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_3
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_4
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_5
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_6
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_7
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_8
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Meshes/Object_9
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 11
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 13
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 3
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 5
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 7
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture 9
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/Textures/texture1
+      - GameAssets/GolfCourseAssets/ocf_falafel_booth_310.glb/ocf_falafel_booth_310
       - GameAssets/GolfCourseAssets/pier.glb
       - GameAssets/GolfCourseAssets/pier.glb/.hidden
       - GameAssets/GolfCourseAssets/pier.glb/.hidden/material_0
@@ -387,6 +861,70 @@ CollapsedEntities:
       - GameAssets/GolfCourseAssets/skull.glb/Meshes
       - GameAssets/GolfCourseAssets/skull.glb/Meshes/Object_0
       - GameAssets/GolfCourseAssets/skull.glb/skull
+      - GameAssets/GolfCourseAssets/ticket_booth.glb
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/.hidden
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/.hidden/lambert10
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert10
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert12
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert13
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert14
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert15
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert17
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert18
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert19
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert2
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert20
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert21
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert22
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert23
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert25
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert4
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert6
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert7
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert8
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Materials/lambert9
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/boothBottom_lambert17_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/boothBottom_lambert18_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/boothBottom_lambert22_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/boothBottom_lambert7_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb10_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb1_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb2_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb3_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb4_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb5_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb6_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb7_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb8_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/bulb9_lambert14_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface61_lambert21_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface61_lambert9_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface62_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface63_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface64_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface65_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface66_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface67_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface68_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface69_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface70_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface71_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface72_lambert12_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface73_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/polySurface74_lambert13_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/shelf_lambert2_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/topSign_lambert10_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/topSign_lambert15_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallBack_lambert6_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallLeft_lambert20_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallLeft_lambert23_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallLeft_lambert8_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallRight_lambert19_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallRight_lambert25_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/Meshes/wallRight_lambert4_0
+      - GameAssets/GolfCourseAssets/ticket_booth.glb/ticket_booth
       - GameAssets/GolfCourseAssets/wood.glb
       - GameAssets/GolfCourseAssets/wood.glb/.hidden
       - GameAssets/GolfCourseAssets/wood.glb/.hidden/Cube__0
@@ -467,14 +1005,15 @@ CollapsedEntities:
       - GameAssets/golf_ball_lp.glb/Textures/texture
       - GameAssets/golf_ball_lp.glb/golf_ball_lp
       - GameAssets/logos/MITRH.png
-      - GameAssets/logos/PuttPuttTitle.png
       - GameAssets/logos/awe.png
       - GameAssets/logos/black.png
       - GameAssets/logos/lens studio.png
+      - GameAssets/logos/putt-putt-planet.png
       - GameAssets/logos/snapAR.png
       - GameAssets/logos/snapchat-logo.png
       - GameAssets/logos/spectacles.png
       - GameAssets/logos/start.png
+      - GameAssets/logos/tarpit.jpg
       - GameAssets/putter.glb
       - GameAssets/putter.glb/.hidden
       - GameAssets/putter.glb/.hidden/standardSurface1
@@ -489,21 +1028,27 @@ CollapsedEntities:
       - GameAssets/putter.glb/Textures/texture 8
       - GameAssets/putter.glb/putter
       - Image 2.mat
+      - Image 3.mat
       - Image.mat
-      - PBR 10.mat
-      - PBR 11.mat
-      - PBR 12.mat
-      - PBR 13.mat
-      - PBR 14.mat
+      - PBR
       - PBR 2.mat
-      - PBR 3.mat
-      - PBR 4.mat
-      - PBR 5.mat
-      - PBR 6.mat
-      - PBR 7.mat
-      - PBR 8.mat
-      - PBR 9.mat
       - PBR.mat
+      - PBR/PBR 10.mat
+      - PBR/PBR 11.mat
+      - PBR/PBR 12.mat
+      - PBR/PBR 13.mat
+      - PBR/PBR 14.mat
+      - PBR/PBR 2.mat
+      - PBR/PBR 3.mat
+      - PBR/PBR 4.mat
+      - PBR/PBR 5.mat
+      - PBR/PBR 6.mat
+      - PBR/PBR 7.mat
+      - PBR/PBR 8.mat
+      - PBR/PBR 9.mat
+      - PBR/PBR.mat
+      - PBR/pbr 2.ss_graph
+      - PBR/pbr.ss_graph
       - Render Target.renderTarget
       - Scene.scene
       - SpectaclesInteractionKit
@@ -664,7 +1209,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/ButtonFeedback.ts
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
@@ -717,7 +1261,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
       - SpectaclesInteractionKit/Components/UI
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
@@ -736,7 +1279,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SphereButton.mesh
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/SysSettings_settings_button.mesh
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Meshes/pinch-depth-button.mesh
-      - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Prefabs/container-button.prefab
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/README.md
@@ -827,7 +1369,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Core/MouseInteractor/MouseInteractor.ts
       - SpectaclesInteractionKit/Decorators
       - SpectaclesInteractionKit/Decorators/Singleton.ts
-      - SpectaclesInteractionKit/Examples
+      - SpectaclesInteractionKit/Examples/RocketWorkshop
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
@@ -927,6 +1469,7 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX
       - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX/ui-rocket-ignition_c-1db_stereo4824.wav
       - SpectaclesInteractionKit/Examples/RocketWorkshop/SFX/ui-rocket-land-cutoff-c_-1dB_stereo4824.wav
+      - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/ExhaustControls.ts
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketConfigurator.ts
       - SpectaclesInteractionKit/Examples/RocketWorkshop/Scripts/RocketGridContentCreator.ts
@@ -1114,7 +1657,6 @@ CollapsedEntities:
       - Surface Detection/Textures/groundIcon.png
       - Surface Detection/package.native
       - flat.ss_graph
-      - pbr 2.ss_graph
       - pbr.ss_graph
       - scoreboard
       - scoreboard/Assets

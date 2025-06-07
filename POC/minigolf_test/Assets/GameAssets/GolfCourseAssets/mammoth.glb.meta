@@ -1,0 +1,2320 @@
+- !<AssetImportMetadata/e62fc767-0163-4ae9-8251-1ea2cb7eb513>
+  ImportedAssetIds:
+    .hidden/ColumbianMammouth: !<reference> 71c62d5b-83b0-42b3-825c-51b23a78eacb
+    014fd1e47779f30e: !<reference> 83d5c2bb-4b09-4ddd-8726-77c2dcb15596
+    01c6860201c9c6d2: !<reference> fa2b4dbd-b335-49ca-87a6-c1168f23515e
+    0510981871d323a6: !<reference> ec430eda-30e3-47af-afb5-7cc1bd154a68
+    05422a825098a058: !<reference> 497e6ebc-a417-40cd-addd-d06dae5301c8
+    05c1b62af32a8b66: !<reference> 6e44c228-2c0e-44a9-8456-35aff8225d7e
+    09dad863b12615f9: !<reference> 154f4d1c-e68e-42e1-998a-2ed9675fe785
+    0d3ac248fca48930: !<reference> eb144ce5-d99d-49a7-bf8d-c21a04485947
+    1014b233357aa76d: !<reference> 526ce07f-ae60-4a8c-be7d-ef8cc33e5ac4
+    10c2ed10c919dbfe: !<reference> 9e73eacc-1861-4c5b-ad70-5b3561aabb7d
+    13a200e74bc3db52: !<reference> db712c19-00f6-4239-874a-64183eda645b
+    142a0ce4ffd1a749: !<reference> e3043a10-4d5f-46e4-af51-a96347d7a070
+    15fca1408667d617: !<reference> fa4bf21c-e26c-4876-a473-c790215cb2a7
+    189e262de322cd36: !<reference> 1422eb00-51d8-44e8-b8cd-3b98afebecdb
+    1b8432db02be7f7b: !<reference> 218acbcc-6713-4344-a4e2-91966849d0f7
+    2311efd23d5d4874: !<reference> 7f902f1e-a341-4f9e-b472-3a8ca89ae64a
+    2516073c1d613ccf: !<reference> a1a0c841-89a7-4f03-bae5-22257387e6be
+    2642b8321fb846aa: !<reference> 91cfaa5d-dda9-4005-b699-fae83140abd2
+    26fb372ce9e1f66d: !<reference> f5daa157-fd50-4330-a9b2-3c27dbf0a777
+    274411cf0d57558f: !<reference> fd135716-d770-4dd7-a65f-e45de67922f9
+    28649fe9b033a8d1: !<reference> a4e6c49b-7b31-4dd7-b2c1-64598e2f5c7f
+    2b62982107424128: !<reference> a5be188e-9523-4bd9-9f38-d692cd64ef9c
+    2dd499be9609dadb: !<reference> fc16f813-7161-4007-b13a-d0d1f9ec22e2
+    2e675b137fe36ad4: !<reference> dd99dd5a-1905-4c53-a6bf-51a816ad1087
+    2f5b5fb2c0d8be6d: !<reference> 29506afd-b754-45d9-832d-cb855fe01240
+    2fc16f3dc521df40: !<reference> 17b07bd0-23f2-4307-a347-7d2522afa0b5
+    35ebc37f3c22cff2: !<reference> 4147cf17-6a8d-4cc6-95cf-bbf31acb2a8a
+    3617e8f812d5041e: !<reference> 861c598d-c120-4c79-bdac-e34d9deacc38
+    3ceee6cc90ff8acb: !<reference> 2312f6b7-83e2-4de2-809a-fb1ba7240c8a
+    3d88dfe5a1c02104: !<reference> a8cc1513-21bd-46d4-9cd0-fabb4f544ba0
+    3f8bfcbcd7f1beef: !<reference> a7c35ad6-86aa-4ed5-b21d-aa8747466a16
+    43424b0b71a6f607: !<reference> d7a6f392-a58b-4332-a64e-4f6c78f97151
+    43879981a06db44f: !<reference> d5713dc7-be7b-4d7c-bfc1-85558034e8f8
+    46cd7081de7443ae: !<reference> 1714cd8a-dc6f-41a5-83c7-24640a3fd29d
+    48229ccf78cc9e48: !<reference> 00bf4896-53b6-489e-88cc-43701b3420e0
+    4a3e924fad0e2f27: !<reference> 110db364-cf04-4a92-8af1-b43bab77a66b
+    4ba36fe1d14a2c0b: !<reference> b79b2c2f-3298-4b30-b2f1-b8f978218cbf
+    4ebd90a22559cc9b: !<reference> e75d3bba-e5ae-413a-a4ad-5edde2137319
+    51e71006169a2b14: !<reference> c37a62f2-7b89-4c08-9d94-65eecb51cec9
+    56b7a6766bb3a1d7: !<reference> 63d05f99-c3a4-4e60-b451-c69fdf4752f5
+    586e4bcbdf6e1320: !<reference> eaf907b7-1ff9-4b66-8885-0dea5c22c37c
+    593e65fb8e75def9: !<reference> dd3a3960-d8d4-43f2-ae31-bc901ba6826e
+    5a576be98cc8fe73: !<reference> fa75de76-690f-43ac-8d6b-a610b83a9b89
+    5e30f542dc8b4614: !<reference> 5ecc6d6f-1144-443a-986e-bc0e024f7201
+    5e5fd085ae73669d: !<reference> d5f2205c-8967-4a63-b845-dffc4622825f
+    607f60f7b62f41b1: !<reference> 551530a9-80ad-4a25-975f-1b97035426e8
+    63e9c60d0c261f06: !<reference> 31af5a02-5639-4b0d-b8e4-2c838bb3c63c
+    64d8f242c71d4b47: !<reference> 44aeb0d9-5663-4187-982d-5c58b26678d5
+    6672394626852e75: !<reference> e528de9e-3632-47c0-8b8f-943d2d829653
+    66780cf3a4dcb2b8: !<reference> fd96d477-faaf-4595-b17a-bd3b514ad35f
+    69142188ccd95197: !<reference> 4e8f5804-f602-402f-8240-085bdcf7587d
+    69c23c5015d6816e: !<reference> fb3354e0-df15-4815-bdd0-14ce9e189ddd
+    6c2476355bafc28b: !<reference> 50c4a785-f6ce-4855-bbb7-a1de756f5960
+    6cacf403fcddb6ab: !<reference> 4c6eff69-8eaa-4bf6-9b90-a010a514ddbf
+    6ed44fc526f6095c: !<reference> bb472f04-0c2f-490c-a5bd-0fc4ea9d03b9
+    70337730288624c4: !<reference> e164b8da-1a50-43d2-a209-63f63e07f642
+    7191d52aa9648070: !<reference> 8c41f7ba-b2d3-487e-b051-852492b8ff0f
+    7239a1eef34007df: !<reference> 61e8b11e-07a3-4928-b3d3-ee24a2ecc45c
+    7613743afbea0f89: !<reference> ccf6420e-d5e9-445f-9e83-69fbe161bcb5
+    7827605c3f62ed85: !<reference> 260c3b55-ee0e-4ef1-bd9f-39350df2b353
+    79f9d9102d65ed97: !<reference> 2bf687ed-3b76-491b-ac12-158c261b4d9a
+    7a0c01de0433859c: !<reference> 5ec81712-c1be-407d-a67c-dd59d2489171
+    7ac57a7343adc4d6: !<reference> acf00a8a-9398-4da8-9710-f464b3318fee
+    7b1044409069a395: !<reference> 8dffb360-8e1b-48c2-998e-90e7f02295f6
+    7d6ccf7e936d30b4: !<reference> dda2c7ae-1197-4608-8b4b-1660a3ef0093
+    7e823d96a7615900: !<reference> 2325a01a-69fd-4b19-aa33-36f95fcacea7
+    7fe2a2772416da51: !<reference> 269bd1ee-35cd-4c0b-8629-4b02dde9c869
+    809cd31164788fe8: !<reference> 6741ec32-1fb5-4f8b-a7a8-d434813fce1b
+    832783dc816cfcff: !<reference> 4bb0fb43-e48e-43c2-96cc-2a627a17bd5c
+    85d65e0334957852: !<reference> 9af55071-8a7c-4702-8273-df3c486a3793
+    86350dc0834374e4: !<reference> ed775cdf-b3f9-46c8-9f05-a37097259c2d
+    8a9e0e918fa6af35: !<reference> 2990d340-a1a7-4621-bfa5-7f0d6ceceea8
+    8f9d540999165598: !<reference> fc65af34-6727-4965-bddf-37557b2c01b3
+    926219ece38dca34: !<reference> 199a5a5d-1531-4808-8d7f-ad81e03b9b0b
+    963a36ea294c66f3: !<reference> c450fc95-d108-4153-85a1-3c3ad0b0f861
+    96e51682cd6462f8: !<reference> 796ba2e9-2030-49d0-a4f4-8034f0a870a9
+    96f664b015fcd573: !<reference> 13364567-65d4-42c3-9b48-a45e81849418
+    9812b9b3e5b12460: !<reference> f450a261-0a30-4867-8f6e-d2b99952ed36
+    981bd6e2d62a2067: !<reference> cd1f0339-d131-45ff-876d-62d29b3da263
+    98ae5b5f5a87138d: !<reference> 318a6392-6c24-4891-8357-437dad8b4e04
+    9a08c1e38cbe6b65: !<reference> 62d12884-5422-4954-94db-19d01d647787
+    9a44cdddae9f103b: !<reference> d6061fcc-6edf-4963-9f87-d28a06448ab0
+    9c20ac8128923f9a: !<reference> 561162d4-aaf2-4919-8421-9c0390d91bf6
+    9d76d3965c36bd22: !<reference> ce68756b-0141-444e-9a0d-5581aaa269e4
+    9eee4738dd4af9cc: !<reference> 3b86bf58-a451-4db3-9411-e79e6c54c7e4
+    Animations/ColumbianMammoth_Idle/Chest_M_010_: !<reference> f773ba5a-e0e5-4104-a3e2-9eff5e164cfe
+    Animations/ColumbianMammoth_Idle/EyeEnd_L_029_: !<reference> 1a68d468-0e47-4165-abf8-b68a40340036
+    Animations/ColumbianMammoth_Idle/EyeEnd_R_031_: !<reference> 08263ee3-adec-48f2-9330-39442381b659
+    Animations/ColumbianMammoth_Idle/Eye_L_028_: !<reference> 5c3e25bd-46b9-4fd0-8d3b-a85ef055d2a2
+    Animations/ColumbianMammoth_Idle/Eye_R_030_: !<reference> 9a0901de-c9fd-4706-9259-b1caceae1f5d
+    Animations/ColumbianMammoth_Idle/HeadEnd_M_032_: !<reference> 3ffacb01-6d09-44e4-bc7a-952e72317a6d
+    Animations/ColumbianMammoth_Idle/Head_M_027_: !<reference> 01eab9b9-6a66-48d0-aa33-2a9bed6834e4
+    Animations/ColumbianMammoth_Idle/JawEnd_M_034_: !<reference> 8f1f82fb-c393-4b23-9265-e72be6a3f073
+    Animations/ColumbianMammoth_Idle/Jaw_M_033_: !<reference> 601d7d43-9479-460a-acc6-83908ba508a0
+    Animations/ColumbianMammoth_Idle/Neck1_M_024_: !<reference> 13899dca-298a-4b8b-9f07-57c8e01db4b4
+    Animations/ColumbianMammoth_Idle/Neck3_M_025_: !<reference> 82c43c45-fff2-46c3-b898-6ed43c026d17
+    Animations/ColumbianMammoth_Idle/Neck4_M_026_: !<reference> 4b7bc7ba-669e-4c3a-a7f3-9544d489ce2b
+    Animations/ColumbianMammoth_Idle/Neck_M_023_: !<reference> 88a1b64e-a3e4-453a-9135-0a6a904635fe
+    Animations/ColumbianMammoth_Idle/Root_M_00_: !<reference> 074cd032-5188-415a-b6a2-fba10be29507
+    Animations/ColumbianMammoth_Idle/Spine1_M_09_: !<reference> a162c51c-829a-4cbc-b28b-cedfdd4e12c3
+    Animations/ColumbianMammoth_Idle/Tail0_M_049_: !<reference> 07c0e22f-82aa-4b26-a8ef-fd5ca700d4c1
+    Animations/ColumbianMammoth_Idle/Tail1_M_050_: !<reference> 2fbe8c78-61e6-490a-81d7-f73d8b30afa8
+    Animations/ColumbianMammoth_Idle/Tail2_M_051_: !<reference> bae8b610-43f2-4cd9-87e6-8d10f746ad9a
+    Animations/ColumbianMammoth_Idle/Tail3_M_052_: !<reference> 46bb187e-f912-4b53-a915-14383fa86ec9
+    Animations/ColumbianMammoth_Idle/Tail4_M_053_: !<reference> f0f11ab5-0bdf-495c-954b-c14d38bd6b06
+    Animations/ColumbianMammoth_Idle/Tail5_M_054_: !<reference> 95ae8b0f-b1d3-4490-9ee6-d258d4d824c3
+    Animations/ColumbianMammoth_Idle/Tail6_M_055_: !<reference> 3483c320-2d81-475a-9393-a46cd4721346
+    Animations/ColumbianMammoth_Idle/_rootJoint_: !<reference> e92e00c1-6c1b-4293-a2db-0e8b788d5b6a
+    Animations/ColumbianMammoth_Idle/backAnkle_L_03_: !<reference> 92d0054b-6517-4a33-a9b1-2d8c63c25abd
+    Animations/ColumbianMammoth_Idle/backAnkle_R_07_: !<reference> c131461a-ba2e-4f90-bb18-00581749319b
+    Animations/ColumbianMammoth_Idle/backHip_L_01_: !<reference> 79895eff-d7eb-47b5-817b-7f5b0a736881
+    Animations/ColumbianMammoth_Idle/backHip_R_05_: !<reference> abf533bc-9397-4c01-b881-50ca94fcee79
+    Animations/ColumbianMammoth_Idle/backKnee_L_02_: !<reference> 9a2f4df1-698e-4627-96a1-7c7461508185
+    Animations/ColumbianMammoth_Idle/backKnee_R_06_: !<reference> 540f829b-6faf-4139-923c-80f972bde0b2
+    Animations/ColumbianMammoth_Idle/backToes3_L_04_: !<reference> faf2fe21-f22c-4403-bdbd-c9cdbf4c4dc0
+    Animations/ColumbianMammoth_Idle/backToes3_R_08_: !<reference> 6a55456a-07a2-4c04-8282-a34b29365f1c
+    Animations/ColumbianMammoth_Idle/frontAnkle_L_014_: !<reference> d384c227-1c82-4e68-aaea-033e304ca87f
+    Animations/ColumbianMammoth_Idle/frontAnkle_R_020_: !<reference> b23ae0fe-13f1-4178-b153-5b54eed14361
+    Animations/ColumbianMammoth_Idle/frontHip_L_012_: !<reference> 69442660-97c1-4be9-8d25-49b15d7d9cec
+    Animations/ColumbianMammoth_Idle/frontHip_R_018_: !<reference> 66365eef-c3e8-479e-9a20-4d0d2645cc19
+    Animations/ColumbianMammoth_Idle/frontKnee_L_013_: !<reference> f64e2b92-dd14-4dc0-8e4b-04aca5add967
+    Animations/ColumbianMammoth_Idle/frontKnee_R_019_: !<reference> 3f5f2df9-b5a5-40a0-9926-c037ad2425b5
+    Animations/ColumbianMammoth_Idle/frontRump_L_011_: !<reference> cbf42ab0-e2a0-4350-a184-225f7f484f3c
+    Animations/ColumbianMammoth_Idle/frontRump_R_017_: !<reference> 66ecb15c-2221-4ca7-9b0a-4b4ab7d944ef
+    Animations/ColumbianMammoth_Idle/frontToes3_L_015_: !<reference> 885fef2b-43fb-4fdd-b3bf-cc8be43d4496
+    Animations/ColumbianMammoth_Idle/frontToes3_R_021_: !<reference> ff7b1458-d5a7-4e8f-8bea-9b5af4070a04
+    Animations/ColumbianMammoth_Idle/frontToes4_L_016_: !<reference> ae14e961-a1fc-429e-9390-eaffc1f23fb8
+    Animations/ColumbianMammoth_Idle/frontToes4_R_022_: !<reference> b240d5c6-d9c8-4e43-a505-d58018202028
+    Animations/ColumbianMammoth_Idle/joint10_L_044_: !<reference> 7bee1cba-2dcb-495f-9731-cc0dda817be2
+    Animations/ColumbianMammoth_Idle/joint10_R_047_: !<reference> 365c2a7e-151c-4d60-9e79-0ada0cb4f150
+    Animations/ColumbianMammoth_Idle/joint11_L_045_: !<reference> 74bf68bb-9ed3-48a8-8947-4611820ce3a3
+    Animations/ColumbianMammoth_Idle/joint11_R_048_: !<reference> b431e042-9a77-4c8b-ab8e-f4eaac4c653b
+    Animations/ColumbianMammoth_Idle/joint1_M_035_: !<reference> ca21a32f-e1ff-4db9-bf27-937f3958fb5c
+    Animations/ColumbianMammoth_Idle/joint1_M_035_0_: !<reference> 19ab3649-932b-41c6-934f-dcc0861640fc
+    Animations/ColumbianMammoth_Idle/joint2_M_036_: !<reference> 0f7355cb-a0be-437b-8d46-d48edb4e750b
+    Animations/ColumbianMammoth_Idle/joint3_M_037_: !<reference> 1557ecad-b336-4fea-a620-64f86c3a4618
+    Animations/ColumbianMammoth_Idle/joint4_M_038_: !<reference> 039be979-2c89-4d7f-aeec-a12b0bc17a71
+    Animations/ColumbianMammoth_Idle/joint5_M_039_: !<reference> 7526cb67-da97-4c57-b85a-134afb98c51a
+    Animations/ColumbianMammoth_Idle/joint6_M_040_: !<reference> fc8c1987-2823-44d8-84c1-87292d611ecf
+    Animations/ColumbianMammoth_Idle/joint7_M_041_: !<reference> d6da948c-d6fe-4d08-a5e7-cc8d0cde8079
+    Animations/ColumbianMammoth_Idle/joint8_M_042_: !<reference> 42f929aa-ca63-4957-b99a-9a0cdebe50c9
+    Animations/ColumbianMammoth_Idle/joint9_L_043_: !<reference> 8c982d6a-9cd6-4dca-ad28-aa9e25c8fddb
+    Animations/ColumbianMammoth_Idle/joint9_R_046_: !<reference> 2a8608bb-e24a-4ff5-b49b-16584b5b8824
+    Animations/ColumbianMammoth_Trumpet/Chest_M_010_: !<reference> 8bdb5953-9848-4da4-915c-07997de353f5
+    Animations/ColumbianMammoth_Trumpet/EyeEnd_L_029_: !<reference> 89997291-ac98-4c28-8b90-1e1df9e854e0
+    Animations/ColumbianMammoth_Trumpet/EyeEnd_R_031_: !<reference> f5a0a322-5647-4178-8491-47d62435b647
+    Animations/ColumbianMammoth_Trumpet/Eye_L_028_: !<reference> 6b4e1609-2e66-4fd9-9cd0-13ec583b4661
+    Animations/ColumbianMammoth_Trumpet/Eye_R_030_: !<reference> 805eff74-2d2c-4706-8069-909a9ca9e89e
+    Animations/ColumbianMammoth_Trumpet/HeadEnd_M_032_: !<reference> 27ee6b84-47b0-41da-bcee-01056bb4c703
+    Animations/ColumbianMammoth_Trumpet/Head_M_027_: !<reference> 0fa6b602-0a78-4eef-bc47-f33a037fdfa4
+    Animations/ColumbianMammoth_Trumpet/JawEnd_M_034_: !<reference> 91b8b471-b961-492f-b2a1-05011d4c42dd
+    Animations/ColumbianMammoth_Trumpet/Jaw_M_033_: !<reference> 52f625fa-c76d-495f-8b80-0370b19723d4
+    Animations/ColumbianMammoth_Trumpet/Neck1_M_024_: !<reference> fed1801a-f869-4837-a630-f11b50559c84
+    Animations/ColumbianMammoth_Trumpet/Neck3_M_025_: !<reference> a2485240-0c5c-4e97-9fb2-a26c69c5b1ca
+    Animations/ColumbianMammoth_Trumpet/Neck4_M_026_: !<reference> dc9f8ac8-826a-4962-a1e3-680cc52c84bc
+    Animations/ColumbianMammoth_Trumpet/Neck_M_023_: !<reference> 0755d0fd-ef7d-4950-8c5b-412a1919a00c
+    Animations/ColumbianMammoth_Trumpet/Root_M_00_: !<reference> 9d44fc9e-60fa-4de6-9a1c-cd72de3efad9
+    Animations/ColumbianMammoth_Trumpet/Spine1_M_09_: !<reference> f15fedd3-f783-473b-9593-f23a38354255
+    Animations/ColumbianMammoth_Trumpet/Tail0_M_049_: !<reference> 4d950db4-c77e-404d-966a-b39b7984d0b2
+    Animations/ColumbianMammoth_Trumpet/Tail1_M_050_: !<reference> 92fc5716-e3f7-4ac2-97d3-4a581b6f38c8
+    Animations/ColumbianMammoth_Trumpet/Tail2_M_051_: !<reference> 30487602-175a-41ca-9ea3-3584a5285e56
+    Animations/ColumbianMammoth_Trumpet/Tail3_M_052_: !<reference> 9ecc24bc-7ca1-4f83-a723-85fc2edd1f73
+    Animations/ColumbianMammoth_Trumpet/Tail4_M_053_: !<reference> d7ba485c-b1f3-4e61-8a05-5ce58280357a
+    Animations/ColumbianMammoth_Trumpet/Tail5_M_054_: !<reference> 05d914dc-6b21-45d1-bd40-867c8247321a
+    Animations/ColumbianMammoth_Trumpet/Tail6_M_055_: !<reference> 46ec2d82-d296-4063-9a6a-a963ee1beef0
+    Animations/ColumbianMammoth_Trumpet/_rootJoint_: !<reference> 3d315c1a-8fc5-4051-b5c0-030fa28a7a3b
+    Animations/ColumbianMammoth_Trumpet/backAnkle_L_03_: !<reference> 5487f5fa-b03d-4d61-add2-d00864399302
+    Animations/ColumbianMammoth_Trumpet/backAnkle_R_07_: !<reference> 72d65f84-4b97-4a29-9983-4bec66c9ef10
+    Animations/ColumbianMammoth_Trumpet/backHip_L_01_: !<reference> 2dbc6377-0884-4f88-9c24-085fc04ff2d1
+    Animations/ColumbianMammoth_Trumpet/backHip_R_05_: !<reference> 65965867-d730-404e-a64e-2f4e5fd138bd
+    Animations/ColumbianMammoth_Trumpet/backKnee_L_02_: !<reference> f29cbcf3-eb07-4c05-8506-d76e8b143f46
+    Animations/ColumbianMammoth_Trumpet/backKnee_R_06_: !<reference> a5cc02e0-5ede-44ed-babc-eed6eea99bb7
+    Animations/ColumbianMammoth_Trumpet/backToes3_L_04_: !<reference> 042b3dfe-1def-4a2d-a34e-1029892a4882
+    Animations/ColumbianMammoth_Trumpet/backToes3_R_08_: !<reference> bf4073e3-3a1f-4694-8ed1-e7726653e69a
+    Animations/ColumbianMammoth_Trumpet/frontAnkle_L_014_: !<reference> fb0ee25e-6a79-4497-8919-4dd0ff1cd2d1
+    Animations/ColumbianMammoth_Trumpet/frontAnkle_R_020_: !<reference> 8a9440f3-921b-4883-a8ba-b7d531f73793
+    Animations/ColumbianMammoth_Trumpet/frontHip_L_012_: !<reference> 24cbcc4b-a575-43fa-b18d-464bae8951f1
+    Animations/ColumbianMammoth_Trumpet/frontHip_R_018_: !<reference> 0d4f70a3-5067-4de0-91b5-22ce72fa84a1
+    Animations/ColumbianMammoth_Trumpet/frontKnee_L_013_: !<reference> 606931cb-16a2-4807-964b-622150df5594
+    Animations/ColumbianMammoth_Trumpet/frontKnee_R_019_: !<reference> 25c40b93-8037-4e81-856a-5dab45ae9bf3
+    Animations/ColumbianMammoth_Trumpet/frontRump_L_011_: !<reference> 81b227ff-5c69-45d3-9317-8fb8b40a4e8e
+    Animations/ColumbianMammoth_Trumpet/frontRump_R_017_: !<reference> fd96c718-0adf-40f5-837a-0c53bfa272b0
+    Animations/ColumbianMammoth_Trumpet/frontToes3_L_015_: !<reference> e6807796-2e15-4e7e-a4f9-6d87067c2e10
+    Animations/ColumbianMammoth_Trumpet/frontToes3_R_021_: !<reference> db27746e-08bd-4d68-a436-882ee850836f
+    Animations/ColumbianMammoth_Trumpet/frontToes4_L_016_: !<reference> 9ad1d94e-bdd7-412b-87a7-385c9c816267
+    Animations/ColumbianMammoth_Trumpet/frontToes4_R_022_: !<reference> 1b122aff-d49e-4578-99af-462782f15117
+    Animations/ColumbianMammoth_Trumpet/joint10_L_044_: !<reference> 64c4b2ff-ecc3-4b72-badc-df5fa7334030
+    Animations/ColumbianMammoth_Trumpet/joint10_R_047_: !<reference> 24c1623b-af18-40aa-8a21-6f0b54c2cfff
+    Animations/ColumbianMammoth_Trumpet/joint11_L_045_: !<reference> d2a9fe43-3578-491a-aed1-c6c3e013f506
+    Animations/ColumbianMammoth_Trumpet/joint11_R_048_: !<reference> bd4ef1ec-0c74-4f27-8256-576dcd74624e
+    Animations/ColumbianMammoth_Trumpet/joint1_M_035_: !<reference> f8c4270a-766b-4911-bdb4-0e8ea90fd614
+    Animations/ColumbianMammoth_Trumpet/joint1_M_035_0_: !<reference> d5f58fbc-5773-4e53-b8d5-e4f28affbd58
+    Animations/ColumbianMammoth_Trumpet/joint2_M_036_: !<reference> ba4d434b-9e65-4099-b4ad-d0cc1b15491e
+    Animations/ColumbianMammoth_Trumpet/joint3_M_037_: !<reference> 45682607-2937-4014-ba68-db9e3674815b
+    Animations/ColumbianMammoth_Trumpet/joint4_M_038_: !<reference> 4ca0e21f-2e04-4008-807f-d89127be618b
+    Animations/ColumbianMammoth_Trumpet/joint5_M_039_: !<reference> a0f0f00c-5d13-4b78-8f70-fbd35b65b3f3
+    Animations/ColumbianMammoth_Trumpet/joint6_M_040_: !<reference> 14cf547f-e387-40d8-b69b-aff8569a5145
+    Animations/ColumbianMammoth_Trumpet/joint7_M_041_: !<reference> d0469a8e-7b7c-4c63-9c5e-b00534fdf14b
+    Animations/ColumbianMammoth_Trumpet/joint8_M_042_: !<reference> 091a1830-1dec-486a-a358-ce257560cb76
+    Animations/ColumbianMammoth_Trumpet/joint9_L_043_: !<reference> 00e24a1a-a189-4cac-a9f7-89ef2f8ee124
+    Animations/ColumbianMammoth_Trumpet/joint9_R_046_: !<reference> bbb8b2ba-92b7-42f7-a4e0-50f41cf9b00e
+    Animations/CoumbianMammoth_WalkCycle/Chest_M_010_: !<reference> 501e65ff-9904-4e18-9eb5-e092e1ec7875
+    Animations/CoumbianMammoth_WalkCycle/EyeEnd_L_029_: !<reference> 1a2afd4f-70a1-49ba-a7c1-f44e852bfc7d
+    Animations/CoumbianMammoth_WalkCycle/EyeEnd_R_031_: !<reference> a00c3006-e5fc-4aca-bca8-a2029feacea9
+    Animations/CoumbianMammoth_WalkCycle/Eye_L_028_: !<reference> 626d97b7-f0c9-43d3-b667-0f994c55a4d1
+    Animations/CoumbianMammoth_WalkCycle/Eye_R_030_: !<reference> c5f1ab45-53d2-4a26-becb-b1f590482c85
+    Animations/CoumbianMammoth_WalkCycle/HeadEnd_M_032_: !<reference> d1c119d4-82d9-4f01-ae29-5ebc13ae6cbe
+    Animations/CoumbianMammoth_WalkCycle/Head_M_027_: !<reference> 73cb5c7e-b3fa-4ddd-a896-52e03da98422
+    Animations/CoumbianMammoth_WalkCycle/JawEnd_M_034_: !<reference> a4aea20e-2f57-41a1-a51a-8d715192399a
+    Animations/CoumbianMammoth_WalkCycle/Jaw_M_033_: !<reference> 3623c50c-3f7a-48d9-83ae-e5bc9210c6d8
+    Animations/CoumbianMammoth_WalkCycle/Neck1_M_024_: !<reference> 62480578-88c9-4603-b712-349fb1195a73
+    Animations/CoumbianMammoth_WalkCycle/Neck3_M_025_: !<reference> ad94e851-8ccb-4a3c-a3a5-dad4fd57c51b
+    Animations/CoumbianMammoth_WalkCycle/Neck4_M_026_: !<reference> d4149a6b-146d-4445-bae6-e8881d8dcd66
+    Animations/CoumbianMammoth_WalkCycle/Neck_M_023_: !<reference> 43f280ba-d177-4f2a-a672-a619a991497f
+    Animations/CoumbianMammoth_WalkCycle/Root_M_00_: !<reference> c0e4dae7-5260-403a-9b03-a3ee060ec0f7
+    Animations/CoumbianMammoth_WalkCycle/Spine1_M_09_: !<reference> d6eb0a79-07b5-4ba2-a085-4f4f49f14ec3
+    Animations/CoumbianMammoth_WalkCycle/Tail0_M_049_: !<reference> 8924ea3b-16b0-40f7-8c15-f97b2bde9300
+    Animations/CoumbianMammoth_WalkCycle/Tail1_M_050_: !<reference> 90e56e82-b258-45c8-b99f-166bd2497f08
+    Animations/CoumbianMammoth_WalkCycle/Tail2_M_051_: !<reference> c658fb1e-ef39-46a7-877a-82d3c8e794e8
+    Animations/CoumbianMammoth_WalkCycle/Tail3_M_052_: !<reference> 7337a179-7dc6-4ea9-97e5-4b71af02a684
+    Animations/CoumbianMammoth_WalkCycle/Tail4_M_053_: !<reference> 8de4c349-e102-48ca-9664-e19d1ecfb312
+    Animations/CoumbianMammoth_WalkCycle/Tail5_M_054_: !<reference> fab76f8a-2a1b-4742-bdc5-7eb2208266d7
+    Animations/CoumbianMammoth_WalkCycle/Tail6_M_055_: !<reference> 362b070e-f0a6-435e-b72c-cd090bda8574
+    Animations/CoumbianMammoth_WalkCycle/_rootJoint_: !<reference> c55e7961-8e15-495d-b666-f02de7271b17
+    Animations/CoumbianMammoth_WalkCycle/backAnkle_L_03_: !<reference> 53bb22ba-6207-40fe-9dba-78edeb73bb0a
+    Animations/CoumbianMammoth_WalkCycle/backAnkle_R_07_: !<reference> 43f0740f-8d4a-485d-8ebe-a498328069e6
+    Animations/CoumbianMammoth_WalkCycle/backHip_L_01_: !<reference> f428b8e1-647a-434d-ba5b-d413108af294
+    Animations/CoumbianMammoth_WalkCycle/backHip_R_05_: !<reference> e3ea10a4-1a91-497b-8803-7c46d2e0d04b
+    Animations/CoumbianMammoth_WalkCycle/backKnee_L_02_: !<reference> bd805e68-db17-4aa3-bac7-ecbec8081b21
+    Animations/CoumbianMammoth_WalkCycle/backKnee_R_06_: !<reference> 471d9197-0a08-47ff-b3b1-e4548204e251
+    Animations/CoumbianMammoth_WalkCycle/backToes3_L_04_: !<reference> ae19f46d-548f-4f77-bdf9-1eadf4d98310
+    Animations/CoumbianMammoth_WalkCycle/backToes3_R_08_: !<reference> e801e8c3-7afa-4d40-976f-90e91b98237b
+    Animations/CoumbianMammoth_WalkCycle/frontAnkle_L_014_: !<reference> 91c78616-4b73-41e4-a612-6ada9bdcbd75
+    Animations/CoumbianMammoth_WalkCycle/frontAnkle_R_020_: !<reference> 76a62a83-7e16-4a4b-ac0d-7a745101e506
+    Animations/CoumbianMammoth_WalkCycle/frontHip_L_012_: !<reference> 49bb8470-3212-412d-9bc3-8f10712fa637
+    Animations/CoumbianMammoth_WalkCycle/frontHip_R_018_: !<reference> 68ee7fe5-af0e-4ff0-a5c8-9e9b36ff4c2b
+    Animations/CoumbianMammoth_WalkCycle/frontKnee_L_013_: !<reference> ec8a4dd7-d4c7-4422-b836-1c78a95d1887
+    Animations/CoumbianMammoth_WalkCycle/frontKnee_R_019_: !<reference> 1683e999-a148-4027-bcfe-375e19feb6ca
+    Animations/CoumbianMammoth_WalkCycle/frontRump_L_011_: !<reference> 115a7bcc-20b8-4ef9-814b-8d4bee68602c
+    Animations/CoumbianMammoth_WalkCycle/frontRump_R_017_: !<reference> b9c2fb2f-78a7-4ffb-92a1-ab294df493cd
+    Animations/CoumbianMammoth_WalkCycle/frontToes3_L_015_: !<reference> 88061d72-ba94-43b3-b96e-b54db2b3a18e
+    Animations/CoumbianMammoth_WalkCycle/frontToes3_R_021_: !<reference> cb64027c-e015-4eb9-9bda-40f91f35eb17
+    Animations/CoumbianMammoth_WalkCycle/frontToes4_L_016_: !<reference> 31f5e37c-2441-4ce7-ae65-d30e27bd6c88
+    Animations/CoumbianMammoth_WalkCycle/frontToes4_R_022_: !<reference> 740b0226-4d30-492f-beb5-41e25f775f09
+    Animations/CoumbianMammoth_WalkCycle/joint10_L_044_: !<reference> da065ac3-40bb-4f80-ab16-17677c63b9b0
+    Animations/CoumbianMammoth_WalkCycle/joint10_R_047_: !<reference> 271371b8-d6c0-4a14-ab0e-2bf501295fd0
+    Animations/CoumbianMammoth_WalkCycle/joint11_L_045_: !<reference> 6fcfc53b-3cd4-4306-a9ba-0bc1b1cf591b
+    Animations/CoumbianMammoth_WalkCycle/joint11_R_048_: !<reference> df9e202d-d479-4168-b3f6-b665ee71d7d9
+    Animations/CoumbianMammoth_WalkCycle/joint1_M_035_: !<reference> 8ee5d9e9-c429-4018-98b9-6ea5160a5416
+    Animations/CoumbianMammoth_WalkCycle/joint1_M_035_0_: !<reference> 6751bdac-06a0-457b-b461-7aaffb95db15
+    Animations/CoumbianMammoth_WalkCycle/joint2_M_036_: !<reference> 35afa629-4cb5-40a1-bc09-e3ef5ff19d4c
+    Animations/CoumbianMammoth_WalkCycle/joint3_M_037_: !<reference> 966ccc38-3a06-4433-811e-93753a2dc6fa
+    Animations/CoumbianMammoth_WalkCycle/joint4_M_038_: !<reference> 32d4c8aa-7913-4b26-a968-9e966a6a9f8a
+    Animations/CoumbianMammoth_WalkCycle/joint5_M_039_: !<reference> 1fbd90aa-c337-4807-befc-393f9d83155e
+    Animations/CoumbianMammoth_WalkCycle/joint6_M_040_: !<reference> e8017cf1-7247-4483-a69d-822542626af8
+    Animations/CoumbianMammoth_WalkCycle/joint7_M_041_: !<reference> 5918ac4e-a0e3-495e-96e1-d4d0eb52d605
+    Animations/CoumbianMammoth_WalkCycle/joint8_M_042_: !<reference> b629d6cd-7c6c-479b-b76d-5e6c07c66a2a
+    Animations/CoumbianMammoth_WalkCycle/joint9_L_043_: !<reference> 55f13b3c-3a60-45f0-9f67-deaffac9b075
+    Animations/CoumbianMammoth_WalkCycle/joint9_R_046_: !<reference> 3b104a54-a8ee-4921-b1eb-121860439243
+    Materials/ColumbianMammouth: !<reference> 8496b1e8-ef2f-4ad3-aa54-518fc02350d3
+    Materials/ColumbianMammouth|ColumbianMammouth|GraphPassInfo: !<reference> c684b588-f958-415f-9fc5-50f412222e14
+    Meshes/Columbian_mammoth__ColumbianMammouth_0: !<reference> 0cef756c-9076-4df8-b397-e554c0b68b49
+    Meshes/Columbian_mammoth_tusks_ColumbianMammouth_0: !<reference> 43615b1a-1afb-4ede-827a-943de7e995eb
+    Scene: !<reference> 37f9f9dd-0563-4539-a72b-b939741675df
+    Textures/Image_0: !<reference> 3112265e-bfee-4eb0-a512-2d431cc0ea26
+    Textures/Image_1: !<reference> 861d5abb-16b4-44d3-8b54-7e5048888506
+    a0f8ecda50d88838: !<reference> 8ebf8dae-2b3d-4d05-a92b-5fc6e327d83d
+    a1d247178e8c9632: !<reference> 5d41c5e5-725d-4256-bbc0-23cf4a1249f9
+    a3af326138304831: !<reference> ee7dc63d-29ea-4451-ad84-512107b7feac
+    a43114714895c053: !<reference> dc6aaa9d-dfb8-42c3-b2d5-1a5fdcaa0ff0
+    a6f4932f92de37aa: !<reference> 459e98ef-d8cc-4916-b4da-301a42346219
+    a833bfd1151ff3fe: !<reference> ee717d26-2493-40f8-a4a0-313e218a8c8a
+    a87f77ae2226792d: !<reference> 82d68348-e59f-474c-8f40-b450b3fb59b0
+    aaa9f3c2eaeec0e5: !<reference> 4a7c9081-f0e9-4322-a5cb-00d68706100d
+    ada233de32ec6d83: !<reference> 0c0d823d-49a5-417a-b384-c37ba6e07380
+    ae5c1cc36637b489: !<reference> 3bfef6e3-9ba7-4072-8629-b29ce6ea4bd9
+    b753bdd72e0beb78: !<reference> 5b6c8fa8-d6b3-4855-ad23-732c63a2064b
+    b93d36b7c9b38d09: !<reference> 7a5878db-dba3-42f8-aa6e-d102948fe8c7
+    bab6db6583d12f78: !<reference> c3bf861e-8353-4c29-982f-57e4db3f3160
+    bbb1f273cc3b0a37: !<reference> 40ba8da4-ee29-466e-b8f4-b0fa091d1987
+    bbf80c728349c4de: !<reference> ce8ba406-baa3-4d1d-9271-7dafdfcbfe21
+    bc84d27065d039fa: !<reference> 66bcbfc5-4e00-45a3-906c-054780ea543b
+    bcbe5f31e4f2e040: !<reference> 9c1f02b9-1563-45af-b74a-5d35077288f0
+    bd3c50c5b6518426: !<reference> 9b042470-248c-4667-a9a1-26c6b83f26ba
+    bfa7c3145c234abe: !<reference> 6da13535-0dfb-4de6-a7be-e6a23bde910c
+    c3190b2134f928a3: !<reference> ab7ccd8f-5ad0-4c24-8bc3-33123e988db7
+    c46a16c963e245e4: !<reference> 0578f486-8b51-44d5-8118-f8e2b309651f
+    c4967231128e560a: !<reference> ec52b03e-4d5b-4fec-9727-bb21d1197428
+    c7483d4f52e527b8: !<reference> 893c2fd2-bdbb-4a9f-8ae9-b87fefa6abd9
+    c895a22cc70803c3: !<reference> 0736dc03-f2a9-4953-a238-88ce09b50d42
+    c9fa93ab1019692d: !<reference> f4ab0e20-58e7-4310-b2de-0b4cb790e205
+    cb5ebfe0386db0ec: !<reference> c600fcb8-3b33-4fb5-938b-9abb34253053
+    ccf40a303256ff28: !<reference> e3ab65b9-fd91-49c6-97db-6b3c7454a818
+    cf47c6082a74e57b: !<reference> df06e91f-54d3-4396-8549-4f8a9d689baf
+    component_60|ColumbianMammoth_Idle: !<reference> fbac405f-1cb3-46a8-85f3-9dcd6b843628
+    component_60|ColumbianMammoth_Trumpet: !<reference> ae01e00f-e7f1-447b-8436-95cffd4b1f87
+    component_60|CoumbianMammoth_WalkCycle: !<reference> 4b85d05f-883c-4567-8da7-14c57073bed5
+    d5415a6fae7e8542: !<reference> f7015b2d-d46f-40f1-9fc9-23618fbfa4d2
+    d5a2ae705aceca21: !<reference> d9e9c3c8-b9a6-4dae-ba23-2659efd23a8d
+    d6205f7051b13bce: !<reference> 1544b9dc-2b97-4303-848c-851fbbf0939d
+    d6cb85ca3fc4ef31: !<reference> 03ca20fb-6339-49e6-881f-feb349e27b4d
+    d6dd363bca5ff929: !<reference> 5107e01d-9d00-4670-a3c9-2ec6891775d9
+    da4d21a70ede7d27: !<reference> a49dc2e9-e4bd-4d8f-83e8-2d9a78391264
+    dc6fd4d262801d5f: !<reference> 5d72a501-831d-4199-bc2b-537e322f60a1
+    dd5128ca26628207: !<reference> fcb628b6-d24d-417a-8c52-dcdccb850ba1
+    dd55f6d9a77a39eb: !<reference> 238991ed-4372-4830-bd44-1b2d7d0a37f3
+    df50edc6456027a0: !<reference> c462e6a4-e3ae-4768-b0e8-f386f0e67445
+    df99344a881baa8d: !<reference> 4db956ed-f853-4c06-a41a-e2e8046d6e15
+    dfa8920624473161: !<reference> dcaa9fd4-14b5-4e2e-a9b1-6bec6d96cc54
+    e1154bded6ca3f24: !<reference> d85f097e-ac58-462f-8b54-1a36552173bd
+    e173d2c7aa056f7f: !<reference> 6a56b860-e3b8-4843-9459-ff6bb51eb0c4
+    e2a4129e4c7cf5c6: !<reference> 43210850-460f-4ac3-ba0e-189a374846d7
+    e2e7cecf8196503f: !<reference> d7a3cd1d-7039-4cb6-a9ae-d99ed250137d
+    e39b428bf4b20bb2: !<reference> 0bd20b64-efc4-4849-a429-7344b4cf0975
+    e64194fa44a2669e: !<reference> 7cd6c50a-8d7a-4948-9ec3-14fb610b1ce9
+    ebc495b9d0ecc551: !<reference> e5611944-5054-44a7-bd7c-e53d13648f23
+    eca7bad4c44893c7: !<reference> 21baffd3-4d51-4007-995c-855a1c92897d
+    edb0acd17c6869ca: !<reference> aac78277-02d1-4f9d-93c7-8c5a0ca464f1
+    f16a7887ab14e168: !<reference> 97d6b47a-4dc9-48cb-affe-a79118d312c7
+    f45010f922dd6c44: !<reference> 7c01d060-1bde-40d2-9f21-df07d4ee25b1
+    fa7020c30dbd02cb: !<reference> 68d6cc7f-823b-4b46-a4b3-4b39db428307
+    fb6d80fb8e2ec88b: !<reference> 818ee701-c15b-493f-970a-9eb58f3c238b
+    fd77227d110e0aed: !<reference> 820643d5-ab0b-48ea-bbc9-c63dbf02d68f
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> 37f9f9dd-0563-4539-a72b-b939741675df
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 554d19b5-83c0-443f-93a6-93358e29e832
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: true
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/00def104-1006-48e2-aa5c-073a446f1e17>
+  PrefabRemaps:
+    []
+  Name: backAnkle_L_03
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -99.236618, y: 0.000601, z: 0.000004}
+    rotation: {x: -0.000000, y: -0.000016, z: 28.316278}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4759e783-14aa-46ef-864f-e7bb695e5453
+  Components:
+    - !<own> 7c5cd338-dfcf-4246-9338-db8641720a05
+- !<SceneObject/05123d79-0c25-409c-bab4-beee945da53a>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000023, y: 0.000000, z: 0.000000}
+    scale: {x: 0.007692, y: 0.007692, z: 0.007692}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa042072-1701-4041-b66f-55604840127c
+  Components:
+    []
+- !<SceneObject/0b1b7edf-be4e-4d7b-8d97-ac7d7759f259>
+  PrefabRemaps:
+    []
+  Name: joint4_M_038
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 49.490326, y: 0.000504, z: 0.000002}
+    rotation: {x: 0.000000, y: -0.000000, z: -3.163750}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 557fdd10-d2b3-4134-b918-9548a6f2e322
+  Components:
+    - !<own> 41368aa8-e4ec-4c78-b454-1f472abdbfa7
+- !<Animation/0b349707-7301-4cfb-86e3-b61e8e5e5c98>
+  PrefabRemaps:
+    []
+  Name: component_54
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 2fbe8c78-61e6-490a-81d7-f73d8b30afa8
+    ColumbianMammoth_Trumpet: !<reference> 92fc5716-e3f7-4ac2-97d3-4a581b6f38c8
+    CoumbianMammoth_WalkCycle: !<reference> 90e56e82-b258-45c8-b99f-166bd2497f08
+- !<SceneObject/0edee0e6-46cb-4ac3-b23f-acb29a2f9291>
+  PrefabRemaps:
+    []
+  Name: Geometry
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 62384b63-c650-4fb3-ada4-9de088893adb
+    - !<own> 814e7a57-0363-455a-8c37-914a2f864eb0
+  Components:
+    []
+- !<SceneObject/15b8ea17-f8cb-4569-9216-b313d02a2ac1>
+  PrefabRemaps:
+    []
+  Name: Object_15
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 778042c3-95e2-4b73-9017-94bcf7e96094
+- !<Animation/179abf3c-9f97-45e4-b07d-523e0a60d433>
+  PrefabRemaps:
+    []
+  Name: component_51
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 365c2a7e-151c-4d60-9e79-0ada0cb4f150
+    ColumbianMammoth_Trumpet: !<reference> 24c1623b-af18-40aa-8a21-6f0b54c2cfff
+    CoumbianMammoth_WalkCycle: !<reference> 271371b8-d6c0-4a14-ab0e-2bf501295fd0
+- !<Animation/17a1c99e-c968-4e17-ba22-d31c9f1f25fb>
+  PrefabRemaps:
+    []
+  Name: component_30
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 01eab9b9-6a66-48d0-aa33-2a9bed6834e4
+    ColumbianMammoth_Trumpet: !<reference> 0fa6b602-0a78-4eef-bc47-f33a037fdfa4
+    CoumbianMammoth_WalkCycle: !<reference> 73cb5c7e-b3fa-4ddd-a896-52e03da98422
+- !<SceneObject/190078a2-4850-4de7-8ffe-d3baf5836df3>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 05123d79-0c25-409c-bab4-beee945da53a
+  Components:
+    - !<own> aa47bd34-1b10-4c32-a293-7549c1ae1dca
+    - !<own> d4f8b2d2-0bb3-4a28-824c-1e2b28b35571
+- !<SceneObject/1bf569b9-0052-428c-b6ba-892f59c4e72d>
+  PrefabRemaps:
+    []
+  Name: backAnkle_R_07
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 99.236580, y: -0.000609, z: 0.000022}
+    rotation: {x: -0.000000, y: 0.000000, z: 28.316267}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c90b8ecf-86c7-4f18-b5fd-85628f63af60
+  Components:
+    - !<own> dbd1575c-141a-47d1-819b-f6bd8fee23b5
+- !<Animation/20eb1614-58ae-49db-a323-3d877ddd2ba2>
+  PrefabRemaps:
+    []
+  Name: component_27
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 13899dca-298a-4b8b-9f07-57c8e01db4b4
+    ColumbianMammoth_Trumpet: !<reference> fed1801a-f869-4837-a630-f11b50559c84
+    CoumbianMammoth_WalkCycle: !<reference> 62480578-88c9-4603-b712-349fb1195a73
+- !<SceneObject/214dc6fa-f9f3-4a59-9424-31ea72422be1>
+  PrefabRemaps:
+    []
+  Name: Tail1_M_050
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 24.163429, y: -0.000130, z: 0.000004}
+    rotation: {x: -0.000000, y: -0.000011, z: 8.142394}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b91ae923-085c-4d35-9408-337808eca73e
+  Components:
+    - !<own> 0b349707-7301-4cfb-86e3-b61e8e5e5c98
+- !<Animation/2220999a-a599-4c0b-966a-b434b59ba272>
+  PrefabRemaps:
+    []
+  Name: component_29
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 4b7bc7ba-669e-4c3a-a7f3-9544d489ce2b
+    ColumbianMammoth_Trumpet: !<reference> dc9f8ac8-826a-4962-a1e3-680cc52c84bc
+    CoumbianMammoth_WalkCycle: !<reference> d4149a6b-146d-4445-bae6-e8881d8dcd66
+- !<SceneObject/23113867-c25e-4e65-91ba-5b9d8359d3cb>
+  PrefabRemaps:
+    []
+  Name: Tail5_M_054
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 9.231823, y: 0.000057, z: -0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 2.533130}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ec00e6d5-e323-4b8c-8904-46290b065dbf
+  Components:
+    - !<own> b2950a49-0cb1-4716-a4d0-fe46145f7bfd
+- !<SceneObject/29dda8cf-51f4-43aa-861c-851cfc43e498>
+  PrefabRemaps:
+    []
+  Name: frontAnkle_R_020
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 111.341652, y: 0.000278, z: 0.000020}
+    rotation: {x: 0.000000, y: -0.000000, z: -14.412876}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 405fd0f1-6c73-4f79-85df-131be84f668d
+  Components:
+    - !<own> 94223a89-9b7a-410d-b089-c8748a2277ba
+- !<Animation/2be46a70-6e18-4ba5-80a3-fc7ad20762e6>
+  PrefabRemaps:
+    []
+  Name: component_22
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 3f5f2df9-b5a5-40a0-9926-c037ad2425b5
+    ColumbianMammoth_Trumpet: !<reference> 25c40b93-8037-4e81-856a-5dab45ae9bf3
+    CoumbianMammoth_WalkCycle: !<reference> 1683e999-a148-4027-bcfe-375e19feb6ca
+- !<Animation/3432a671-66e4-4bcb-9989-8dbe275ea2cd>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> f64e2b92-dd14-4dc0-8e4b-04aca5add967
+    ColumbianMammoth_Trumpet: !<reference> 606931cb-16a2-4807-964b-622150df5594
+    CoumbianMammoth_WalkCycle: !<reference> ec8a4dd7-d4c7-4422-b836-1c78a95d1887
+- !<SceneObject/34499890-5de8-471a-a161-ea893e25bfd5>
+  PrefabRemaps:
+    []
+  Name: Object_12
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Animation/36f2e1ed-21ea-404b-bfa2-af85a5e9dc8e>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 074cd032-5188-415a-b6a2-fba10be29507
+    ColumbianMammoth_Trumpet: !<reference> 9d44fc9e-60fa-4de6-9a1c-cd72de3efad9
+    CoumbianMammoth_WalkCycle: !<reference> c0e4dae7-5260-403a-9b03-a3ee060ec0f7
+- !<Animation/3ec51021-fd9f-4501-bd44-9d4376208cc3>
+  PrefabRemaps:
+    []
+  Name: component_31
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 5c3e25bd-46b9-4fd0-8d3b-a85ef055d2a2
+    ColumbianMammoth_Trumpet: !<reference> 6b4e1609-2e66-4fd9-9cd0-13ec583b4661
+    CoumbianMammoth_WalkCycle: !<reference> 626d97b7-f0c9-43d3-b667-0f994c55a4d1
+- !<Animation/3fe0efd5-7845-417e-b284-14aabd83ea44>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> a162c51c-829a-4cbc-b28b-cedfdd4e12c3
+    ColumbianMammoth_Trumpet: !<reference> f15fedd3-f783-473b-9593-f23a38354255
+    CoumbianMammoth_WalkCycle: !<reference> d6eb0a79-07b5-4ba2-a085-4f4f49f14ec3
+- !<SceneObject/4033c0e2-4e1b-41a7-b725-f62066656b59>
+  PrefabRemaps:
+    []
+  Name: joint6_M_040
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 36.268188, y: -0.000195, z: 0.000002}
+    rotation: {x: 0.000000, y: 0.000000, z: -17.812473}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> daa63d1a-8d3f-49aa-9332-5b812f4a0632
+  Components:
+    - !<own> e6f45268-6a56-4a35-8131-366813f3206c
+- !<SceneObject/405fd0f1-6c73-4f79-85df-131be84f668d>
+  PrefabRemaps:
+    []
+  Name: frontToes3_R_021
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 33.664150, y: 0.000013, z: 0.000015}
+    rotation: {x: -0.000000, y: 0.000000, z: 51.820251}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e2ce5050-423b-4188-a288-320d70191e5b
+  Components:
+    - !<own> a9f9c0c3-6df0-4463-ba7a-8f6c7ffe1932
+- !<Animation/41368aa8-e4ec-4c78-b454-1f472abdbfa7>
+  PrefabRemaps:
+    []
+  Name: component_41
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 039be979-2c89-4d7f-aeec-a12b0bc17a71
+    ColumbianMammoth_Trumpet: !<reference> 4ca0e21f-2e04-4008-807f-d89127be618b
+    CoumbianMammoth_WalkCycle: !<reference> 32d4c8aa-7913-4b26-a968-9e966a6a9f8a
+- !<Animation/415cfeff-16cf-46ff-9699-c0a00f0b7e87>
+  PrefabRemaps:
+    []
+  Name: component_42
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 7526cb67-da97-4c57-b85a-134afb98c51a
+    ColumbianMammoth_Trumpet: !<reference> a0f0f00c-5d13-4b78-8f70-fbd35b65b3f3
+    CoumbianMammoth_WalkCycle: !<reference> 1fbd90aa-c337-4807-befc-393f9d83155e
+- !<SceneObject/41796111-617c-4b14-809a-fc90056097b2>
+  PrefabRemaps:
+    []
+  Name: backHip_R_05
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -57.220661, y: 49.628258, z: -41.641655}
+    rotation: {x: 180.000000, y: -0.000000, z: 89.539825}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ef782b65-8b70-4a0c-b722-fa77cbf93d5b
+  Components:
+    - !<own> c10647b2-43de-4b52-9237-1342964b470c
+- !<SceneObject/42142259-50fc-4891-97fc-1ad59efa342d>
+  PrefabRemaps:
+    []
+  Name: Eye_L_028
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 3.648585, y: 14.821650, z: 29.891457}
+    rotation: {x: -0.000000, y: -34.639057, z: -2.911661}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fef1d2a7-fa7c-4185-b7a0-d44939a7743e
+  Components:
+    - !<own> 3ec51021-fd9f-4501-bd44-9d4376208cc3
+- !<Animation/42af35b4-1baa-49f6-a8c2-e70f710b49a2>
+  PrefabRemaps:
+    []
+  Name: component_37
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 8f1f82fb-c393-4b23-9265-e72be6a3f073
+    ColumbianMammoth_Trumpet: !<reference> 91b8b471-b961-492f-b2a1-05011d4c42dd
+    CoumbianMammoth_WalkCycle: !<reference> a4aea20e-2f57-41a1-a51a-8d715192399a
+- !<Animation/439a330e-db33-4b18-92f3-bc608632f49e>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> f773ba5a-e0e5-4104-a3e2-9eff5e164cfe
+    ColumbianMammoth_Trumpet: !<reference> 8bdb5953-9848-4da4-915c-07997de353f5
+    CoumbianMammoth_WalkCycle: !<reference> 501e65ff-9904-4e18-9eb5-e092e1ec7875
+- !<SceneObject/44881429-e7a8-482f-9b34-59694e4bd3e8>
+  PrefabRemaps:
+    []
+  Name: backKnee_L_02
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -89.703491, y: 0.000072, z: 0.000005}
+    rotation: {x: 0.000000, y: 0.000000, z: -47.365612}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 00def104-1006-48e2-aa5c-073a446f1e17
+  Components:
+    - !<own> 5fa1f243-17ee-4d91-b157-003bde2b4d02
+- !<Animation/462890f8-0111-4dee-80eb-268533b5368e>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> faf2fe21-f22c-4403-bdbd-c9cdbf4c4dc0
+    ColumbianMammoth_Trumpet: !<reference> 042b3dfe-1def-4a2d-a34e-1029892a4882
+    CoumbianMammoth_WalkCycle: !<reference> ae19f46d-548f-4f77-bdf9-1eadf4d98310
+- !<SceneObject/4759e783-14aa-46ef-864f-e7bb695e5453>
+  PrefabRemaps:
+    []
+  Name: backToes3_L_04
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -22.733433, y: -0.000029, z: 0.000013}
+    rotation: {x: -18.750019, y: -10.748745, z: 50.949238}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 462890f8-0111-4dee-80eb-268533b5368e
+- !<Animation/4901535b-ef53-4448-8862-97ea4a515568>
+  PrefabRemaps:
+    []
+  Name: component_40
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 1557ecad-b336-4fea-a620-64f86c3a4618
+    ColumbianMammoth_Trumpet: !<reference> 45682607-2937-4014-ba68-db9e3674815b
+    CoumbianMammoth_WalkCycle: !<reference> 966ccc38-3a06-4433-811e-93753a2dc6fa
+- !<Animation/4948a07b-dba0-4bfc-aecd-34eb9891fa4c>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 69442660-97c1-4be9-8d25-49b15d7d9cec
+    ColumbianMammoth_Trumpet: !<reference> 24cbcc4b-a575-43fa-b18d-464bae8951f1
+    CoumbianMammoth_WalkCycle: !<reference> 49bb8470-3212-412d-9bc3-8f10712fa637
+- !<SceneObject/49875861-fdbb-406d-bee3-fba44548c901>
+  PrefabRemaps:
+    []
+  Name: mammoth
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bdcf79f9-a0ac-4d76-8d6b-bfb87d48134f
+  Components:
+    []
+- !<Animation/4bcd94d7-1fa5-4492-aa46-939537cbc380>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> d384c227-1c82-4e68-aaea-033e304ca87f
+    ColumbianMammoth_Trumpet: !<reference> fb0ee25e-6a79-4497-8919-4dd0ff1cd2d1
+    CoumbianMammoth_WalkCycle: !<reference> 91c78616-4b73-41e4-a612-6ada9bdcbd75
+- !<Animation/50b894f9-d000-46f3-a2a5-7700fe69337f>
+  PrefabRemaps:
+    []
+  Name: component_53
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 07c0e22f-82aa-4b26-a8ef-fd5ca700d4c1
+    ColumbianMammoth_Trumpet: !<reference> 4d950db4-c77e-404d-966a-b39b7984d0b2
+    CoumbianMammoth_WalkCycle: !<reference> 8924ea3b-16b0-40f7-8c15-f97b2bde9300
+- !<Animation/541fe39c-06aa-4e22-aa9c-7da1aef5f985>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 79895eff-d7eb-47b5-817b-7f5b0a736881
+    ColumbianMammoth_Trumpet: !<reference> 2dbc6377-0884-4f88-9c24-085fc04ff2d1
+    CoumbianMammoth_WalkCycle: !<reference> f428b8e1-647a-434d-ba5b-d413108af294
+- !<ObjectPrefabAssetData/554d19b5-83c0-443f-93a6-93358e29e832>
+  SourceRemaps:
+    - 00bf4896-53b6-489e-88cc-43701b3420e0: 5bf21f6b-c434-4781-999c-34466e8c4d5a
+    - 03ca20fb-6339-49e6-881f-feb349e27b4d: 34499890-5de8-471a-a161-ea893e25bfd5
+    - 0578f486-8b51-44d5-8118-f8e2b309651f: c5a70bc2-9dc5-4373-9149-02be0d3d1ac5
+    - 0736dc03-f2a9-4953-a238-88ce09b50d42: a4dd1ab9-a515-4a5b-b4da-b03527d27a02
+    - 0bd20b64-efc4-4849-a429-7344b4cf0975: 2220999a-a599-4c0b-966a-b434b59ba272
+    - 0c0d823d-49a5-417a-b384-c37ba6e07380: 00def104-1006-48e2-aa5c-073a446f1e17
+    - 110db364-cf04-4a92-8af1-b43bab77a66b: bdcf79f9-a0ac-4d76-8d6b-bfb87d48134f
+    - 13364567-65d4-42c3-9b48-a45e81849418: 190078a2-4850-4de7-8ffe-d3baf5836df3
+    - 1422eb00-51d8-44e8-b8cd-3b98afebecdb: 214dc6fa-f9f3-4a59-9424-31ea72422be1
+    - 1544b9dc-2b97-4303-848c-851fbbf0939d: c8bf858a-5009-44ad-9fc6-d648617c779d
+    - 154f4d1c-e68e-42e1-998a-2ed9675fe785: d803a38f-05eb-4a96-a2b7-0e969d032e60
+    - 1714cd8a-dc6f-41a5-83c7-24640a3fd29d: 4901535b-ef53-4448-8862-97ea4a515568
+    - 17b07bd0-23f2-4307-a347-7d2522afa0b5: ec00e6d5-e323-4b8c-8904-46290b065dbf
+    - 199a5a5d-1531-4808-8d7f-ad81e03b9b0b: aad65b3f-70d3-4818-b63a-fe39c6d493f2
+    - 218acbcc-6713-4344-a4e2-91966849d0f7: e6f45268-6a56-4a35-8131-366813f3206c
+    - 21baffd3-4d51-4007-995c-855a1c92897d: f52c7f63-5302-4636-9ebf-02e61ed6a467
+    - 2312f6b7-83e2-4de2-809a-fb1ba7240c8a: 7f5bb011-9c58-4976-bfb5-9e415d6ebea8
+    - 2325a01a-69fd-4b19-aa33-36f95fcacea7: 8728bcf5-3ab1-4f5f-a9ee-98f795a86f23
+    - 238991ed-4372-4830-bd44-1b2d7d0a37f3: fdf34fd5-473e-41c7-a1d1-5cc7104a5f26
+    - 260c3b55-ee0e-4ef1-bd9f-39350df2b353: df13464a-4702-40d5-af5d-e144e283800d
+    - 269bd1ee-35cd-4c0b-8629-4b02dde9c869: 96ecf97d-c0cc-423c-89a9-541b47c46bd4
+    - 29506afd-b754-45d9-832d-cb855fe01240: 85a60e9c-0162-42ad-b7c1-916844e2552e
+    - 2990d340-a1a7-4621-bfa5-7f0d6ceceea8: e5363e2f-628e-4069-a0bb-e1fd5f4a98da
+    - 2bf687ed-3b76-491b-ac12-158c261b4d9a: 439a330e-db33-4b18-92f3-bc608632f49e
+    - 318a6392-6c24-4891-8357-437dad8b4e04: f4ce50fa-b2c4-45f3-985b-6141736db967
+    - 31af5a02-5639-4b0d-b8e4-2c838bb3c63c: 814e7a57-0363-455a-8c37-914a2f864eb0
+    - 37f9f9dd-0563-4539-a72b-b939741675df: 8701aa3b-f3a4-4f69-921b-70b3064f1c32
+    - 3b86bf58-a451-4db3-9411-e79e6c54c7e4: b2950a49-0cb1-4716-a4d0-fe46145f7bfd
+    - 3bfef6e3-9ba7-4072-8629-b29ce6ea4bd9: 6c4731dd-aa61-4c59-af7b-994fcb84dc23
+    - 40ba8da4-ee29-466e-b8f4-b0fa091d1987: 891bd240-ad3d-4b79-ab9f-e03b9bc7ca8e
+    - 4147cf17-6a8d-4cc6-95cf-bbf31acb2a8a: 4033c0e2-4e1b-41a7-b725-f62066656b59
+    - 43210850-460f-4ac3-ba0e-189a374846d7: 5a8dc902-4882-4c89-a3d3-86d23df5820d
+    - 44aeb0d9-5663-4187-982d-5c58b26678d5: 8925318e-6a11-47ee-901d-0e3ac54f6076
+    - 459e98ef-d8cc-4916-b4da-301a42346219: 405fd0f1-6c73-4f79-85df-131be84f668d
+    - 497e6ebc-a417-40cd-addd-d06dae5301c8: 3432a671-66e4-4bcb-9989-8dbe275ea2cd
+    - 4a7c9081-f0e9-4322-a5cb-00d68706100d: d33d2599-9fb1-4eaf-a451-5c74df2d03b8
+    - 4bb0fb43-e48e-43c2-96cc-2a627a17bd5c: f16ebff5-86ea-4e9c-927b-418b2beb077b
+    - 4c6eff69-8eaa-4bf6-9b90-a010a514ddbf: 15b8ea17-f8cb-4569-9216-b313d02a2ac1
+    - 4db956ed-f853-4c06-a41a-e2e8046d6e15: 29dda8cf-51f4-43aa-861c-851cfc43e498
+    - 4e8f5804-f602-402f-8240-085bdcf7587d: 98f9cf34-4a9c-4b1f-b414-ed8d19a1d5a7
+    - 50c4a785-f6ce-4855-bbb7-a1de756f5960: 778042c3-95e2-4b73-9017-94bcf7e96094
+    - 5107e01d-9d00-4670-a3c9-2ec6891775d9: c10647b2-43de-4b52-9237-1342964b470c
+    - 526ce07f-ae60-4a8c-be7d-ef8cc33e5ac4: e760ae4a-b629-4c37-b237-efd58261acc2
+    - 551530a9-80ad-4a25-975f-1b97035426e8: 89dddb7d-3584-4b39-ace6-38c28c296866
+    - 561162d4-aaf2-4919-8421-9c0390d91bf6: de836244-5f89-439a-b394-6b1eeb5b4f92
+    - 5b6c8fa8-d6b3-4855-ad23-732c63a2064b: e64a2f04-64b8-4318-8197-345d54487a65
+    - 5d41c5e5-725d-4256-bbc0-23cf4a1249f9: 63b6940b-be70-4864-856a-09562f59aaf7
+    - 5d72a501-831d-4199-bc2b-537e322f60a1: 956bc1b5-2b47-4bcc-a564-9a1313cb9c74
+    - 5ec81712-c1be-407d-a67c-dd59d2489171: 557fdd10-d2b3-4134-b918-9548a6f2e322
+    - 5ecc6d6f-1144-443a-986e-bc0e024f7201: 66bf55ae-3f6b-425f-bef4-2f1156c9143f
+    - 61e8b11e-07a3-4928-b3d3-ee24a2ecc45c: 462890f8-0111-4dee-80eb-268533b5368e
+    - 62d12884-5422-4954-94db-19d01d647787: 17a1c99e-c968-4e17-ba22-d31c9f1f25fb
+    - 63d05f99-c3a4-4e60-b451-c69fdf4752f5: 7595ee54-a774-44d4-8eb1-5b6bf8469a76
+    - 66bcbfc5-4e00-45a3-906c-054780ea543b: d33bd49d-eb5d-49bc-9e71-d45f41d1777c
+    - 6741ec32-1fb5-4f8b-a7a8-d434813fce1b: 44881429-e7a8-482f-9b34-59694e4bd3e8
+    - 68d6cc7f-823b-4b46-a4b3-4b39db428307: 36f2e1ed-21ea-404b-bfa2-af85a5e9dc8e
+    - 6a56b860-e3b8-4843-9459-ff6bb51eb0c4: a7e05cd5-f137-4def-9425-c4e71ced9aa0
+    - 6da13535-0dfb-4de6-a7be-e6a23bde910c: f51da512-39bc-43a7-bf5e-f87df3027ae4
+    - 6e44c228-2c0e-44a9-8456-35aff8225d7e: 62575fc8-95dc-4d81-a9a9-fa3150a23a6e
+    - 796ba2e9-2030-49d0-a4f4-8034f0a870a9: caa0f18a-8725-461f-bb01-00384444dbb1
+    - 7a5878db-dba3-42f8-aa6e-d102948fe8c7: c05ccae1-9c85-445c-b86b-b11ba967145a
+    - 7c01d060-1bde-40d2-9f21-df07d4ee25b1: cce7f9fd-9d2a-4cdd-8872-eabac80a0d4d
+    - 7cd6c50a-8d7a-4948-9ec3-14fb610b1ce9: 2be46a70-6e18-4ba5-80a3-fc7ad20762e6
+    - 7f902f1e-a341-4f9e-b472-3a8ca89ae64a: 7d6bd5c3-473a-4b62-9a2f-64125ad91e9c
+    - 818ee701-c15b-493f-970a-9eb58f3c238b: 42142259-50fc-4891-97fc-1ad59efa342d
+    - 820643d5-ab0b-48ea-bbc9-c63dbf02d68f: 4759e783-14aa-46ef-864f-e7bb695e5453
+    - 82d68348-e59f-474c-8f40-b450b3fb59b0: b32c6478-0355-4d5e-b6fd-1e4d8f0954f2
+    - 83d5c2bb-4b09-4ddd-8726-77c2dcb15596: 8ccad037-80a5-4b32-80af-d32d2356e41a
+    - 861c598d-c120-4c79-bdac-e34d9deacc38: dbd1575c-141a-47d1-819b-f6bd8fee23b5
+    - 893c2fd2-bdbb-4a9f-8ae9-b87fefa6abd9: 0edee0e6-46cb-4ac3-b23f-acb29a2f9291
+    - 8c41f7ba-b2d3-487e-b051-852492b8ff0f: 6a6c3eec-2370-4e8b-9f93-b8f246cc401a
+    - 8dffb360-8e1b-48c2-998e-90e7f02295f6: 41368aa8-e4ec-4c78-b454-1f472abdbfa7
+    - 8ebf8dae-2b3d-4d05-a92b-5fc6e327d83d: 20eb1614-58ae-49db-a323-3d877ddd2ba2
+    - 91cfaa5d-dda9-4005-b699-fae83140abd2: 0b349707-7301-4cfb-86e3-b61e8e5e5c98
+    - 97d6b47a-4dc9-48cb-affe-a79118d312c7: 4bcd94d7-1fa5-4492-aa46-939537cbc380
+    - 9af55071-8a7c-4702-8273-df3c486a3793: d4f8b2d2-0bb3-4a28-824c-1e2b28b35571
+    - 9b042470-248c-4667-a9a1-26c6b83f26ba: c90b8ecf-86c7-4f18-b5fd-85628f63af60
+    - 9c1f02b9-1563-45af-b74a-5d35077288f0: 5dcbef20-1d01-432f-b721-71d1de18c9fa
+    - 9e73eacc-1861-4c5b-ad70-5b3561aabb7d: 1bf569b9-0052-428c-b6ba-892f59c4e72d
+    - a1a0c841-89a7-4f03-bae5-22257387e6be: adb44566-849c-4de9-b3d5-25714478ad38
+    - a49dc2e9-e4bd-4d8f-83e8-2d9a78391264: 7826d3f3-8dad-4f13-a177-dda494974580
+    - a4e6c49b-7b31-4dd7-b2c1-64598e2f5c7f: 415cfeff-16cf-46ff-9699-c0a00f0b7e87
+    - a5be188e-9523-4bd9-9f38-d692cd64ef9c: 62384b63-c650-4fb3-ada4-9de088893adb
+    - a7c35ad6-86aa-4ed5-b21d-aa8747466a16: b91ae923-085c-4d35-9408-337808eca73e
+    - a8cc1513-21bd-46d4-9cd0-fabb4f544ba0: 894c9b5d-1936-496c-91f6-d4604a151b59
+    - aac78277-02d1-4f9d-93c7-8c5a0ca464f1: 50b894f9-d000-46f3-a2a5-7700fe69337f
+    - ab7ccd8f-5ad0-4c24-8bc3-33123e988db7: 3ec51021-fd9f-4501-bd44-9d4376208cc3
+    - acf00a8a-9398-4da8-9710-f464b3318fee: a3ce746b-3cec-4501-b9d4-c2c71e0c0a8c
+    - b79b2c2f-3298-4b30-b2f1-b8f978218cbf: 4948a07b-dba0-4bfc-aecd-34eb9891fa4c
+    - bb472f04-0c2f-490c-a5bd-0fc4ea9d03b9: a9f9c0c3-6df0-4463-ba7a-8f6c7ffe1932
+    - c37a62f2-7b89-4c08-9d94-65eecb51cec9: 74c6e33d-ef78-4089-baf5-84fc7f81abc2
+    - c3bf861e-8353-4c29-982f-57e4db3f3160: fd8859fb-1e33-4ec5-ad98-078d7f112a49
+    - c450fc95-d108-4153-85a1-3c3ad0b0f861: c9af182c-e9f7-4e29-9afe-8e8e70cb108e
+    - c462e6a4-e3ae-4768-b0e8-f386f0e67445: 541fe39c-06aa-4e22-aa9c-7da1aef5f985
+    - c600fcb8-3b33-4fb5-938b-9abb34253053: bbcfffbb-506f-43ce-b7a8-da7e0abfb315
+    - ccf6420e-d5e9-445f-9e83-69fbe161bcb5: 5ad95e10-d0b3-4b77-9c89-6704f8a96f97
+    - cd1f0339-d131-45ff-876d-62d29b3da263: b95360f5-04c3-4722-80a9-2db2e538d155
+    - ce68756b-0141-444e-9a0d-5581aaa269e4: e19a9c89-4345-47e7-ac8c-268c67e4b222
+    - ce8ba406-baa3-4d1d-9271-7dafdfcbfe21: ef782b65-8b70-4a0c-b722-fa77cbf93d5b
+    - d5713dc7-be7b-4d7c-bfc1-85558034e8f8: b75ed352-f6e5-440a-9961-cc0783e0fdd0
+    - d5f2205c-8967-4a63-b845-dffc4622825f: 41796111-617c-4b14-809a-fc90056097b2
+    - d6061fcc-6edf-4963-9f87-d28a06448ab0: 8f1b1114-39b1-491a-b09f-ff20472342a9
+    - d7a3cd1d-7039-4cb6-a9ae-d99ed250137d: 94223a89-9b7a-410d-b089-c8748a2277ba
+    - d7a6f392-a58b-4332-a64e-4f6c78f97151: e2ce5050-423b-4188-a288-320d70191e5b
+    - d85f097e-ac58-462f-8b54-1a36552173bd: a0849240-9814-4ebf-b462-bc4368fc9264
+    - d9e9c3c8-b9a6-4dae-ba23-2659efd23a8d: aa47bd34-1b10-4c32-a293-7549c1ae1dca
+    - db712c19-00f6-4239-874a-64183eda645b: d2b77eef-daf9-4584-81ce-6cf6d6a90bec
+    - dc6aaa9d-dfb8-42c3-b2d5-1a5fdcaa0ff0: daa63d1a-8d3f-49aa-9332-5b812f4a0632
+    - dcaa9fd4-14b5-4e2e-a9b1-6bec6d96cc54: 42af35b4-1baa-49f6-a8c2-e70f710b49a2
+    - dd3a3960-d8d4-43f2-ae31-bc901ba6826e: 0b1b7edf-be4e-4d7b-8d97-ac7d7759f259
+    - dd99dd5a-1905-4c53-a6bf-51a816ad1087: ab4cfee5-8e06-479b-8d57-25ca88c7d407
+    - dda2c7ae-1197-4608-8b4b-1660a3ef0093: b3a0f027-ad5a-4d61-909e-ee473f6abc03
+    - df06e91f-54d3-4396-8549-4f8a9d689baf: 87ccea33-98e5-46aa-8621-5addc168ac6b
+    - e164b8da-1a50-43d2-a209-63f63e07f642: 819dd566-ade6-45cb-ad0a-5e4a6620c523
+    - e3043a10-4d5f-46e4-af51-a96347d7a070: f21c6608-5d82-4d6f-8914-f86360433b7a
+    - e3ab65b9-fd91-49c6-97db-6b3c7454a818: 7c5cd338-dfcf-4246-9338-db8641720a05
+    - e528de9e-3632-47c0-8b8f-943d2d829653: 5fa1f243-17ee-4d91-b157-003bde2b4d02
+    - e5611944-5054-44a7-bd7c-e53d13648f23: fef1d2a7-fa7c-4185-b7a0-d44939a7743e
+    - e75d3bba-e5ae-413a-a4ad-5edde2137319: fba342ca-f79b-4850-9190-a7cfe7f051c0
+    - eaf907b7-1ff9-4b66-8885-0dea5c22c37c: c2b38c15-989d-4a35-b815-93c0033c530b
+    - eb144ce5-d99d-49a7-bf8d-c21a04485947: 5a8fd392-17e5-462e-9ef6-875b6d98708d
+    - ec430eda-30e3-47af-afb5-7cc1bd154a68: f8eaaa1c-a2d4-487e-bd34-f83f0fa63ba7
+    - ec52b03e-4d5b-4fec-9727-bb21d1197428: a8153902-10a4-44b5-a763-2eb6aeb12981
+    - ed775cdf-b3f9-46c8-9f05-a37097259c2d: 179abf3c-9f97-45e4-b07d-523e0a60d433
+    - ee717d26-2493-40f8-a4a0-313e218a8c8a: e590950f-dfea-4d26-8652-42adeecf52e3
+    - ee7dc63d-29ea-4451-ad84-512107b7feac: aa042072-1701-4041-b66f-55604840127c
+    - f450a261-0a30-4867-8f6e-d2b99952ed36: cfa2eed1-1a8c-457a-a1e1-186ceced5dd0
+    - f4ab0e20-58e7-4310-b2de-0b4cb790e205: 64e263c3-4160-44a6-a2ba-adab91fb7480
+    - f5daa157-fd50-4330-a9b2-3c27dbf0a777: e02f41f7-0b91-4df8-9d96-1588b9f24546
+    - f7015b2d-d46f-40f1-9fc9-23618fbfa4d2: 608c811b-b99f-4710-8f31-f388a6222a87
+    - fa2b4dbd-b335-49ca-87a6-c1168f23515e: 23113867-c25e-4e65-91ba-5b9d8359d3cb
+    - fa4bf21c-e26c-4876-a473-c790215cb2a7: ade9077b-9d59-4cd2-bff2-e76a53b31a1e
+    - fa75de76-690f-43ac-8d6b-a610b83a9b89: 3fe0efd5-7845-417e-b284-14aabd83ea44
+    - fb3354e0-df15-4815-bdd0-14ce9e189ddd: b6b63976-3719-4972-b15d-76fd411b23ad
+    - fc16f813-7161-4007-b13a-d0d1f9ec22e2: 881bd56c-bdae-4643-b895-f2772e5e9d66
+    - fc65af34-6727-4965-bddf-37557b2c01b3: 64b45552-0ac5-4893-935d-dfd351461d36
+    - fcb628b6-d24d-417a-8c52-dcdccb850ba1: e911e19f-2b42-45e7-ab63-5d0e9db34e19
+    - fd135716-d770-4dd7-a65f-e45de67922f9: 05123d79-0c25-409c-bab4-beee945da53a
+    - fd96d477-faaf-4595-b17a-bd3b514ad35f: 49875861-fdbb-406d-bee3-fba44548c901
+  SourceState: !<own> 8701aa3b-f3a4-4f69-921b-70b3064f1c32
+- !<SceneObject/557fdd10-d2b3-4134-b918-9548a6f2e322>
+  PrefabRemaps:
+    []
+  Name: joint5_M_039
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 37.433804, y: -0.000130, z: 0.000001}
+    rotation: {x: 0.000000, y: 0.000000, z: -8.405355}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4033c0e2-4e1b-41a7-b725-f62066656b59
+  Components:
+    - !<own> 415cfeff-16cf-46ff-9699-c0a00f0b7e87
+- !<SceneObject/5a8dc902-4882-4c89-a3d3-86d23df5820d>
+  PrefabRemaps:
+    []
+  Name: EyeEnd_R_031
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 4.314005, y: -0.000049, z: -0.000021}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ade9077b-9d59-4cd2-bff2-e76a53b31a1e
+- !<Animation/5a8fd392-17e5-462e-9ef6-875b6d98708d>
+  PrefabRemaps:
+    []
+  Name: component_47
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 8c982d6a-9cd6-4dca-ad28-aa9e25c8fddb
+    ColumbianMammoth_Trumpet: !<reference> 00e24a1a-a189-4cac-a9f7-89ef2f8ee124
+    CoumbianMammoth_WalkCycle: !<reference> 55f13b3c-3a60-45f0-9f67-deaffac9b075
+- !<SceneObject/5ad95e10-d0b3-4b77-9c89-6704f8a96f97>
+  PrefabRemaps:
+    []
+  Name: joint2_M_036
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 55.824699, y: -0.000381, z: 0.000002}
+    rotation: {x: -0.000000, y: -0.000013, z: 9.186934}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a0849240-9814-4ebf-b462-bc4368fc9264
+  Components:
+    - !<own> d33bd49d-eb5d-49bc-9e71-d45f41d1777c
+- !<SceneObject/5bf21f6b-c434-4781-999c-34466e8c4d5a>
+  PrefabRemaps:
+    []
+  Name: Object_10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 34499890-5de8-471a-a161-ea893e25bfd5
+    - !<own> c05ccae1-9c85-445c-b86b-b11ba967145a
+    - !<own> c9af182c-e9f7-4e29-9afe-8e8e70cb108e
+    - !<own> 15b8ea17-f8cb-4569-9216-b313d02a2ac1
+    - !<own> b75ed352-f6e5-440a-9961-cc0783e0fdd0
+  Components:
+    []
+- !<SceneObject/5dcbef20-1d01-432f-b721-71d1de18c9fa>
+  PrefabRemaps:
+    []
+  Name: joint10_R_047
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 25.250223, y: 0.000029, z: 0.000122}
+    rotation: {x: -5.017745, y: 12.588421, z: -55.185184}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c8bf858a-5009-44ad-9fc6-d648617c779d
+  Components:
+    - !<own> 179abf3c-9f97-45e4-b07d-523e0a60d433
+- !<Animation/5fa1f243-17ee-4d91-b157-003bde2b4d02>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 9a2f4df1-698e-4627-96a1-7c7461508185
+    ColumbianMammoth_Trumpet: !<reference> f29cbcf3-eb07-4c05-8506-d76e8b143f46
+    CoumbianMammoth_WalkCycle: !<reference> bd805e68-db17-4aa3-bac7-ecbec8081b21
+- !<SceneObject/608c811b-b99f-4710-8f31-f388a6222a87>
+  PrefabRemaps:
+    []
+  Name: frontRump_L_011
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 26.604637, y: 33.149544, z: 27.340805}
+    rotation: {x: 153.236237, y: 12.165167, z: -168.249634}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f16ebff5-86ea-4e9c-927b-418b2beb077b
+  Components:
+    - !<own> 7f5bb011-9c58-4976-bfb5-9e415d6ebea8
+- !<SceneObject/62384b63-c650-4fb3-ada4-9de088893adb>
+  PrefabRemaps:
+    []
+  Name: Columbian_mammoth_
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/62575fc8-95dc-4d81-a9a9-fa3150a23a6e>
+  PrefabRemaps:
+    []
+  Name: Spine1_M_09
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 70.547035, y: -0.000248, z: 0.000022}
+    rotation: {x: -0.000000, y: -0.000000, z: 15.438784}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e590950f-dfea-4d26-8652-42adeecf52e3
+  Components:
+    - !<own> 3fe0efd5-7845-417e-b284-14aabd83ea44
+- !<Animation/63b6940b-be70-4864-856a-09562f59aaf7>
+  PrefabRemaps:
+    []
+  Name: component_25
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> b240d5c6-d9c8-4e43-a505-d58018202028
+    ColumbianMammoth_Trumpet: !<reference> 1b122aff-d49e-4578-99af-462782f15117
+    CoumbianMammoth_WalkCycle: !<reference> 740b0226-4d30-492f-beb5-41e25f775f09
+- !<Animation/64b45552-0ac5-4893-935d-dfd351461d36>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 540f829b-6faf-4139-923c-80f972bde0b2
+    ColumbianMammoth_Trumpet: !<reference> a5cc02e0-5ede-44ed-babc-eed6eea99bb7
+    CoumbianMammoth_WalkCycle: !<reference> 471d9197-0a08-47ff-b3b1-e4548204e251
+- !<SceneObject/64e263c3-4160-44a6-a2ba-adab91fb7480>
+  PrefabRemaps:
+    []
+  Name: frontKnee_L_013
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -103.959236, y: -0.000268, z: -0.000015}
+    rotation: {x: -0.000000, y: -0.000019, z: 36.251137}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 956bc1b5-2b47-4bcc-a564-9a1313cb9c74
+  Components:
+    - !<own> 3432a671-66e4-4bcb-9989-8dbe275ea2cd
+- !<SceneObject/66bf55ae-3f6b-425f-bef4-2f1156c9143f>
+  PrefabRemaps:
+    []
+  Name: backHip_L_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -57.220661, y: 49.628258, z: 41.641624}
+    rotation: {x: -180.000000, y: -0.000000, z: -90.460190}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44881429-e7a8-482f-9b34-59694e4bd3e8
+  Components:
+    - !<own> 541fe39c-06aa-4e22-aa9c-7da1aef5f985
+- !<Animation/6a6c3eec-2370-4e8b-9f93-b8f246cc401a>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 66ecb15c-2221-4ca7-9b0a-4b4ab7d944ef
+    ColumbianMammoth_Trumpet: !<reference> fd96c718-0adf-40f5-837a-0c53bfa272b0
+    CoumbianMammoth_WalkCycle: !<reference> b9c2fb2f-78a7-4ffb-92a1-ab294df493cd
+- !<Animation/6c4731dd-aa61-4c59-af7b-994fcb84dc23>
+  PrefabRemaps:
+    []
+  Name: component_59
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 3483c320-2d81-475a-9393-a46cd4721346
+    ColumbianMammoth_Trumpet: !<reference> 46ec2d82-d296-4063-9a6a-a963ee1beef0
+    CoumbianMammoth_WalkCycle: !<reference> 362b070e-f0a6-435e-b72c-cd090bda8574
+- !<SceneObject/74c6e33d-ef78-4089-baf5-84fc7f81abc2>
+  PrefabRemaps:
+    []
+  Name: Neck1_M_024
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 30.956907, y: -0.000069, z: 0.000005}
+    rotation: {x: 0.000000, y: -0.000000, z: -20.168615}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f52c7f63-5302-4636-9ebf-02e61ed6a467
+  Components:
+    - !<own> 20eb1614-58ae-49db-a323-3d877ddd2ba2
+- !<Animation/7595ee54-a774-44d4-8eb1-5b6bf8469a76>
+  PrefabRemaps:
+    []
+  Name: component_57
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> f0f11ab5-0bdf-495c-954b-c14d38bd6b06
+    ColumbianMammoth_Trumpet: !<reference> d7ba485c-b1f3-4e61-8a05-5ce58280357a
+    CoumbianMammoth_WalkCycle: !<reference> 8de4c349-e102-48ca-9664-e19d1ecfb312
+- !<RenderMeshVisual/778042c3-95e2-4b73-9017-94bcf7e96094>
+  PrefabRemaps:
+    []
+  Name: Columbian_mammoth_tusks_ColumbianMammouth_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8496b1e8-ef2f-4ad3-aa54-518fc02350d3
+  Mesh: !<reference> 43615b1a-1afb-4ede-827a-943de7e995eb
+  Skin: !<reference> d4f8b2d2-0bb3-4a28-824c-1e2b28b35571
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7826d3f3-8dad-4f13-a177-dda494974580>
+  PrefabRemaps:
+    []
+  Name: joint11_L_045
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -26.971180, y: -0.000305, z: 0.000317}
+    rotation: {x: 0.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b95360f5-04c3-4722-80a9-2db2e538d155
+- !<Animation/7c5cd338-dfcf-4246-9338-db8641720a05>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 92d0054b-6517-4a33-a9b1-2d8c63c25abd
+    ColumbianMammoth_Trumpet: !<reference> 5487f5fa-b03d-4d61-add2-d00864399302
+    CoumbianMammoth_WalkCycle: !<reference> 53bb22ba-6207-40fe-9dba-78edeb73bb0a
+- !<Animation/7d6bd5c3-473a-4b62-9a2f-64125ad91e9c>
+  PrefabRemaps:
+    []
+  Name: component_50
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 2a8608bb-e24a-4ff5-b49b-16584b5b8824
+    ColumbianMammoth_Trumpet: !<reference> bbb8b2ba-92b7-42f7-a4e0-50f41cf9b00e
+    CoumbianMammoth_WalkCycle: !<reference> 3b104a54-a8ee-4921-b1eb-121860439243
+- !<Animation/7f5bb011-9c58-4976-bfb5-9e415d6ebea8>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> cbf42ab0-e2a0-4350-a184-225f7f484f3c
+    ColumbianMammoth_Trumpet: !<reference> 81b227ff-5c69-45d3-9317-8fb8b40a4e8e
+    CoumbianMammoth_WalkCycle: !<reference> 115a7bcc-20b8-4ef9-814b-8d4bee68602c
+- !<SceneObject/814e7a57-0363-455a-8c37-914a2f864eb0>
+  PrefabRemaps:
+    []
+  Name: Columbian_mammoth_tusks
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/819dd566-ade6-45cb-ad0a-5e4a6620c523>
+  PrefabRemaps:
+    []
+  Name: HeadEnd_M_032
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 20.939066, y: 0.000062, z: 0.000003}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fdf34fd5-473e-41c7-a1d1-5cc7104a5f26
+- !<SceneObject/85a60e9c-0162-42ad-b7c1-916844e2552e>
+  PrefabRemaps:
+    []
+  Name: ColumbianMammoth
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0edee0e6-46cb-4ac3-b23f-acb29a2f9291
+    - !<own> b3a0f027-ad5a-4d61-909e-ee473f6abc03
+  Components:
+    []
+- !<ObjectPrefab/8701aa3b-f3a4-4f69-921b-70b3064f1c32>
+  PackagePath: ""
+  objects:
+    - !<own> 49875861-fdbb-406d-bee3-fba44548c901
+  LazyLoading: false
+  RetainAssets: true
+- !<Animation/8728bcf5-3ab1-4f5f-a9ee-98f795a86f23>
+  PrefabRemaps:
+    []
+  Name: component_26
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 88a1b64e-a3e4-453a-9135-0a6a904635fe
+    ColumbianMammoth_Trumpet: !<reference> 0755d0fd-ef7d-4950-8c5b-412a1919a00c
+    CoumbianMammoth_WalkCycle: !<reference> 43f280ba-d177-4f2a-a672-a619a991497f
+- !<SceneObject/87ccea33-98e5-46aa-8621-5addc168ac6b>
+  PrefabRemaps:
+    []
+  Name: Eye_R_030
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 3.648592, y: 14.821657, z: -29.891453}
+    rotation: {x: -0.000000, y: 34.638977, z: -2.911661}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5a8dc902-4882-4c89-a3d3-86d23df5820d
+  Components:
+    - !<own> adb44566-849c-4de9-b3d5-25714478ad38
+- !<SceneObject/881bd56c-bdae-4643-b895-f2772e5e9d66>
+  PrefabRemaps:
+    []
+  Name: joint1_M_035_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000031, y: -0.000069, z: -0.000000}
+    rotation: {x: -0.000000, y: 0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de836244-5f89-439a-b394-6b1eeb5b4f92
+- !<SceneObject/891bd240-ad3d-4b79-ab9f-e03b9bc7ca8e>
+  PrefabRemaps:
+    []
+  Name: Jaw_M_033
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -39.104168, y: 34.079712, z: -0.000005}
+    rotation: {x: -0.000000, y: -0.000014, z: 55.771343}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d2b77eef-daf9-4584-81ce-6cf6d6a90bec
+  Components:
+    - !<own> e64a2f04-64b8-4318-8197-345d54487a65
+- !<SceneObject/8925318e-6a11-47ee-901d-0e3ac54f6076>
+  PrefabRemaps:
+    []
+  Name: joint9_L_043
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -65.385979, y: -15.507119, z: 41.134541}
+    rotation: {x: -24.092228, y: 33.226738, z: -32.613960}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b32c6478-0355-4d5e-b6fd-1e4d8f0954f2
+  Components:
+    - !<own> 5a8fd392-17e5-462e-9ef6-875b6d98708d
+- !<SceneObject/894c9b5d-1936-496c-91f6-d4604a151b59>
+  PrefabRemaps:
+    []
+  Name: joint8_M_042
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 16.906445, y: 0.000141, z: 0.000001}
+    rotation: {x: -0.000000, y: -0.000000, z: 0.000142}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 98f9cf34-4a9c-4b1f-b414-ed8d19a1d5a7
+- !<Animation/89dddb7d-3584-4b39-ace6-38c28c296866>
+  PrefabRemaps:
+    []
+  Name: component_38
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> ca21a32f-e1ff-4db9-bf27-937f3958fb5c
+    ColumbianMammoth_Trumpet: !<reference> f8c4270a-766b-4911-bdb4-0e8ea90fd614
+    CoumbianMammoth_WalkCycle: !<reference> 8ee5d9e9-c429-4018-98b9-6ea5160a5416
+- !<Animation/8ccad037-80a5-4b32-80af-d32d2356e41a>
+  PrefabRemaps:
+    []
+  Name: component_32
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 1a68d468-0e47-4165-abf8-b68a40340036
+    ColumbianMammoth_Trumpet: !<reference> 89997291-ac98-4c28-8b90-1e1df9e854e0
+    CoumbianMammoth_WalkCycle: !<reference> 1a2afd4f-70a1-49ba-a7c1-f44e852bfc7d
+- !<SceneObject/8f1b1114-39b1-491a-b09f-ff20472342a9>
+  PrefabRemaps:
+    []
+  Name: Root_M_00
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000003, y: 291.958466, z: -93.136818}
+    rotation: {x: 89.999954, y: -63.558109, z: 90.000046}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 66bf55ae-3f6b-425f-bef4-2f1156c9143f
+    - !<own> 41796111-617c-4b14-809a-fc90056097b2
+    - !<own> 62575fc8-95dc-4d81-a9a9-fa3150a23a6e
+    - !<own> f21c6608-5d82-4d6f-8914-f86360433b7a
+  Components:
+    - !<own> 36f2e1ed-21ea-404b-bfa2-af85a5e9dc8e
+- !<Animation/94223a89-9b7a-410d-b089-c8748a2277ba>
+  PrefabRemaps:
+    []
+  Name: component_23
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> b23ae0fe-13f1-4178-b153-5b54eed14361
+    ColumbianMammoth_Trumpet: !<reference> 8a9440f3-921b-4883-a8ba-b7d531f73793
+    CoumbianMammoth_WalkCycle: !<reference> 76a62a83-7e16-4a4b-ac0d-7a745101e506
+- !<SceneObject/956bc1b5-2b47-4bcc-a564-9a1313cb9c74>
+  PrefabRemaps:
+    []
+  Name: frontAnkle_L_014
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -111.341690, y: -0.000316, z: 0.000034}
+    rotation: {x: -0.000000, y: 0.000000, z: -14.412874}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e911e19f-2b42-45e7-ab63-5d0e9db34e19
+  Components:
+    - !<own> 4bcd94d7-1fa5-4492-aa46-939537cbc380
+- !<SceneObject/96ecf97d-c0cc-423c-89a9-541b47c46bd4>
+  PrefabRemaps:
+    []
+  Name: frontRump_R_017
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 26.604633, y: 33.149563, z: -27.340801}
+    rotation: {x: 153.236237, y: 12.165142, z: 11.750357}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cce7f9fd-9d2a-4cdd-8872-eabac80a0d4d
+  Components:
+    - !<own> 6a6c3eec-2370-4e8b-9f93-b8f246cc401a
+- !<Animation/98f9cf34-4a9c-4b1f-b414-ed8d19a1d5a7>
+  PrefabRemaps:
+    []
+  Name: component_45
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 42f929aa-ca63-4957-b99a-9a0cdebe50c9
+    ColumbianMammoth_Trumpet: !<reference> 091a1830-1dec-486a-a358-ce257560cb76
+    CoumbianMammoth_WalkCycle: !<reference> b629d6cd-7c6c-479b-b76d-5e6c07c66a2a
+- !<SceneObject/a0849240-9814-4ebf-b462-bc4368fc9264>
+  PrefabRemaps:
+    []
+  Name: joint3_M_037
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 45.689087, y: -0.000504, z: -0.000009}
+    rotation: {x: -0.000000, y: 0.000014, z: -0.360087}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0b1b7edf-be4e-4d7b-8d97-ac7d7759f259
+  Components:
+    - !<own> 4901535b-ef53-4448-8862-97ea4a515568
+- !<Animation/a3ce746b-3cec-4501-b9d4-c2c71e0c0a8c>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> ae14e961-a1fc-429e-9390-eaffc1f23fb8
+    ColumbianMammoth_Trumpet: !<reference> 9ad1d94e-bdd7-412b-87a7-385c9c816267
+    CoumbianMammoth_WalkCycle: !<reference> 31f5e37c-2441-4ce7-ae65-d30e27bd6c88
+- !<SceneObject/a4dd1ab9-a515-4a5b-b4da-b03527d27a02>
+  PrefabRemaps:
+    []
+  Name: DeformationSystem
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5bf21f6b-c434-4781-999c-34466e8c4d5a
+  Components:
+    []
+- !<Animation/a7e05cd5-f137-4def-9425-c4e71ced9aa0>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 6a55456a-07a2-4c04-8282-a34b29365f1c
+    ColumbianMammoth_Trumpet: !<reference> bf4073e3-3a1f-4694-8ed1-e7726653e69a
+    CoumbianMammoth_WalkCycle: !<reference> e801e8c3-7afa-4d40-976f-90e91b98237b
+- !<SceneObject/a8153902-10a4-44b5-a763-2eb6aeb12981>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 85a60e9c-0162-42ad-b7c1-916844e2552e
+  Components:
+    []
+- !<Animation/a9f9c0c3-6df0-4463-ba7a-8f6c7ffe1932>
+  PrefabRemaps:
+    []
+  Name: component_24
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> ff7b1458-d5a7-4e8f-8bea-9b5af4070a04
+    ColumbianMammoth_Trumpet: !<reference> db27746e-08bd-4d68-a436-882ee850836f
+    CoumbianMammoth_WalkCycle: !<reference> cb64027c-e015-4eb9-9bda-40f91f35eb17
+- !<SceneObject/aa042072-1701-4041-b66f-55604840127c>
+  PrefabRemaps:
+    []
+  Name: c748c2fb07724eaea5f2a3f587ed4efc.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000023, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c5a70bc2-9dc5-4373-9149-02be0d3d1ac5
+  Components:
+    []
+- !<AnimationMixer/aa47bd34-1b10-4c32-a293-7549c1ae1dca>
+  PrefabRemaps:
+    []
+  Name: component_60
+  Enabled: true
+  Layers:
+    - !<reference> fbac405f-1cb3-46a8-85f3-9dcd6b843628
+    - !<reference> ae01e00f-e7f1-447b-8436-95cffd4b1f87
+    - !<reference> 4b85d05f-883c-4567-8da7-14c57073bed5
+  Autoplay: true
+  Version: FBX
+- !<SceneObject/aad65b3f-70d3-4818-b63a-fe39c6d493f2>
+  PrefabRemaps:
+    []
+  Name: joint9_R_046
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -65.385971, y: -15.507110, z: -41.134563}
+    rotation: {x: -24.092255, y: 33.226761, z: 147.386047}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5dcbef20-1d01-432f-b721-71d1de18c9fa
+  Components:
+    - !<own> 7d6bd5c3-473a-4b62-9a2f-64125ad91e9c
+- !<Animation/ab4cfee5-8e06-479b-8d57-25ca88c7d407>
+  PrefabRemaps:
+    []
+  Name: component_55
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> bae8b610-43f2-4cd9-87e6-8d10f746ad9a
+    ColumbianMammoth_Trumpet: !<reference> 30487602-175a-41ca-9ea3-3584a5285e56
+    CoumbianMammoth_WalkCycle: !<reference> c658fb1e-ef39-46a7-877a-82d3c8e794e8
+- !<Animation/adb44566-849c-4de9-b3d5-25714478ad38>
+  PrefabRemaps:
+    []
+  Name: component_33
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 9a0901de-c9fd-4706-9259-b1caceae1f5d
+    ColumbianMammoth_Trumpet: !<reference> 805eff74-2d2c-4706-8069-909a9ca9e89e
+    CoumbianMammoth_WalkCycle: !<reference> c5f1ab45-53d2-4a26-becb-b1f590482c85
+- !<Animation/ade9077b-9d59-4cd2-bff2-e76a53b31a1e>
+  PrefabRemaps:
+    []
+  Name: component_34
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 08263ee3-adec-48f2-9330-39442381b659
+    ColumbianMammoth_Trumpet: !<reference> f5a0a322-5647-4178-8491-47d62435b647
+    CoumbianMammoth_WalkCycle: !<reference> a00c3006-e5fc-4aca-bca8-a2029feacea9
+- !<Animation/b2950a49-0cb1-4716-a4d0-fe46145f7bfd>
+  PrefabRemaps:
+    []
+  Name: component_58
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 95ae8b0f-b1d3-4490-9ee6-d258d4d824c3
+    ColumbianMammoth_Trumpet: !<reference> 05d914dc-6b21-45d1-bd40-867c8247321a
+    CoumbianMammoth_WalkCycle: !<reference> fab76f8a-2a1b-4742-bdc5-7eb2208266d7
+- !<SceneObject/b32c6478-0355-4d5e-b6fd-1e4d8f0954f2>
+  PrefabRemaps:
+    []
+  Name: joint10_L_044
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -25.250204, y: 0.000038, z: -0.000095}
+    rotation: {x: -5.017776, y: 12.588416, z: -55.185158}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7826d3f3-8dad-4f13-a177-dda494974580
+  Components:
+    - !<own> e02f41f7-0b91-4df8-9d96-1588b9f24546
+- !<SceneObject/b3a0f027-ad5a-4d61-909e-ee473f6abc03>
+  PrefabRemaps:
+    []
+  Name: Main
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a4dd1ab9-a515-4a5b-b4da-b03527d27a02
+  Components:
+    []
+- !<Animation/b6b63976-3719-4972-b15d-76fd411b23ad>
+  PrefabRemaps:
+    []
+  Name: component_18
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 885fef2b-43fb-4fdd-b3bf-cc8be43d4496
+    ColumbianMammoth_Trumpet: !<reference> e6807796-2e15-4e7e-a4f9-6d87067c2e10
+    CoumbianMammoth_WalkCycle: !<reference> 88061d72-ba94-43b3-b96e-b54db2b3a18e
+- !<SceneObject/b75ed352-f6e5-440a-9961-cc0783e0fdd0>
+  PrefabRemaps:
+    []
+  Name: _rootJoint
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f1b1114-39b1-491a-b09f-ff20472342a9
+  Components:
+    - !<own> cfa2eed1-1a8c-457a-a1e1-186ceced5dd0
+- !<SceneObject/b91ae923-085c-4d35-9408-337808eca73e>
+  PrefabRemaps:
+    []
+  Name: Tail2_M_051
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 39.506866, y: -0.000214, z: -0.000002}
+    rotation: {x: -0.000000, y: -0.000000, z: -0.635612}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f51da512-39bc-43a7-bf5e-f87df3027ae4
+  Components:
+    - !<own> ab4cfee5-8e06-479b-8d57-25ca88c7d407
+- !<Animation/b95360f5-04c3-4722-80a9-2db2e538d155>
+  PrefabRemaps:
+    []
+  Name: component_49
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 74bf68bb-9ed3-48a8-8947-4611820ce3a3
+    ColumbianMammoth_Trumpet: !<reference> d2a9fe43-3578-491a-aed1-c6c3e013f506
+    CoumbianMammoth_WalkCycle: !<reference> 6fcfc53b-3cd4-4306-a9ba-0bc1b1cf591b
+- !<SceneObject/bbcfffbb-506f-43ce-b7a8-da7e0abfb315>
+  PrefabRemaps:
+    []
+  Name: frontKnee_R_019
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 103.959274, y: 0.000230, z: 0.000094}
+    rotation: {x: -0.000025, y: -0.000029, z: 36.251125}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 29dda8cf-51f4-43aa-861c-851cfc43e498
+  Components:
+    - !<own> 2be46a70-6e18-4ba5-80a3-fc7ad20762e6
+- !<SceneObject/bdcf79f9-a0ac-4d76-8d6b-bfb87d48134f>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 190078a2-4850-4de7-8ffe-d3baf5836df3
+  Components:
+    []
+- !<SceneObject/c05ccae1-9c85-445c-b86b-b11ba967145a>
+  PrefabRemaps:
+    []
+  Name: Object_13
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c2b38c15-989d-4a35-b815-93c0033c530b
+- !<Animation/c10647b2-43de-4b52-9237-1342964b470c>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> abf533bc-9397-4c01-b881-50ca94fcee79
+    ColumbianMammoth_Trumpet: !<reference> 65965867-d730-404e-a64e-2f4e5fd138bd
+    CoumbianMammoth_WalkCycle: !<reference> e3ea10a4-1a91-497b-8803-7c46d2e0d04b
+- !<RenderMeshVisual/c2b38c15-989d-4a35-b815-93c0033c530b>
+  PrefabRemaps:
+    []
+  Name: Columbian_mammoth__ColumbianMammouth_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8496b1e8-ef2f-4ad3-aa54-518fc02350d3
+  Mesh: !<reference> 0cef756c-9076-4df8-b397-e554c0b68b49
+  Skin: !<reference> d4f8b2d2-0bb3-4a28-824c-1e2b28b35571
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c5a70bc2-9dc5-4373-9149-02be0d3d1ac5>
+  PrefabRemaps:
+    []
+  Name: Object_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a8153902-10a4-44b5-a763-2eb6aeb12981
+  Components:
+    []
+- !<SceneObject/c8bf858a-5009-44ad-9fc6-d648617c779d>
+  PrefabRemaps:
+    []
+  Name: joint11_R_048
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 26.971138, y: 0.000290, z: -0.000324}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e760ae4a-b629-4c37-b237-efd58261acc2
+- !<SceneObject/c90b8ecf-86c7-4f18-b5fd-85628f63af60>
+  PrefabRemaps:
+    []
+  Name: backToes3_R_08
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 22.733418, y: 0.000037, z: -0.000007}
+    rotation: {x: -18.750057, y: -10.749090, z: 50.949379}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a7e05cd5-f137-4def-9425-c4e71ced9aa0
+- !<SceneObject/c9af182c-e9f7-4e29-9afe-8e8e70cb108e>
+  PrefabRemaps:
+    []
+  Name: Object_14
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Animation/caa0f18a-8725-461f-bb01-00384444dbb1>
+  PrefabRemaps:
+    []
+  Name: component_56
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 46bb187e-f912-4b53-a915-14383fa86ec9
+    ColumbianMammoth_Trumpet: !<reference> 9ecc24bc-7ca1-4f83-a723-85fc2edd1f73
+    CoumbianMammoth_WalkCycle: !<reference> 7337a179-7dc6-4ea9-97e5-4b71af02a684
+- !<SceneObject/cce7f9fd-9d2a-4cdd-8872-eabac80a0d4d>
+  PrefabRemaps:
+    []
+  Name: frontHip_R_018
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 51.016479, y: 0.000090, z: -0.000326}
+    rotation: {x: -0.000378, y: 29.211950, z: -64.419701}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bbcfffbb-506f-43ce-b7a8-da7e0abfb315
+  Components:
+    - !<own> fd8859fb-1e33-4ec5-ad98-078d7f112a49
+- !<Animation/cfa2eed1-1a8c-457a-a1e1-186ceced5dd0>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> e92e00c1-6c1b-4293-a2db-0e8b788d5b6a
+    ColumbianMammoth_Trumpet: !<reference> 3d315c1a-8fc5-4051-b5c0-030fa28a7a3b
+    CoumbianMammoth_WalkCycle: !<reference> c55e7961-8e15-495d-b666-f02de7271b17
+- !<SceneObject/d2b77eef-daf9-4584-81ce-6cf6d6a90bec>
+  PrefabRemaps:
+    []
+  Name: JawEnd_M_034
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 80.404449, y: 0.000046, z: -0.000014}
+    rotation: {x: -0.000000, y: 0.000000, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 42af35b4-1baa-49f6-a8c2-e70f710b49a2
+- !<Animation/d33bd49d-eb5d-49bc-9e71-d45f41d1777c>
+  PrefabRemaps:
+    []
+  Name: component_39
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 0f7355cb-a0be-437b-8d46-d48edb4e750b
+    ColumbianMammoth_Trumpet: !<reference> ba4d434b-9e65-4099-b4ad-d0cc1b15491e
+    CoumbianMammoth_WalkCycle: !<reference> 35afa629-4cb5-40a1-bc09-e3ef5ff19d4c
+- !<Animation/d33d2599-9fb1-4eaf-a451-5c74df2d03b8>
+  PrefabRemaps:
+    []
+  Name: component_28
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 82c43c45-fff2-46c3-b898-6ed43c026d17
+    ColumbianMammoth_Trumpet: !<reference> a2485240-0c5c-4e97-9fb2-a26c69c5b1ca
+    CoumbianMammoth_WalkCycle: !<reference> ad94e851-8ccb-4a3c-a3a5-dad4fd57c51b
+- !<Skin/d4f8b2d2-0bb3-4a28-824c-1e2b28b35571>
+  PrefabRemaps:
+    []
+  Name: component_61
+  Enabled: true
+  skinBones:
+    Chest_M_010: !<reference> e590950f-dfea-4d26-8652-42adeecf52e3
+    ColumbianMammoth: !<reference> 85a60e9c-0162-42ad-b7c1-916844e2552e
+    Columbian_mammoth_: !<reference> 62384b63-c650-4fb3-ada4-9de088893adb
+    Columbian_mammoth_tusks: !<reference> 814e7a57-0363-455a-8c37-914a2f864eb0
+    DeformationSystem: !<reference> a4dd1ab9-a515-4a5b-b4da-b03527d27a02
+    EyeEnd_L_029: !<reference> fef1d2a7-fa7c-4185-b7a0-d44939a7743e
+    EyeEnd_R_031: !<reference> 5a8dc902-4882-4c89-a3d3-86d23df5820d
+    Eye_L_028: !<reference> 42142259-50fc-4891-97fc-1ad59efa342d
+    Eye_R_030: !<reference> 87ccea33-98e5-46aa-8621-5addc168ac6b
+    Geometry: !<reference> 0edee0e6-46cb-4ac3-b23f-acb29a2f9291
+    HeadEnd_M_032: !<reference> 819dd566-ade6-45cb-ad0a-5e4a6620c523
+    Head_M_027: !<reference> e5363e2f-628e-4069-a0bb-e1fd5f4a98da
+    JawEnd_M_034: !<reference> d2b77eef-daf9-4584-81ce-6cf6d6a90bec
+    Jaw_M_033: !<reference> 891bd240-ad3d-4b79-ab9f-e03b9bc7ca8e
+    Main: !<reference> b3a0f027-ad5a-4d61-909e-ee473f6abc03
+    Neck1_M_024: !<reference> 74c6e33d-ef78-4089-baf5-84fc7f81abc2
+    Neck3_M_025: !<reference> f52c7f63-5302-4636-9ebf-02e61ed6a467
+    Neck4_M_026: !<reference> df13464a-4702-40d5-af5d-e144e283800d
+    Neck_M_023: !<reference> d803a38f-05eb-4a96-a2b7-0e969d032e60
+    Object_10: !<reference> 5bf21f6b-c434-4781-999c-34466e8c4d5a
+    Object_12: !<reference> 34499890-5de8-471a-a161-ea893e25bfd5
+    Object_13: !<reference> c05ccae1-9c85-445c-b86b-b11ba967145a
+    Object_14: !<reference> c9af182c-e9f7-4e29-9afe-8e8e70cb108e
+    Object_15: !<reference> 15b8ea17-f8cb-4569-9216-b313d02a2ac1
+    Object_2: !<reference> c5a70bc2-9dc5-4373-9149-02be0d3d1ac5
+    RootNode: !<reference> a8153902-10a4-44b5-a763-2eb6aeb12981
+    Root_M_00: !<reference> 8f1b1114-39b1-491a-b09f-ff20472342a9
+    Sketchfab_model: !<reference> 05123d79-0c25-409c-bab4-beee945da53a
+    Spine1_M_09: !<reference> 62575fc8-95dc-4d81-a9a9-fa3150a23a6e
+    Tail0_M_049: !<reference> f21c6608-5d82-4d6f-8914-f86360433b7a
+    Tail1_M_050: !<reference> 214dc6fa-f9f3-4a59-9424-31ea72422be1
+    Tail2_M_051: !<reference> b91ae923-085c-4d35-9408-337808eca73e
+    Tail3_M_052: !<reference> f51da512-39bc-43a7-bf5e-f87df3027ae4
+    Tail4_M_053: !<reference> f4ce50fa-b2c4-45f3-985b-6141736db967
+    Tail5_M_054: !<reference> 23113867-c25e-4e65-91ba-5b9d8359d3cb
+    Tail6_M_055: !<reference> ec00e6d5-e323-4b8c-8904-46290b065dbf
+    _rootJoint: !<reference> b75ed352-f6e5-440a-9961-cc0783e0fdd0
+    backAnkle_L_03: !<reference> 00def104-1006-48e2-aa5c-073a446f1e17
+    backAnkle_R_07: !<reference> 1bf569b9-0052-428c-b6ba-892f59c4e72d
+    backHip_L_01: !<reference> 66bf55ae-3f6b-425f-bef4-2f1156c9143f
+    backHip_R_05: !<reference> 41796111-617c-4b14-809a-fc90056097b2
+    backKnee_L_02: !<reference> 44881429-e7a8-482f-9b34-59694e4bd3e8
+    backKnee_R_06: !<reference> ef782b65-8b70-4a0c-b722-fa77cbf93d5b
+    backToes3_L_04: !<reference> 4759e783-14aa-46ef-864f-e7bb695e5453
+    backToes3_R_08: !<reference> c90b8ecf-86c7-4f18-b5fd-85628f63af60
+    c748c2fb07724eaea5f2a3f587ed4efc.fbx: !<reference> aa042072-1701-4041-b66f-55604840127c
+    frontAnkle_L_014: !<reference> 956bc1b5-2b47-4bcc-a564-9a1313cb9c74
+    frontAnkle_R_020: !<reference> 29dda8cf-51f4-43aa-861c-851cfc43e498
+    frontHip_L_012: !<reference> f16ebff5-86ea-4e9c-927b-418b2beb077b
+    frontHip_R_018: !<reference> cce7f9fd-9d2a-4cdd-8872-eabac80a0d4d
+    frontKnee_L_013: !<reference> 64e263c3-4160-44a6-a2ba-adab91fb7480
+    frontKnee_R_019: !<reference> bbcfffbb-506f-43ce-b7a8-da7e0abfb315
+    frontRump_L_011: !<reference> 608c811b-b99f-4710-8f31-f388a6222a87
+    frontRump_R_017: !<reference> 96ecf97d-c0cc-423c-89a9-541b47c46bd4
+    frontToes3_L_015: !<reference> e911e19f-2b42-45e7-ab63-5d0e9db34e19
+    frontToes3_R_021: !<reference> 405fd0f1-6c73-4f79-85df-131be84f668d
+    frontToes4_L_016: !<reference> f8eaaa1c-a2d4-487e-bd34-f83f0fa63ba7
+    frontToes4_R_022: !<reference> e2ce5050-423b-4188-a288-320d70191e5b
+    joint10_L_044: !<reference> b32c6478-0355-4d5e-b6fd-1e4d8f0954f2
+    joint10_R_047: !<reference> 5dcbef20-1d01-432f-b721-71d1de18c9fa
+    joint11_L_045: !<reference> 7826d3f3-8dad-4f13-a177-dda494974580
+    joint11_R_048: !<reference> c8bf858a-5009-44ad-9fc6-d648617c779d
+    joint1_M_035: !<reference> e19a9c89-4345-47e7-ac8c-268c67e4b222
+    joint1_M_035_0: !<reference> 881bd56c-bdae-4643-b895-f2772e5e9d66
+    joint2_M_036: !<reference> 5ad95e10-d0b3-4b77-9c89-6704f8a96f97
+    joint3_M_037: !<reference> a0849240-9814-4ebf-b462-bc4368fc9264
+    joint4_M_038: !<reference> 0b1b7edf-be4e-4d7b-8d97-ac7d7759f259
+    joint5_M_039: !<reference> 557fdd10-d2b3-4134-b918-9548a6f2e322
+    joint6_M_040: !<reference> 4033c0e2-4e1b-41a7-b725-f62066656b59
+    joint7_M_041: !<reference> daa63d1a-8d3f-49aa-9332-5b812f4a0632
+    joint8_M_042: !<reference> 894c9b5d-1936-496c-91f6-d4604a151b59
+    joint9_L_043: !<reference> 8925318e-6a11-47ee-901d-0e3ac54f6076
+    joint9_R_046: !<reference> aad65b3f-70d3-4818-b63a-fe39c6d493f2
+- !<SceneObject/d803a38f-05eb-4a96-a2b7-0e969d032e60>
+  PrefabRemaps:
+    []
+  Name: Neck_M_023
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 45.694817, y: 0.000057, z: 0.000003}
+    rotation: {x: 0.000000, y: 0.000000, z: -34.238907}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 74c6e33d-ef78-4089-baf5-84fc7f81abc2
+  Components:
+    - !<own> 8728bcf5-3ab1-4f5f-a9ee-98f795a86f23
+- !<SceneObject/daa63d1a-8d3f-49aa-9332-5b812f4a0632>
+  PrefabRemaps:
+    []
+  Name: joint7_M_041
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 37.024933, y: -0.000031, z: 0.000003}
+    rotation: {x: 0.000000, y: -0.000000, z: -1.987324}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 894c9b5d-1936-496c-91f6-d4604a151b59
+  Components:
+    - !<own> fba342ca-f79b-4850-9190-a7cfe7f051c0
+- !<Animation/dbd1575c-141a-47d1-819b-f6bd8fee23b5>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> c131461a-ba2e-4f90-bb18-00581749319b
+    ColumbianMammoth_Trumpet: !<reference> 72d65f84-4b97-4a29-9983-4bec66c9ef10
+    CoumbianMammoth_WalkCycle: !<reference> 43f0740f-8d4a-485d-8ebe-a498328069e6
+- !<Animation/de836244-5f89-439a-b394-6b1eeb5b4f92>
+  PrefabRemaps:
+    []
+  Name: component_46
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 19ab3649-932b-41c6-934f-dcc0861640fc
+    ColumbianMammoth_Trumpet: !<reference> d5f58fbc-5773-4e53-b8d5-e4f28affbd58
+    CoumbianMammoth_WalkCycle: !<reference> 6751bdac-06a0-457b-b461-7aaffb95db15
+- !<SceneObject/df13464a-4702-40d5-af5d-e144e283800d>
+  PrefabRemaps:
+    []
+  Name: Neck4_M_026
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 31.486366, y: 0.000095, z: 0.000006}
+    rotation: {x: -0.000000, y: -0.000000, z: 24.930227}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e5363e2f-628e-4069-a0bb-e1fd5f4a98da
+  Components:
+    - !<own> 2220999a-a599-4c0b-966a-b434b59ba272
+- !<Animation/e02f41f7-0b91-4df8-9d96-1588b9f24546>
+  PrefabRemaps:
+    []
+  Name: component_48
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 7bee1cba-2dcb-495f-9731-cc0dda817be2
+    ColumbianMammoth_Trumpet: !<reference> 64c4b2ff-ecc3-4b72-badc-df5fa7334030
+    CoumbianMammoth_WalkCycle: !<reference> da065ac3-40bb-4f80-ab16-17677c63b9b0
+- !<SceneObject/e19a9c89-4345-47e7-ac8c-268c67e4b222>
+  PrefabRemaps:
+    []
+  Name: joint1_M_035
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 23.414953, y: 30.230383, z: 0.000003}
+    rotation: {x: -0.000000, y: -0.000000, z: 63.265926}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5ad95e10-d0b3-4b77-9c89-6704f8a96f97
+    - !<own> 881bd56c-bdae-4643-b895-f2772e5e9d66
+  Components:
+    - !<own> 89dddb7d-3584-4b39-ace6-38c28c296866
+- !<SceneObject/e2ce5050-423b-4188-a288-320d70191e5b>
+  PrefabRemaps:
+    []
+  Name: frontToes4_R_022
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 43.327152, y: -0.000068, z: 0.000019}
+    rotation: {x: -0.000000, y: -0.000019, z: -0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 63b6940b-be70-4864-856a-09562f59aaf7
+- !<SceneObject/e5363e2f-628e-4069-a0bb-e1fd5f4a98da>
+  PrefabRemaps:
+    []
+  Name: Head_M_027
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 32.917664, y: -0.000072, z: 0.000004}
+    rotation: {x: 0.000000, y: 0.000000, z: -3.124117}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 42142259-50fc-4891-97fc-1ad59efa342d
+    - !<own> 87ccea33-98e5-46aa-8621-5addc168ac6b
+    - !<own> 819dd566-ade6-45cb-ad0a-5e4a6620c523
+    - !<own> 891bd240-ad3d-4b79-ab9f-e03b9bc7ca8e
+    - !<own> e19a9c89-4345-47e7-ac8c-268c67e4b222
+    - !<own> 8925318e-6a11-47ee-901d-0e3ac54f6076
+    - !<own> aad65b3f-70d3-4818-b63a-fe39c6d493f2
+  Components:
+    - !<own> 17a1c99e-c968-4e17-ba22-d31c9f1f25fb
+- !<SceneObject/e590950f-dfea-4d26-8652-42adeecf52e3>
+  PrefabRemaps:
+    []
+  Name: Chest_M_010
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 99.725136, y: -0.000102, z: 0.000018}
+    rotation: {x: -0.000000, y: -0.000000, z: 44.098381}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 608c811b-b99f-4710-8f31-f388a6222a87
+    - !<own> 96ecf97d-c0cc-423c-89a9-541b47c46bd4
+    - !<own> d803a38f-05eb-4a96-a2b7-0e969d032e60
+  Components:
+    - !<own> 439a330e-db33-4b18-92f3-bc608632f49e
+- !<Animation/e64a2f04-64b8-4318-8197-345d54487a65>
+  PrefabRemaps:
+    []
+  Name: component_36
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 601d7d43-9479-460a-acc6-83908ba508a0
+    ColumbianMammoth_Trumpet: !<reference> 52f625fa-c76d-495f-8b80-0370b19723d4
+    CoumbianMammoth_WalkCycle: !<reference> 3623c50c-3f7a-48d9-83ae-e5bc9210c6d8
+- !<Animation/e6f45268-6a56-4a35-8131-366813f3206c>
+  PrefabRemaps:
+    []
+  Name: component_43
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> fc8c1987-2823-44d8-84c1-87292d611ecf
+    ColumbianMammoth_Trumpet: !<reference> 14cf547f-e387-40d8-b69b-aff8569a5145
+    CoumbianMammoth_WalkCycle: !<reference> e8017cf1-7247-4483-a69d-822542626af8
+- !<Animation/e760ae4a-b629-4c37-b237-efd58261acc2>
+  PrefabRemaps:
+    []
+  Name: component_52
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> b431e042-9a77-4c8b-ab8e-f4eaac4c653b
+    ColumbianMammoth_Trumpet: !<reference> bd4ef1ec-0c74-4f27-8256-576dcd74624e
+    CoumbianMammoth_WalkCycle: !<reference> df9e202d-d479-4168-b3f6-b665ee71d7d9
+- !<SceneObject/e911e19f-2b42-45e7-ab63-5d0e9db34e19>
+  PrefabRemaps:
+    []
+  Name: frontToes3_L_015
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -33.664112, y: -0.000013, z: 0.000003}
+    rotation: {x: 0.000000, y: 0.000000, z: 51.820236}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f8eaaa1c-a2d4-487e-bd34-f83f0fa63ba7
+  Components:
+    - !<own> b6b63976-3719-4972-b15d-76fd411b23ad
+- !<SceneObject/ec00e6d5-e323-4b8c-8904-46290b065dbf>
+  PrefabRemaps:
+    []
+  Name: Tail6_M_055
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.609791, y: 0.000017, z: 0.000002}
+    rotation: {x: -0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6c4731dd-aa61-4c59-af7b-994fcb84dc23
+- !<SceneObject/ef782b65-8b70-4a0c-b722-fa77cbf93d5b>
+  PrefabRemaps:
+    []
+  Name: backKnee_R_06
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 89.703506, y: -0.000052, z: 0.000003}
+    rotation: {x: 0.000000, y: 0.000000, z: -47.365612}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1bf569b9-0052-428c-b6ba-892f59c4e72d
+  Components:
+    - !<own> 64b45552-0ac5-4893-935d-dfd351461d36
+- !<SceneObject/f16ebff5-86ea-4e9c-927b-418b2beb077b>
+  PrefabRemaps:
+    []
+  Name: frontHip_L_012
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -51.016441, y: -0.000053, z: 0.000362}
+    rotation: {x: -0.000396, y: 29.211916, z: -64.419693}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 64e263c3-4160-44a6-a2ba-adab91fb7480
+  Components:
+    - !<own> 4948a07b-dba0-4bfc-aecd-34eb9891fa4c
+- !<SceneObject/f21c6608-5d82-4d6f-8914-f86360433b7a>
+  PrefabRemaps:
+    []
+  Name: Tail0_M_049
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -82.092743, y: 5.243500, z: -0.000023}
+    rotation: {x: 180.000000, y: 0.000000, z: 145.604782}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 214dc6fa-f9f3-4a59-9424-31ea72422be1
+  Components:
+    - !<own> 50b894f9-d000-46f3-a2a5-7700fe69337f
+- !<SceneObject/f4ce50fa-b2c4-45f3-985b-6141736db967>
+  PrefabRemaps:
+    []
+  Name: Tail4_M_053
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 34.668472, y: 0.000214, z: 0.000001}
+    rotation: {x: 0.000000, y: -0.000000, z: -0.760161}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 23113867-c25e-4e65-91ba-5b9d8359d3cb
+  Components:
+    - !<own> 7595ee54-a774-44d4-8eb1-5b6bf8469a76
+- !<SceneObject/f51da512-39bc-43a7-bf5e-f87df3027ae4>
+  PrefabRemaps:
+    []
+  Name: Tail3_M_052
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 33.115112, y: 0.000301, z: -0.000002}
+    rotation: {x: 0.000000, y: 0.000000, z: 6.536462}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f4ce50fa-b2c4-45f3-985b-6141736db967
+  Components:
+    - !<own> caa0f18a-8725-461f-bb01-00384444dbb1
+- !<SceneObject/f52c7f63-5302-4636-9ebf-02e61ed6a467>
+  PrefabRemaps:
+    []
+  Name: Neck3_M_025
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 30.272049, y: -0.000099, z: -0.000001}
+    rotation: {x: 0.000000, y: 0.000014, z: 2.417798}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> df13464a-4702-40d5-af5d-e144e283800d
+  Components:
+    - !<own> d33d2599-9fb1-4eaf-a451-5c74df2d03b8
+- !<SceneObject/f8eaaa1c-a2d4-487e-bd34-f83f0fa63ba7>
+  PrefabRemaps:
+    []
+  Name: frontToes4_L_016
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -43.327190, y: 0.000035, z: -0.000002}
+    rotation: {x: 0.000000, y: -0.000013, z: 0.000020}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a3ce746b-3cec-4501-b9d4-c2c71e0c0a8c
+- !<Animation/fba342ca-f79b-4850-9190-a7cfe7f051c0>
+  PrefabRemaps:
+    []
+  Name: component_44
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> d6da948c-d6fe-4d08-a5e7-cc8d0cde8079
+    ColumbianMammoth_Trumpet: !<reference> d0469a8e-7b7c-4c63-9c5e-b00534fdf14b
+    CoumbianMammoth_WalkCycle: !<reference> 5918ac4e-a0e3-495e-96e1-d4d0eb52d605
+- !<Animation/fd8859fb-1e33-4ec5-ad98-078d7f112a49>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 66365eef-c3e8-479e-9a20-4d0d2645cc19
+    ColumbianMammoth_Trumpet: !<reference> 0d4f70a3-5067-4de0-91b5-22ce72fa84a1
+    CoumbianMammoth_WalkCycle: !<reference> 68ee7fe5-af0e-4ff0-a5c8-9e9b36ff4c2b
+- !<Animation/fdf34fd5-473e-41c7-a1d1-5cc7104a5f26>
+  PrefabRemaps:
+    []
+  Name: component_35
+  Enabled: true
+  AnimationLayers:
+    ColumbianMammoth_Idle: !<reference> 3ffacb01-6d09-44e4-bc7a-952e72317a6d
+    ColumbianMammoth_Trumpet: !<reference> 27ee6b84-47b0-41da-bcee-01056bb4c703
+    CoumbianMammoth_WalkCycle: !<reference> d1c119d4-82d9-4f01-ae29-5ebc13ae6cbe
+- !<SceneObject/fef1d2a7-fa7c-4185-b7a0-d44939a7743e>
+  PrefabRemaps:
+    []
+  Name: EyeEnd_L_029
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 4.313993, y: -0.000026, z: 0.000011}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8ccad037-80a5-4b32-80af-d32d2356e41a
